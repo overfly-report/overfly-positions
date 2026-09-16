@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "overfly-positions"
+version = "0.1.0"
+description = "Open aircraft-position collection for the KTTN area (overfly.report)"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [
+    { name = "overfly.report community" },
+]
+dependencies = [
+    "pyyaml",
+    "requests",
+    "loguru",
+]
+
+[project.scripts]
+overfly-positions-scrape = "overfly_positions.cli:main"
