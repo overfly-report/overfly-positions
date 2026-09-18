@@ -1,0 +1,322 @@
+- aircraft_type: &id002
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 3475
+  baro_altitude_ft: 3475
+  callsign: N945FG
+  distance_nm: 10.506
+  estimated_db: 33.9
+  ground_speed_kts: 88.9
+  heading_deg: 289.05
+  icao24: ad203f
+  latitude: 40.453057
+  lead_exposure_score: 0.0
+  longitude: -74.957594
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-09-18 11:06:52.500000
+  registration: ''
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id001
+  typecode: ''
+  vertical_rate_fpm: 0
+- aircraft_type: *id002
+  altitude_ft: 9875
+  baro_altitude_ft: 9875
+  callsign: EDV5177
+  distance_nm: 14.258
+  estimated_db: 31.2
+  ground_speed_kts: 338.5
+  heading_deg: 111.49
+  icao24: a086ce
+  latitude: 40.54509
+  lead_exposure_score: 0.0
+  longitude: -74.929871
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-09-18 11:06:52.500000
+  registration: N133EV
+  registration_country: United States
+  source: adsbhub
+  squawk: '7427'
+  timestamp: *id003
+  typecode: CRJ9
+  vertical_rate_fpm: -58
+- aircraft_type: &id005
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 2950
+  baro_altitude_ft: 2950
+  callsign: N321CT
+  distance_nm: 5.54
+  estimated_db: 41.4
+  ground_speed_kts: 90.6
+  heading_deg: 312.32
+  icao24: a3724b
+  latitude: 40.31163
+  lead_exposure_score: 0.01
+  longitude: -74.906677
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-09-18 11:06:52.500000
+  registration: N321CT
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id004
+  typecode: C172
+  vertical_rate_fpm: 0
+- aircraft_type: *id005
+  altitude_ft: 1450
+  baro_altitude_ft: 1450
+  callsign: N277GT
+  distance_nm: 6.469
+  estimated_db: 40.1
+  ground_speed_kts: 99.0
+  heading_deg: 159.92
+  icao24: a2c125
+  latitude: 40.237335
+  lead_exposure_score: 0.01
+  longitude: -74.851257
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id006 2026-09-18 11:06:52.500000
+  registration: N277GT
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id006
+  typecode: C172
+  vertical_rate_fpm: 896
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 200
+    noise_profile: 1
+    notes: Boeing 737 MAX 8, quieter CFM LEAP engines. Allegiant at KTTN.
+    typical_cruise_ft: 41000
+  altitude_ft: 30550
+  baro_altitude_ft: 30550
+  callsign: SWA2895
+  distance_nm: 18.721
+  estimated_db: 38.6
+  ground_speed_kts: 477.7
+  heading_deg: 51.71
+  icao24: abfd66
+  latitude: 40.024979
+  lead_exposure_score: 0.0
+  longitude: -74.840088
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id007 2026-09-18 11:06:52.500000
+  registration: N8717M
+  registration_country: United States
+  source: adsbhub
+  squawk: '3623'
+  timestamp: *id007
+  typecode: B38M
+  vertical_rate_fpm: 896
+- aircraft_type: *id005
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: N772FG
+  distance_nm: 3.238
+  estimated_db: null
+  ground_speed_kts: 0.0
+  heading_deg: null
+  icao24: aa70f9
+  latitude: 40.283956
+  lead_exposure_score: 0.0
+  longitude: -74.815225
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id008 2026-09-18 11:06:52.500000
+  registration: N772FG
+  registration_country: United States
+  source: adsbhub
+  squawk: '3077'
+  timestamp: *id008
+  typecode: C172
+  vertical_rate_fpm: null
+- aircraft_type:
+    category: business-jet-large
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 10
+    noise_profile: 2
+    notes: Dassault Falcon 2000
+    typical_cruise_ft: 47000
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: N321AP
+  distance_nm: 3.852
+  estimated_db: null
+  ground_speed_kts: 4.8
+  heading_deg: null
+  icao24: a37215
+  latitude: 40.272329
+  lead_exposure_score: 0.0
+  longitude: -74.811932
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id009 2026-09-18 11:06:52.500000
+  registration: N321AP
+  registration_country: United States
+  source: adsbhub
+  squawk: '4271'
+  timestamp: *id009
+  typecode: F2TH
+  vertical_rate_fpm: null
+- aircraft_type: *id002
+  altitude_ft: 11575
+  baro_altitude_ft: 11575
+  callsign: EDV5292
+  distance_nm: 18.448
+  estimated_db: 29.0
+  ground_speed_kts: 354.6
+  heading_deg: 47.63
+  icao24: a07f60
+  latitude: 40.028961
+  lead_exposure_score: 0.0
+  longitude: -74.744507
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id010 2026-09-18 11:06:52.500000
+  registration: N131EV
+  registration_country: United States
+  source: adsbhub
+  squawk: '2504'
+  timestamp: *id010
+  typecode: CRJ9
+  vertical_rate_fpm: null
+- aircraft_type:
+    category: small-piston-twin
+    engine_count: 2
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 5
+    notes: Piper Seminole, multi-engine trainer. Noticeably louder than singles.
+    typical_cruise_ft: 10000
+  altitude_ft: 2425
+  baro_altitude_ft: 2425
+  callsign: N221FL
+  distance_nm: 13.847
+  estimated_db: 38.5
+  ground_speed_kts: 141.6
+  heading_deg: 233.62
+  icao24: a1e540
+  latitude: 40.146194
+  lead_exposure_score: 0.0
+  longitude: -74.613647
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id011 2026-09-18 11:06:52.500000
+  registration: N221FL
+  registration_country: United States
+  source: adsbhub
+  squawk: '0427'
+  timestamp: *id011
+  typecode: PA44
+  vertical_rate_fpm: -192
+- aircraft_type: *id005
+  altitude_ft: 3425
+  baro_altitude_ft: 3425
+  callsign: N499KW
+  distance_nm: 11.822
+  estimated_db: 34.9
+  ground_speed_kts: 85.5
+  heading_deg: 241.34
+  icao24: a6327d
+  latitude: 40.200418
+  lead_exposure_score: 0.0
+  longitude: -74.599165
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id012 2026-09-18 11:06:52.500000
+  registration: N499KW
+  registration_country: United States
+  source: adsbhub
+  squawk: '4204'
+  timestamp: *id012
+  typecode: C172
+  vertical_rate_fpm: 0
+- aircraft_type: *id002
+  altitude_ft: 9900
+  baro_altitude_ft: 9900
+  callsign: RPA4477
+  distance_nm: 12.592
+  estimated_db: 32.2
+  ground_speed_kts: 351.4
+  heading_deg: 92.61
+  icao24: a53f5b
+  latitude: 40.433784
+  lead_exposure_score: 0.0
+  longitude: -74.545357
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id013 2026-09-18 11:06:52.500000
+  registration: N437YX
+  registration_country: United States
+  source: adsbhub
+  squawk: '4163'
+  timestamp: *id013
+  typecode: E75L
+  vertical_rate_fpm: 0
+- aircraft_type: *id002
+  altitude_ft: 1275
+  baro_altitude_ft: 1275
+  callsign: N570FG
+  distance_nm: 14.027
+  estimated_db: 31.4
+  ground_speed_kts: 80.5
+  heading_deg: 276.42
+  icao24: a74eed
+  latitude: 40.208751
+  lead_exposure_score: 0.0
+  longitude: -74.530064
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id014 2026-09-18 11:06:52.500000
+  registration: ''
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id014
+  typecode: ''
+  vertical_rate_fpm: -576
+- aircraft_type: *id002
+  altitude_ft: 8425
+  baro_altitude_ft: 8425
+  callsign: DAL2036
+  distance_nm: 15.837
+  estimated_db: 30.3
+  ground_speed_kts: 298.5
+  heading_deg: 43.64
+  icao24: a3962d
+  latitude: 40.213778
+  lead_exposure_score: 0.0
+  longitude: -74.480688
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id015 2026-09-18 11:06:52.500000
+  registration: N330DU
+  registration_country: United States
+  source: adsbhub
+  squawk: '5647'
+  timestamp: *id015
+  typecode: BCS3
+  vertical_rate_fpm: null
