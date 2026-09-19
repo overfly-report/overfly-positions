@@ -1,0 +1,81 @@
+- aircraft_type:
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 22600
+  baro_altitude_ft: 22600
+  callsign: ASA2613
+  distance_nm: 13.772
+  estimated_db: 31.2
+  ground_speed_kts: 402.3
+  heading_deg: 263.86
+  icao24: a5b2b0
+  latitude: 40.163132
+  lead_exposure_score: 0.0
+  longitude: -74.989685
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-09-19 06:43:55.001000
+  registration: N4663K
+  registration_country: United States
+  source: adsbhub
+  squawk: '2616'
+  timestamp: *id001
+  typecode: A333
+  vertical_rate_fpm: 1408
+- aircraft_type: &id003
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 950
+  baro_altitude_ft: 950
+  callsign: N850FG
+  distance_nm: 4.676
+  estimated_db: 42.9
+  ground_speed_kts: 88.2
+  heading_deg: 218.56
+  icao24: aba7dc
+  latitude: 40.27425
+  lead_exposure_score: 0.02
+  longitude: -74.854535
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-09-19 06:43:55.001000
+  registration: N850FG
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id002
+  typecode: C172
+  vertical_rate_fpm: -384
+- aircraft_type: *id003
+  altitude_ft: 25
+  baro_altitude_ft: 25
+  callsign: N928FG
+  distance_nm: 4.132
+  estimated_db: 44.0
+  ground_speed_kts: 65.1
+  heading_deg: 46.25
+  icao24: acdc66
+  latitude: 40.269836
+  lead_exposure_score: 0.04
+  longitude: -74.821472
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-09-19 06:43:55.001000
+  registration: N928FG
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id004
+  typecode: C172
+  vertical_rate_fpm: -576
