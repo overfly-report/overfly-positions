@@ -1,0 +1,103 @@
+- aircraft_type: &id003
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 3325
+  baro_altitude_ft: 3325
+  callsign: N928FG
+  distance_nm: 13.944
+  estimated_db: 33.4
+  ground_speed_kts: 100.2
+  heading_deg: 121.94
+  icao24: acdc66
+  latitude: 40.308745
+  lead_exposure_score: 0.0
+  longitude: -75.092489
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-09-19 04:36:11
+  registration: N928FG
+  registration_country: United States
+  source: adsbhub
+  squawk: '2061'
+  timestamp: *id001
+  typecode: C172
+  vertical_rate_fpm: 0
+- aircraft_type: &id005
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 37000
+  baro_altitude_ft: 37000
+  callsign: IBE0306
+  distance_nm: 15.157
+  estimated_db: 30.1
+  ground_speed_kts: 501.1
+  heading_deg: 75.91
+  icao24: 34510a
+  latitude: 40.577817
+  lead_exposure_score: 0.0
+  longitude: -74.873886
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-09-19 04:36:11
+  registration: EC-MKJ
+  registration_country: Unknown
+  source: adsbhub
+  squawk: '1703'
+  timestamp: *id002
+  typecode: A332
+  vertical_rate_fpm: 0
+- aircraft_type: *id003
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: N499KW
+  distance_nm: 3.36
+  estimated_db: null
+  ground_speed_kts: 9.8
+  heading_deg: null
+  icao24: a6327d
+  latitude: 40.281849
+  lead_exposure_score: 0.0
+  longitude: -74.81549
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id004 2026-09-19 04:36:11
+  registration: N499KW
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id004
+  typecode: C172
+  vertical_rate_fpm: null
+- aircraft_type: *id005
+  altitude_ft: 33900
+  baro_altitude_ft: 33900
+  callsign: DAL865
+  distance_nm: 15.537
+  estimated_db: 30.0
+  ground_speed_kts: 471.8
+  heading_deg: 49.73
+  icao24: a44e24
+  latitude: 40.126632
+  lead_exposure_score: 0.0
+  longitude: -74.586182
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id006 2026-09-19 04:36:11
+  registration: N377DN
+  registration_country: United States
+  source: adsbhub
+  squawk: '7275'
+  timestamp: *id006
+  typecode: A321
+  vertical_rate_fpm: -1024
