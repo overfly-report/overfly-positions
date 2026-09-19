@@ -1,0 +1,330 @@
+- aircraft_type: &id008
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 20125
+  baro_altitude_ft: 20125
+  callsign: JZA825
+  distance_nm: 19.42
+  estimated_db: 28.4
+  ground_speed_kts: 363.6
+  heading_deg: 226.78
+  icao24: c0197e
+  latitude: 40.25647
+  lead_exposure_score: 0.0
+  longitude: -75.201599
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-09-19 01:10:20.500000
+  registration: C-FJQZ
+  registration_country: Canada
+  source: adsbhub
+  squawk: '6201'
+  timestamp: *id001
+  typecode: CRJ9
+  vertical_rate_fpm: -2191
+- aircraft_type: &id003
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 1050
+  baro_altitude_ft: 1050
+  callsign: N541WS
+  distance_nm: 19.301
+  estimated_db: 30.6
+  ground_speed_kts: 110.1
+  heading_deg: 230.53
+  icao24: a6dda8
+  latitude: 40.079681
+  lead_exposure_score: 0.0
+  longitude: -75.04657
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-09-19 01:10:20.500000
+  registration: N541WS
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id002
+  typecode: C172
+  vertical_rate_fpm: 0
+- aircraft_type: *id003
+  altitude_ft: 950
+  baro_altitude_ft: 950
+  callsign: N509FG
+  distance_nm: 17.014
+  estimated_db: 31.7
+  ground_speed_kts: 82.6
+  heading_deg: 291.29
+  icao24: a65be3
+  latitude: 40.101929
+  lead_exposure_score: 0.0
+  longitude: -75.001953
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-09-19 01:10:20.500000
+  registration: N509FG
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id004
+  typecode: C172
+  vertical_rate_fpm: 192
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 200
+    noise_profile: 1
+    notes: Boeing 737 MAX 8, quieter CFM LEAP engines. Allegiant at KTTN.
+    typical_cruise_ft: 41000
+  altitude_ft: 9850
+  baro_altitude_ft: 9850
+  callsign: UAL2168
+  distance_nm: 12.506
+  estimated_db: 42.3
+  ground_speed_kts: 309.4
+  heading_deg: 111.42
+  icao24: a12777
+  latitude: 40.530101
+  lead_exposure_score: 0.0
+  longitude: -74.880628
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id005 2026-09-19 01:10:20.500000
+  registration: N17355
+  registration_country: United States
+  source: adsbhub
+  squawk: '1430'
+  timestamp: *id005
+  typecode: B38M
+  vertical_rate_fpm: 0
+- aircraft_type: *id003
+  altitude_ft: 3375
+  baro_altitude_ft: 3375
+  callsign: N669FG
+  distance_nm: 3.791
+  estimated_db: 44.6
+  ground_speed_kts: 86.0
+  heading_deg: 359.33
+  icao24: a8d62c
+  latitude: 40.344078
+  lead_exposure_score: 0.02
+  longitude: -74.870952
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id006 2026-09-19 01:10:20.500000
+  registration: N669FG
+  registration_country: United States
+  source: adsbhub
+  squawk: '2067'
+  timestamp: *id006
+  typecode: C172
+  vertical_rate_fpm: -64
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 194
+    noise_profile: 1
+    notes: Airbus A320neo (new engine option), quieter than classic A320. Frontier/Allegiant
+      at KTTN.
+    typical_cruise_ft: 39000
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: FFT2013
+  distance_nm: 3.668
+  estimated_db: null
+  ground_speed_kts: 0.0
+  heading_deg: null
+  icao24: a4870d
+  latitude: 40.276763
+  lead_exposure_score: 0.0
+  longitude: -74.816863
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id007 2026-09-19 01:10:20.500000
+  registration: N391FR
+  registration_country: United States
+  source: adsbhub
+  squawk: '1130'
+  timestamp: *id007
+  typecode: A20N
+  vertical_rate_fpm: null
+- aircraft_type: *id008
+  altitude_ft: 19175
+  baro_altitude_ft: 19175
+  callsign: DAL2308
+  distance_nm: 8.378
+  estimated_db: 35.3
+  ground_speed_kts: 410.0
+  heading_deg: 230.64
+  icao24: a47d11
+  latitude: 40.473312
+  lead_exposure_score: 0.0
+  longitude: -74.794678
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id009 2026-09-19 01:10:20.500000
+  registration: N389DN
+  registration_country: United States
+  source: adsbhub
+  squawk: '3372'
+  timestamp: *id009
+  typecode: A321
+  vertical_rate_fpm: 1088
+- aircraft_type: *id008
+  altitude_ft: 2850
+  baro_altitude_ft: 2850
+  callsign: LXJ430
+  distance_nm: 14.022
+  estimated_db: 31.4
+  ground_speed_kts: 254.2
+  heading_deg: 61.32
+  icao24: a523b1
+  latitude: 40.546906
+  lead_exposure_score: 0.0
+  longitude: -74.663273
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id010 2026-09-19 01:10:20.500000
+  registration: N430FX
+  registration_country: United States
+  source: adsbhub
+  squawk: '2474'
+  timestamp: *id010
+  typecode: E545
+  vertical_rate_fpm: null
+- aircraft_type: *id003
+  altitude_ft: 2525
+  baro_altitude_ft: 2525
+  callsign: N331RP
+  distance_nm: 6.1
+  estimated_db: 40.6
+  ground_speed_kts: 90.3
+  heading_deg: 333.72
+  icao24: a39b0b
+  latitude: 40.32988
+  lead_exposure_score: 0.01
+  longitude: -74.655533
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id011 2026-09-19 01:10:20.500000
+  registration: N331RP
+  registration_country: United States
+  source: adsbhub
+  squawk: '1104'
+  timestamp: *id011
+  typecode: C172
+  vertical_rate_fpm: -768
+- aircraft_type: *id003
+  altitude_ft: 2800
+  baro_altitude_ft: 2800
+  callsign: N2434U
+  distance_nm: 8.383
+  estimated_db: 37.8
+  ground_speed_kts: 85.4
+  heading_deg: 62.84
+  icao24: a23e1b
+  latitude: 40.369635
+  lead_exposure_score: 0.0
+  longitude: -74.611463
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id012 2026-09-19 01:10:20.500000
+  registration: N2434U
+  registration_country: United States
+  source: adsbhub
+  squawk: '2042'
+  timestamp: *id012
+  typecode: C172
+  vertical_rate_fpm: 0
+- aircraft_type:
+    category: business-jet-heavy
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 19
+    noise_profile: 1
+    notes: IAI Gulfstream Galaxy / Bombardier Challenger 600 variant
+    typical_cruise_ft: 45000
+  altitude_ft: 3850
+  baro_altitude_ft: 3850
+  callsign: N573PT
+  distance_nm: 8.111
+  estimated_db: 26.1
+  ground_speed_kts: 215.2
+  heading_deg: 332.01
+  icao24: a75ae5
+  latitude: 40.331835
+  lead_exposure_score: 0.0
+  longitude: -74.6114
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id013 2026-09-19 01:10:20.500000
+  registration: N573PT
+  registration_country: United States
+  source: adsbhub
+  squawk: '1341'
+  timestamp: *id013
+  typecode: GALX
+  vertical_rate_fpm: null
+- aircraft_type: *id008
+  altitude_ft: 9850
+  baro_altitude_ft: 9850
+  callsign: AAL2513
+  distance_nm: 11.642
+  estimated_db: 32.9
+  ground_speed_kts: 311.0
+  heading_deg: 111.7
+  icao24: a101c3
+  latitude: 40.438067
+  lead_exposure_score: 0.0
+  longitude: -74.573822
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id014 2026-09-19 01:10:20.500000
+  registration: N164NN
+  registration_country: United States
+  source: adsbhub
+  squawk: '7417'
+  timestamp: *id014
+  typecode: A321
+  vertical_rate_fpm: 0
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 149
+    noise_profile: 2
+    notes: Boeing 737-700
+    typical_cruise_ft: 35000
+  altitude_ft: 35000
+  baro_altitude_ft: 35000
+  callsign: SWA1738
+  distance_nm: 18.449
+  estimated_db: 38.6
+  ground_speed_kts: 447.5
+  heading_deg: 40.56
+  icao24: a591d5
+  latitude: 40.329181
+  lead_exposure_score: 0.0
+  longitude: -74.385057
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id015 2026-09-19 01:10:20.500000
+  registration: N458WN
+  registration_country: United States
+  source: adsbhub
+  squawk: '0707'
+  timestamp: *id015
+  typecode: B737
+  vertical_rate_fpm: 0
