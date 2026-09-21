@@ -1,0 +1,81 @@
+- aircraft_type:
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: N543TH
+  distance_nm: 3.284
+  estimated_db: null
+  ground_speed_kts: 0.2
+  heading_deg: null
+  icao24: a6e4c2
+  latitude: 40.283118
+  lead_exposure_score: 0.0
+  longitude: -74.815209
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id001 2026-09-21 03:46:51.500000
+  registration: N543TH
+  registration_country: United States
+  source: adsbhub
+  squawk: null
+  timestamp: *id001
+  typecode: C172
+  vertical_rate_fpm: null
+- aircraft_type: &id003
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 13350
+  baro_altitude_ft: 13350
+  callsign: AAL1375
+  distance_nm: 18.391
+  estimated_db: 29.0
+  ground_speed_kts: 329.6
+  heading_deg: 80.39
+  icao24: ade543
+  latitude: 40.028046
+  lead_exposure_score: 0.0
+  longitude: -74.79303
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-09-21 03:46:51.500000
+  registration: N995AN
+  registration_country: United States
+  source: adsbhub
+  squawk: '7062'
+  timestamp: *id002
+  typecode: A321
+  vertical_rate_fpm: -1280
+- aircraft_type: *id003
+  altitude_ft: 12600
+  baro_altitude_ft: 12600
+  callsign: RPA4719
+  distance_nm: 16.999
+  estimated_db: 29.7
+  ground_speed_kts: 348.2
+  heading_deg: 42.67
+  icao24: a50549
+  latitude: 40.095023
+  lead_exposure_score: 0.0
+  longitude: -74.590302
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-09-21 03:46:51.500000
+  registration: N422YX
+  registration_country: United States
+  source: adsbhub
+  squawk: '5614'
+  timestamp: *id004
+  typecode: E75L
+  vertical_rate_fpm: -2304
