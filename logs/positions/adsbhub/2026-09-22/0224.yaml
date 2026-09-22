@@ -1,0 +1,234 @@
+- aircraft_type:
+    category: business-jet-large
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 10
+    noise_profile: 2
+    notes: Dassault Falcon 2000
+    typical_cruise_ft: 47000
+  altitude_ft: 9800
+  baro_altitude_ft: 9800
+  callsign: N851M
+  distance_nm: 16.737
+  estimated_db: 20.8
+  ground_speed_kts: 312.5
+  heading_deg: 35.62
+  icao24: abac22
+  latitude: 40.280488
+  lead_exposure_score: 0.0
+  longitude: -75.148544
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-09-22 02:24:32.500000
+  registration: N851M
+  registration_country: United States
+  source: adsbhub
+  squawk: '1176'
+  timestamp: *id001
+  typecode: F2TH
+  vertical_rate_fpm: -2112
+- aircraft_type: &id004
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 24300
+  baro_altitude_ft: 24300
+  callsign: RPA4787
+  distance_nm: 15.101
+  estimated_db: 30.4
+  ground_speed_kts: 389.8
+  heading_deg: 226.97
+  icao24: a4fddb
+  latitude: 40.315796
+  lead_exposure_score: 0.0
+  longitude: -75.118774
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-09-22 02:24:32.500000
+  registration: N420YX
+  registration_country: United States
+  source: adsbhub
+  squawk: '1733'
+  timestamp: *id002
+  typecode: E75L
+  vertical_rate_fpm: 640
+- aircraft_type: &id006
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 1275
+  baro_altitude_ft: 1275
+  callsign: N541WS
+  distance_nm: 7.854
+  estimated_db: 38.4
+  ground_speed_kts: 77.8
+  heading_deg: 46.04
+  icao24: a6dda8
+  latitude: 40.224792
+  lead_exposure_score: 0.01
+  longitude: -74.883362
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-09-22 02:24:32.500000
+  registration: N541WS
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id003
+  typecode: C172
+  vertical_rate_fpm: -384
+- aircraft_type: *id004
+  altitude_ft: 4950
+  baro_altitude_ft: 4950
+  callsign: N37VR
+  distance_nm: 9.55
+  estimated_db: 34.7
+  ground_speed_kts: 269.9
+  heading_deg: 54.96
+  icao24: a4335d
+  latitude: 40.481919
+  lead_exposure_score: 0.0
+  longitude: -74.865397
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id005 2026-09-22 02:24:32.500000
+  registration: N37VR
+  registration_country: United States
+  source: adsbhub
+  squawk: '3634'
+  timestamp: *id005
+  typecode: FA7X
+  vertical_rate_fpm: -1536
+- aircraft_type: *id006
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: N569FG
+  distance_nm: 3.587
+  estimated_db: null
+  ground_speed_kts: 7.2
+  heading_deg: null
+  icao24: a748dd
+  latitude: 40.27745
+  lead_exposure_score: 0.0
+  longitude: -74.814086
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id007 2026-09-22 02:24:32.500000
+  registration: N569FG
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id007
+  typecode: C172
+  vertical_rate_fpm: null
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 189
+    noise_profile: 2
+    notes: Boeing 737-800, Southwest/United
+    typical_cruise_ft: 37000
+  altitude_ft: 28000
+  baro_altitude_ft: 28000
+  callsign: SWA1250
+  distance_nm: 12.979
+  estimated_db: 41.6
+  ground_speed_kts: 397.0
+  heading_deg: 227.35
+  icao24: abe450
+  latitude: 40.549932
+  lead_exposure_score: 0.0
+  longitude: -74.788929
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id008 2026-09-22 02:24:32.500000
+  registration: N8654B
+  registration_country: United States
+  source: adsbhub
+  squawk: '3524'
+  timestamp: *id008
+  typecode: B738
+  vertical_rate_fpm: 0
+- aircraft_type: &id011
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 200
+    noise_profile: 1
+    notes: Boeing 737 MAX 8, quieter CFM LEAP engines. Allegiant at KTTN.
+    typical_cruise_ft: 41000
+  altitude_ft: 9775
+  baro_altitude_ft: 9775
+  callsign: SWA487
+  distance_nm: 9.987
+  estimated_db: 44.2
+  ground_speed_kts: 299.5
+  heading_deg: 111.34
+  icao24: ac48ac
+  latitude: 40.500028
+  lead_exposure_score: 0.0
+  longitude: -74.780377
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id009 2026-09-22 02:24:32.500000
+  registration: N8907L
+  registration_country: United States
+  source: adsbhub
+  squawk: '5707'
+  timestamp: *id009
+  typecode: B38M
+  vertical_rate_fpm: 0
+- aircraft_type: *id004
+  altitude_ft: 2800
+  baro_altitude_ft: 2800
+  callsign: N1111P
+  distance_nm: 19.733
+  estimated_db: 28.4
+  ground_speed_kts: 248.3
+  heading_deg: 61.89
+  icao24: a03273
+  latitude: 40.602631
+  lead_exposure_score: 0.0
+  longitude: -74.5401
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id010 2026-09-22 02:24:32.500000
+  registration: N1111P
+  registration_country: United States
+  source: adsbhub
+  squawk: '1112'
+  timestamp: *id010
+  typecode: GLF5
+  vertical_rate_fpm: 0
+- aircraft_type: *id011
+  altitude_ft: 7775
+  baro_altitude_ft: 7775
+  callsign: SWA1723
+  distance_nm: 13.962
+  estimated_db: 41.3
+  ground_speed_kts: 290.4
+  heading_deg: 84.47
+  icao24: ac62cc
+  latitude: 40.360045
+  lead_exposure_score: 0.0
+  longitude: -74.484184
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id012 2026-09-22 02:24:32.500000
+  registration: N8978G
+  registration_country: United States
+  source: adsbhub
+  squawk: '3617'
+  timestamp: *id012
+  typecode: B38M
+  vertical_rate_fpm: 64
