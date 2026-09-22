@@ -1,0 +1,110 @@
+- aircraft_type: &id002
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 24225
+  baro_altitude_ft: 24225
+  callsign: RPA5658
+  distance_nm: 15.361
+  estimated_db: 30.3
+  ground_speed_kts: 359.0
+  heading_deg: 263.92
+  icao24: a1d45a
+  latitude: 40.159452
+  lead_exposure_score: 0.0
+  longitude: -75.034374
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-09-22 03:21:24
+  registration: N217JQ
+  registration_country: United States
+  source: adsbhub
+  squawk: '3012'
+  timestamp: *id001
+  typecode: E75L
+  vertical_rate_fpm: 960
+- aircraft_type: *id002
+  altitude_ft: 35000
+  baro_altitude_ft: 35000
+  callsign: UAL942
+  distance_nm: 18.849
+  estimated_db: 28.4
+  ground_speed_kts: 527.9
+  heading_deg: 58.48
+  icao24: a2007c
+  latitude: 40.026545
+  lead_exposure_score: 0.0
+  longitude: -74.870016
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-09-22 03:21:24
+  registration: N228UA
+  registration_country: United States
+  source: adsbhub
+  squawk: '0515'
+  timestamp: *id003
+  typecode: B772
+  vertical_rate_fpm: 0
+- aircraft_type:
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: N215LP
+  distance_nm: 3.44
+  estimated_db: null
+  ground_speed_kts: 7.8
+  heading_deg: null
+  icao24: a1cd1d
+  latitude: 40.280907
+  lead_exposure_score: 0.0
+  longitude: -74.817129
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id004 2026-09-22 03:21:24
+  registration: N215LP
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id004
+  typecode: C172
+  vertical_rate_fpm: null
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 200
+    noise_profile: 2
+    notes: Boeing 757-200, still common in US
+    typical_cruise_ft: 39000
+  altitude_ft: 34625
+  baro_altitude_ft: 34625
+  callsign: UAL978
+  distance_nm: 14.729
+  estimated_db: 40.3
+  ground_speed_kts: 506.0
+  heading_deg: 51.5
+  icao24: a05a25
+  latitude: 40.233902
+  lead_exposure_score: 0.0
+  longitude: -74.494812
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id005 2026-09-22 03:21:24
+  registration: N12125
+  registration_country: United States
+  source: adsbhub
+  squawk: '2432'
+  timestamp: *id005
+  typecode: B752
+  vertical_rate_fpm: 1280
