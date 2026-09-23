@@ -1,0 +1,140 @@
+- aircraft_type:
+    category: business-jet-medium
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 8
+    noise_profile: 2
+    notes: Hawker 800 (BAe 125-800 / Raytheon 800). Very common at KTTN for corporate
+      NJ traffic. Spotted over Pennington 2026-03-27.
+    typical_cruise_ft: 41000
+  altitude_ft: 21400
+  baro_altitude_ft: 21400
+  callsign: N800TL
+  distance_nm: 13.939
+  estimated_db: 23.2
+  ground_speed_kts: 366.0
+  heading_deg: 238.18
+  icao24: aae391
+  latitude: 40.490904
+  lead_exposure_score: 0.0
+  longitude: -75.014024
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-09-23 08:06:40.001000
+  registration: N800TL
+  registration_country: United States
+  source: adsbhub
+  squawk: '3351'
+  timestamp: *id001
+  typecode: H25B
+  vertical_rate_fpm: 1664
+- aircraft_type:
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 2100
+  baro_altitude_ft: 2100
+  callsign: N972FG
+  distance_nm: 6.775
+  estimated_db: 37.7
+  ground_speed_kts: 95.5
+  heading_deg: 169.75
+  icao24: ad8b97
+  latitude: 40.436065
+  lead_exposure_score: 0.0
+  longitude: -74.851352
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-09-23 08:06:40.001000
+  registration: ''
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id002
+  typecode: ''
+  vertical_rate_fpm: 0
+- aircraft_type: &id005
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 2125
+  baro_altitude_ft: 2125
+  callsign: N239FG
+  distance_nm: 5.536
+  estimated_db: 41.5
+  ground_speed_kts: 119.6
+  heading_deg: 197.53
+  icao24: a22a73
+  latitude: 40.416367
+  lead_exposure_score: 0.01
+  longitude: -74.843262
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-09-23 08:06:40.001000
+  registration: N239FG
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id003
+  typecode: C172
+  vertical_rate_fpm: 0
+- aircraft_type:
+    category: turboprop-single
+    engine_count: 1
+    engine_type: turboprop
+    max_seats: 14
+    noise_profile: 3
+    notes: Cessna Caravan, utility turboprop, FedEx/Amazon feeder
+    typical_cruise_ft: 12000
+  altitude_ft: 3625
+  baro_altitude_ft: 3625
+  callsign: MTN8302
+  distance_nm: 3.428
+  estimated_db: 41.5
+  ground_speed_kts: 178.4
+  heading_deg: 235.51
+  icao24: a9f31d
+  latitude: 40.37578
+  lead_exposure_score: 0.0
+  longitude: -74.840116
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-09-23 08:06:40.001000
+  registration: N740FX
+  registration_country: United States
+  source: adsbhub
+  squawk: '1550'
+  timestamp: *id004
+  typecode: C208
+  vertical_rate_fpm: 0
+- aircraft_type: *id005
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: N908FG
+  distance_nm: 3.574
+  estimated_db: null
+  ground_speed_kts: 6.2
+  heading_deg: null
+  icao24: ac8d68
+  latitude: 40.277767
+  lead_exposure_score: 0.0
+  longitude: -74.814407
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id006 2026-09-23 08:06:40.001000
+  registration: N908FG
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id006
+  typecode: C172
+  vertical_rate_fpm: null
