@@ -1,0 +1,52 @@
+- aircraft_type: &id002
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 1925
+  baro_altitude_ft: 1925
+  callsign: N528SV
+  distance_nm: 7.306
+  estimated_db: 39.0
+  ground_speed_kts: 92.5
+  heading_deg: 141.15
+  icao24: a6a84a
+  latitude: 40.397278
+  lead_exposure_score: 0.01
+  longitude: -74.925659
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-09-24 06:08:10.501000
+  registration: N528SV
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id001
+  typecode: C172
+  vertical_rate_fpm: -384
+- aircraft_type: *id002
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: N508FG
+  distance_nm: 3.299
+  estimated_db: null
+  ground_speed_kts: 1.9
+  heading_deg: null
+  icao24: a6582c
+  latitude: 40.282482
+  lead_exposure_score: 0.0
+  longitude: -74.813934
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id003 2026-09-24 06:08:10.501000
+  registration: N508FG
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id003
+  typecode: C172
+  vertical_rate_fpm: null
