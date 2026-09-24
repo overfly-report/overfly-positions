@@ -1,0 +1,138 @@
+- aircraft_type: &id002
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: JTZ738
+  distance_nm: 3.337
+  estimated_db: null
+  ground_speed_kts: 0.0
+  heading_deg: null
+  icao24: a9e9ef
+  latitude: 40.281395
+  lead_exposure_score: 0.0
+  longitude: -74.812322
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id001 2026-09-24 10:07:59.501000
+  registration: N738N
+  registration_country: United States
+  source: adsbhub
+  squawk: '3132'
+  timestamp: *id001
+  typecode: C68A
+  vertical_rate_fpm: null
+- aircraft_type: *id002
+  altitude_ft: 7275
+  baro_altitude_ft: 7275
+  callsign: FDX1514
+  distance_nm: 0.39
+  estimated_db: 52.4
+  ground_speed_kts: 222.8
+  heading_deg: 46.27
+  icao24: a86d2b
+  latitude: 40.332254
+  lead_exposure_score: 0.0
+  longitude: -74.797232
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-09-24 10:07:59.501000
+  registration: N642FE
+  registration_country: United States
+  source: adsbhub
+  squawk: '7120'
+  timestamp: *id003
+  typecode: MD11
+  vertical_rate_fpm: -1472
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 200
+    noise_profile: 2
+    notes: Boeing 757-200, still common in US
+    typical_cruise_ft: 39000
+  altitude_ft: 37000
+  baro_altitude_ft: 37000
+  callsign: FDX1454
+  distance_nm: 5.793
+  estimated_db: 45.8
+  ground_speed_kts: 503.2
+  heading_deg: 73.73
+  icao24: ad2f18
+  latitude: 40.413441
+  lead_exposure_score: 0.0
+  longitude: -74.717144
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-09-24 10:07:59.501000
+  registration: N949FD
+  registration_country: United States
+  source: adsbhub
+  squawk: '1632'
+  timestamp: *id004
+  typecode: B752
+  vertical_rate_fpm: 0
+- aircraft_type:
+    category: turboprop-single
+    engine_count: 1
+    engine_type: turboprop
+    max_seats: 14
+    noise_profile: 3
+    notes: Cessna Caravan, utility turboprop, FedEx/Amazon feeder
+    typical_cruise_ft: 12000
+  altitude_ft: 4550
+  baro_altitude_ft: 4550
+  callsign: MTN8300
+  distance_nm: 10.341
+  estimated_db: 32.0
+  ground_speed_kts: 141.6
+  heading_deg: 42.14
+  icao24: a9c58e
+  latitude: 40.456467
+  lead_exposure_score: 0.0
+  longitude: -74.629822
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id005 2026-09-24 10:07:59.501000
+  registration: N729FX
+  registration_country: United States
+  source: adsbhub
+  squawk: '5672'
+  timestamp: *id005
+  typecode: C208
+  vertical_rate_fpm: 0
+- aircraft_type:
+    category: business-jet-medium
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 10
+    noise_profile: 2
+    notes: Embraer Phenom 300, very popular light-medium jet
+    typical_cruise_ft: 45000
+  altitude_ft: 4275
+  baro_altitude_ft: 4275
+  callsign: EJA420
+  distance_nm: 8.219
+  estimated_db: 28.0
+  ground_speed_kts: 233.9
+  heading_deg: 66.83
+  icao24: a4fd0e
+  latitude: 40.379974
+  lead_exposure_score: 0.0
+  longitude: -74.619446
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id006 2026-09-24 10:07:59.501000
+  registration: N420QS
+  registration_country: United States
+  source: adsbhub
+  squawk: '2150'
+  timestamp: *id006
+  typecode: E55P
+  vertical_rate_fpm: -1472
