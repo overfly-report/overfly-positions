@@ -1,0 +1,81 @@
+- aircraft_type: &id002
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 1425
+  baro_altitude_ft: 1425
+  callsign: N2472U
+  distance_nm: 12.145
+  estimated_db: 34.6
+  ground_speed_kts: 68.6
+  heading_deg: 45.59
+  icao24: a24cb1
+  latitude: 40.174442
+  lead_exposure_score: 0.0
+  longitude: -74.951976
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-09-24 04:37:59
+  registration: N2472U
+  registration_country: United States
+  source: adsbhub
+  squawk: '3572'
+  timestamp: *id001
+  typecode: C172
+  vertical_rate_fpm: 64
+- aircraft_type: *id002
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: N677AA
+  distance_nm: 3.363
+  estimated_db: null
+  ground_speed_kts: 7.8
+  heading_deg: null
+  icao24: a8f5ba
+  latitude: 40.281349
+  lead_exposure_score: 0.0
+  longitude: -74.813898
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id003 2026-09-24 04:37:59
+  registration: N677AA
+  registration_country: United States
+  source: adsbhub
+  squawk: null
+  timestamp: *id003
+  typecode: C172
+  vertical_rate_fpm: null
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 189
+    noise_profile: 2
+    notes: Boeing 737-800, Southwest/United
+    typical_cruise_ft: 37000
+  altitude_ft: 4700
+  baro_altitude_ft: 4700
+  callsign: AAL2008
+  distance_nm: 13.176
+  estimated_db: 41.9
+  ground_speed_kts: 244.7
+  heading_deg: 57.35
+  icao24: ac1f0e
+  latitude: 40.400546
+  lead_exposure_score: 0.0
+  longitude: -74.513335
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-09-24 04:37:59
+  registration: N880NN
+  registration_country: United States
+  source: adsbhub
+  squawk: '3771'
+  timestamp: *id004
+  typecode: B738
+  vertical_rate_fpm: -512
