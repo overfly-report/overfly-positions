@@ -1,0 +1,110 @@
+- aircraft_type:
+    category: turboprop-single
+    engine_count: 1
+    engine_type: turboprop
+    max_seats: 14
+    noise_profile: 3
+    notes: Cessna Caravan, utility turboprop, FedEx/Amazon feeder
+    typical_cruise_ft: 12000
+  altitude_ft: 5950
+  baro_altitude_ft: 5950
+  callsign: MTN8305
+  distance_nm: 16.431
+  estimated_db: 28.0
+  ground_speed_kts: 159.2
+  heading_deg: 230.61
+  icao24: adc5b8
+  latitude: 40.185562
+  lead_exposure_score: 0.0
+  longitude: -75.09082
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-09-29 08:43:27.001000
+  registration: N987FX
+  registration_country: United States
+  source: adsbhub
+  squawk: '2630'
+  timestamp: *id001
+  typecode: C208
+  vertical_rate_fpm: 0
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 194
+    noise_profile: 1
+    notes: Airbus A320neo (new engine option), quieter than classic A320. Frontier/Allegiant
+      at KTTN.
+    typical_cruise_ft: 39000
+  altitude_ft: 10325
+  baro_altitude_ft: 10325
+  callsign: VOI1902
+  distance_nm: 14.848
+  estimated_db: 40.8
+  ground_speed_kts: 304.2
+  heading_deg: 43.4
+  icao24: a6bd78
+  latitude: 40.161035
+  lead_exposure_score: 0.0
+  longitude: -75.020828
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-09-29 08:43:27.001000
+  registration: N533VL
+  registration_country: United States
+  source: adsbhub
+  squawk: '3211'
+  timestamp: *id002
+  typecode: A20N
+  vertical_rate_fpm: -1152
+- aircraft_type: &id004
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 1275
+  baro_altitude_ft: 1275
+  callsign: N657J
+  distance_nm: 16.178
+  estimated_db: 30.2
+  ground_speed_kts: 74.4
+  heading_deg: 306.25
+  icao24: a8a783
+  latitude: 40.093735
+  lead_exposure_score: 0.0
+  longitude: -74.948364
+  on_ground: false
+  position_source: ADS-R
+  query_timestamp: &id003 2026-09-29 08:43:27.001000
+  registration: N657J
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id003
+  typecode: JAB4
+  vertical_rate_fpm: -64
+- aircraft_type: *id004
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: EJA913
+  distance_nm: 3.324
+  estimated_db: null
+  ground_speed_kts: 0.1
+  heading_deg: null
+  icao24: aca33f
+  latitude: 40.281616
+  lead_exposure_score: 0.0
+  longitude: -74.812322
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id005 2026-09-29 08:43:27.001000
+  registration: N913QS
+  registration_country: United States
+  source: adsbhub
+  squawk: '4136'
+  timestamp: *id005
+  typecode: C68A
+  vertical_rate_fpm: null
