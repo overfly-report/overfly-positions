@@ -1,0 +1,183 @@
+- aircraft_type:
+    category: helicopter-medium
+    engine_count: 2
+    engine_type: turboshaft
+    max_seats: 5
+    noise_profile: 3
+    notes: Airbus EC135, EMS/police helicopter
+    typical_cruise_ft: 10000
+  altitude_ft: 800
+  baro_altitude_ft: 800
+  callsign: N135TJ
+  distance_nm: 8.635
+  estimated_db: 45.6
+  ground_speed_kts: 106.6
+  heading_deg: 233.78
+  icao24: a08f76
+  latitude: 40.221085
+  lead_exposure_score: 0.0
+  longitude: -74.905823
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-10-01 02:47:20.001000
+  registration: N135TJ
+  registration_country: United States
+  source: adsbhub
+  squawk: '6325'
+  timestamp: *id001
+  typecode: EC35
+  vertical_rate_fpm: 0
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 220
+    noise_profile: 1
+    notes: Airbus A321neo
+    typical_cruise_ft: 39000
+  altitude_ft: 4000
+  baro_altitude_ft: 4000
+  callsign: AAL357
+  distance_nm: 19.442
+  estimated_db: 38.6
+  ground_speed_kts: 203.3
+  heading_deg: 156.21
+  icao24: a5a878
+  latitude: 40.015326
+  lead_exposure_score: 0.0
+  longitude: -74.861714
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-10-01 02:47:20.001000
+  registration: N464AA
+  registration_country: United States
+  source: adsbhub
+  squawk: '1572'
+  timestamp: *id002
+  typecode: A21N
+  vertical_rate_fpm: -1984
+- aircraft_type: &id005
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: N569FG
+  distance_nm: 3.45
+  estimated_db: null
+  ground_speed_kts: 7.8
+  heading_deg: null
+  icao24: a748dd
+  latitude: 40.280685
+  lead_exposure_score: 0.0
+  longitude: -74.816988
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id003 2026-10-01 02:47:20.001000
+  registration: N569FG
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id003
+  typecode: C172
+  vertical_rate_fpm: null
+- aircraft_type: &id007
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 30175
+  baro_altitude_ft: 30175
+  callsign: VIR22Q
+  distance_nm: 5.403
+  estimated_db: 37.0
+  ground_speed_kts: 490.9
+  heading_deg: 51.29
+  icao24: '408121'
+  latitude: 40.245163
+  lead_exposure_score: 0.0
+  longitude: -74.807068
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-10-01 02:47:20.001000
+  registration: G-VPIE
+  registration_country: United Kingdom
+  source: adsbhub
+  squawk: '2463'
+  timestamp: *id004
+  typecode: A339
+  vertical_rate_fpm: 448
+- aircraft_type: *id005
+  altitude_ft: 1000
+  baro_altitude_ft: 1000
+  callsign: N669FG
+  distance_nm: 1.761
+  estimated_db: 51.4
+  ground_speed_kts: 72.9
+  heading_deg: 226.67
+  icao24: a8d62c
+  latitude: 40.313782
+  lead_exposure_score: 0.15
+  longitude: -74.761108
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id006 2026-10-01 02:47:20.001000
+  registration: N669FG
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id006
+  typecode: C172
+  vertical_rate_fpm: -448
+- aircraft_type: *id007
+  altitude_ft: 31000
+  baro_altitude_ft: 31000
+  callsign: ENY3523
+  distance_nm: 13.752
+  estimated_db: 31.0
+  ground_speed_kts: 469.9
+  heading_deg: 51.74
+  icao24: a2cf34
+  latitude: 40.192017
+  lead_exposure_score: 0.0
+  longitude: -74.553101
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id008 2026-10-01 02:47:20.001000
+  registration: N280NN
+  registration_country: United States
+  source: adsbhub
+  squawk: '2467'
+  timestamp: *id008
+  typecode: E75L
+  vertical_rate_fpm: 0
+- aircraft_type: *id007
+  altitude_ft: 9850
+  baro_altitude_ft: 9850
+  callsign: ASH4026
+  distance_nm: 18.144
+  estimated_db: 29.1
+  ground_speed_kts: 357.8
+  heading_deg: 44.32
+  icao24: ac047d
+  latitude: 40.279324
+  lead_exposure_score: 0.0
+  longitude: -74.397854
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id009 2026-10-01 02:47:20.001000
+  registration: N87345
+  registration_country: United States
+  source: adsbhub
+  squawk: '3613'
+  timestamp: *id009
+  typecode: E75L
+  vertical_rate_fpm: -64
