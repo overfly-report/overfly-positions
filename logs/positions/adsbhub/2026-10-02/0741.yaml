@@ -1,0 +1,52 @@
+- aircraft_type: &id002
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 2575
+  baro_altitude_ft: 2575
+  callsign: N850FG
+  distance_nm: 9.011
+  estimated_db: 37.2
+  ground_speed_kts: 112.2
+  heading_deg: 126.67
+  icao24: aba7dc
+  latitude: 40.415817
+  lead_exposure_score: 0.0
+  longitude: -74.953979
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-10-02 07:41:45.001000
+  registration: N850FG
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id001
+  typecode: C172
+  vertical_rate_fpm: -192
+- aircraft_type: *id002
+  altitude_ft: 1275
+  baro_altitude_ft: 1275
+  callsign: N769FG
+  distance_nm: 1.943
+  estimated_db: 50.5
+  ground_speed_kts: 58.0
+  heading_deg: 225.0
+  icao24: aa637b
+  latitude: 40.31894
+  lead_exposure_score: 0.11
+  longitude: -74.751351
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-10-02 07:41:45.001000
+  registration: N769FG
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id003
+  typecode: C172
+  vertical_rate_fpm: -512
