@@ -1,0 +1,110 @@
+- aircraft_type: &id004
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 1250
+  baro_altitude_ft: 1250
+  callsign: N469FG
+  distance_nm: 7.152
+  estimated_db: 39.2
+  ground_speed_kts: 113.2
+  heading_deg: 42.85
+  icao24: a5bb8e
+  latitude: 40.233097
+  lead_exposure_score: 0.01
+  longitude: -74.871951
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-10-02 04:40:32.001000
+  registration: N469FG
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id001
+  typecode: C172
+  vertical_rate_fpm: -832
+- aircraft_type:
+    category: commercial-widebody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 269
+    noise_profile: 2
+    notes: Boeing 767-300
+    typical_cruise_ft: 43000
+  altitude_ft: 33000
+  baro_altitude_ft: 33000
+  callsign: DAL34
+  distance_nm: 19.883
+  estimated_db: 36.1
+  ground_speed_kts: 488.1
+  heading_deg: 48.57
+  icao24: a15397
+  latitude: 40.007319
+  lead_exposure_score: 0.0
+  longitude: -74.857219
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-10-02 04:40:32.001000
+  registration: N185DN
+  registration_country: United States
+  source: adsbhub
+  squawk: '7110'
+  timestamp: *id002
+  typecode: B763
+  vertical_rate_fpm: -64
+- aircraft_type:
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 10075
+  baro_altitude_ft: 10075
+  callsign: AAL902
+  distance_nm: 15.934
+  estimated_db: 30.2
+  ground_speed_kts: 314.3
+  heading_deg: 47.84
+  icao24: ac892e
+  latitude: 40.087463
+  lead_exposure_score: 0.0
+  longitude: -74.661011
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-10-02 04:40:32.001000
+  registration: N907AA
+  registration_country: United States
+  source: adsbhub
+  squawk: '2641'
+  timestamp: *id003
+  typecode: A321
+  vertical_rate_fpm: -960
+- aircraft_type: *id004
+  altitude_ft: 5400
+  baro_altitude_ft: 5400
+  callsign: N278SP
+  distance_nm: 7.949
+  estimated_db: 38.2
+  ground_speed_kts: 100.7
+  heading_deg: 76.79
+  icao24: a2c5d2
+  latitude: 40.407156
+  lead_exposure_score: 0.0
+  longitude: -74.64361
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id005 2026-10-02 04:40:32.001000
+  registration: N278SP
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id005
+  typecode: C172
+  vertical_rate_fpm: 0
