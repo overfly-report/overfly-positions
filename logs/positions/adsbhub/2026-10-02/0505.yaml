@@ -1,0 +1,103 @@
+- aircraft_type: &id002
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: N508FG
+  distance_nm: 3.53
+  estimated_db: null
+  ground_speed_kts: 6.8
+  heading_deg: null
+  icao24: a6582c
+  latitude: 40.278788
+  lead_exposure_score: 0.0
+  longitude: -74.815303
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id001 2026-10-02 05:05:00.501000
+  registration: N508FG
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id001
+  typecode: C172
+  vertical_rate_fpm: null
+- aircraft_type: *id002
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: N278SP
+  distance_nm: 3.288
+  estimated_db: null
+  ground_speed_kts: 2.8
+  heading_deg: null
+  icao24: a2c5d2
+  latitude: 40.282769
+  lead_exposure_score: 0.0
+  longitude: -74.814242
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id003 2026-10-02 05:05:00.501000
+  registration: N278SP
+  registration_country: United States
+  source: adsbhub
+  squawk: null
+  timestamp: *id003
+  typecode: C172
+  vertical_rate_fpm: null
+- aircraft_type: *id002
+  altitude_ft: 375
+  baro_altitude_ft: 375
+  callsign: N499KW
+  distance_nm: 2.704
+  estimated_db: 47.7
+  ground_speed_kts: 58.3
+  heading_deg: 230.57
+  icao24: a6327d
+  latitude: 40.289239
+  lead_exposure_score: 0.08
+  longitude: -74.794984
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-10-02 05:05:00.501000
+  registration: N499KW
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id004
+  typecode: C172
+  vertical_rate_fpm: -320
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 189
+    noise_profile: 2
+    notes: Boeing 737-800, Southwest/United
+    typical_cruise_ft: 37000
+  altitude_ft: 19000
+  baro_altitude_ft: 19000
+  callsign: SWA954
+  distance_nm: 18.877
+  estimated_db: 38.7
+  ground_speed_kts: 449.8
+  heading_deg: 39.32
+  icao24: abb9b2
+  latitude: 40.313324
+  lead_exposure_score: 0.0
+  longitude: -74.376587
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id005 2026-10-02 05:05:00.501000
+  registration: N8548P
+  registration_country: United States
+  source: adsbhub
+  squawk: '7044'
+  timestamp: *id005
+  typecode: B738
+  vertical_rate_fpm: 0
