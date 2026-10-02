@@ -1,0 +1,183 @@
+- aircraft_type: &id003
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 21000
+  baro_altitude_ft: 21000
+  callsign: GJS4406
+  distance_nm: 14.06
+  estimated_db: 31.1
+  ground_speed_kts: 376.4
+  heading_deg: 227.15
+  icao24: a77077
+  latitude: 40.331268
+  lead_exposure_score: 0.0
+  longitude: -75.096863
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-10-02 02:57:39.003000
+  registration: N579GJ
+  registration_country: United States
+  source: adsbhub
+  squawk: '3317'
+  timestamp: *id001
+  typecode: CRJ7
+  vertical_rate_fpm: 1471
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 160
+    noise_profile: 2
+    notes: Airbus A319, Allegiant Air uses at KTTN (FLL/PIE routes)
+    typical_cruise_ft: 37000
+  altitude_ft: 35000
+  baro_altitude_ft: 35000
+  callsign: AAL1780
+  distance_nm: 14.353
+  estimated_db: 40.5
+  ground_speed_kts: 431.1
+  heading_deg: 17.55
+  icao24: aa5d60
+  latitude: 40.181213
+  lead_exposure_score: 0.0
+  longitude: -75.030273
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-10-02 02:57:39.003000
+  registration: N767UW
+  registration_country: United States
+  source: adsbhub
+  squawk: '5634'
+  timestamp: *id002
+  typecode: A319
+  vertical_rate_fpm: 64
+- aircraft_type: *id003
+  altitude_ft: 7150
+  baro_altitude_ft: 7150
+  callsign: OPN64
+  distance_nm: 10.639
+  estimated_db: 33.7
+  ground_speed_kts: 287.3
+  heading_deg: 46.97
+  icao24: a862f2
+  latitude: 40.395053
+  lead_exposure_score: 0.0
+  longitude: -75.007782
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-10-02 02:57:39.003000
+  registration: N64AR
+  registration_country: United States
+  source: adsbhub
+  squawk: '2107'
+  timestamp: *id004
+  typecode: SF50
+  vertical_rate_fpm: -1472
+- aircraft_type: &id006
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 3400
+  baro_altitude_ft: 3400
+  callsign: N2466T
+  distance_nm: 19.004
+  estimated_db: 30.7
+  ground_speed_kts: 118.3
+  heading_deg: 157.12
+  icao24: a24985
+  latitude: 40.607254
+  lead_exposure_score: 0.0
+  longitude: -74.998779
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id005 2026-10-02 02:57:39.003000
+  registration: N2466T
+  registration_country: United States
+  source: adsbhub
+  squawk: '0236'
+  timestamp: *id005
+  typecode: C172
+  vertical_rate_fpm: 0
+- aircraft_type: *id006
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: N728FG
+  distance_nm: 3.441
+  estimated_db: null
+  ground_speed_kts: 7.2
+  heading_deg: null
+  icao24: a9c1c8
+  latitude: 40.280895
+  lead_exposure_score: 0.0
+  longitude: -74.817129
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id007 2026-10-02 02:57:39.003000
+  registration: N728FG
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id007
+  typecode: C172
+  vertical_rate_fpm: null
+- aircraft_type: *id006
+  altitude_ft: 1825
+  baro_altitude_ft: 1825
+  callsign: N1323X
+  distance_nm: 2.961
+  estimated_db: 46.8
+  ground_speed_kts: 63.7
+  heading_deg: 227.54
+  icao24: a08576
+  latitude: 40.339874
+  lead_exposure_score: 0.04
+  longitude: -74.724609
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id008 2026-10-02 02:57:39.003000
+  registration: N1323X
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id008
+  typecode: C172
+  vertical_rate_fpm: -192
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 200
+    noise_profile: 2
+    notes: Boeing 757-200, still common in US
+    typical_cruise_ft: 39000
+  altitude_ft: 11075
+  baro_altitude_ft: 11075
+  callsign: FDX1040
+  distance_nm: 19.773
+  estimated_db: 38.4
+  ground_speed_kts: 332.5
+  heading_deg: 241.43
+  icao24: ad5ca7
+  latitude: 40.59549
+  lead_exposure_score: 0.0
+  longitude: -74.525757
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id009 2026-10-02 02:57:39.003000
+  registration: N960FD
+  registration_country: United States
+  source: adsbhub
+  squawk: '3035'
+  timestamp: *id009
+  typecode: B752
+  vertical_rate_fpm: 2432
