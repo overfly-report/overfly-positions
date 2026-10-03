@@ -1,0 +1,88 @@
+- aircraft_type:
+    category: turboprop-single
+    engine_count: 1
+    engine_type: turboprop
+    max_seats: 9
+    noise_profile: 3
+    notes: Pilatus PC-12, extremely versatile turboprop. Very common at KTTN.
+    typical_cruise_ft: 30000
+  altitude_ft: 6200
+  baro_altitude_ft: 6200
+  callsign: N554VR
+  distance_nm: 2.372
+  estimated_db: 44.1
+  ground_speed_kts: 256.0
+  heading_deg: 45.63
+  icao24: a71032
+  latitude: 40.303531
+  lead_exposure_score: 0.0
+  longitude: -74.822013
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-10-03 04:41:15.003000
+  registration: N554VR
+  registration_country: United States
+  source: adsbhub
+  squawk: '3236'
+  timestamp: *id001
+  typecode: PC12
+  vertical_rate_fpm: -704
+- aircraft_type:
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 25
+  baro_altitude_ft: 25
+  callsign: N613LG
+  distance_nm: 3.616
+  estimated_db: 45.2
+  ground_speed_kts: 31.6
+  heading_deg: 325.3
+  icao24: a7fae4
+  latitude: 40.276291
+  lead_exposure_score: 0.05
+  longitude: -74.81134
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-10-03 04:41:15.003000
+  registration: N613LG
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id002
+  typecode: C172
+  vertical_rate_fpm: 0
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 200
+    noise_profile: 1
+    notes: Boeing 737 MAX 8, quieter CFM LEAP engines. Allegiant at KTTN.
+    typical_cruise_ft: 41000
+  altitude_ft: 37000
+  baro_altitude_ft: 37000
+  callsign: SWA490
+  distance_nm: 15.306
+  estimated_db: 40.0
+  ground_speed_kts: 527.0
+  heading_deg: 58.42
+  icao24: ac28be
+  latitude: 40.370613
+  lead_exposure_score: 0.0
+  longitude: -74.457217
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-10-03 04:41:15.003000
+  registration: N8828L
+  registration_country: United States
+  source: adsbhub
+  squawk: '1506'
+  timestamp: *id003
+  typecode: B38M
+  vertical_rate_fpm: 0
