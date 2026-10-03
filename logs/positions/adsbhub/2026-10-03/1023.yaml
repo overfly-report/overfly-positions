@@ -1,0 +1,182 @@
+- aircraft_type: &id005
+    category: commercial-widebody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 269
+    noise_profile: 2
+    notes: Boeing 767-300
+    typical_cruise_ft: 43000
+  altitude_ft: 28750
+  baro_altitude_ft: 28750
+  callsign: ATN3359
+  distance_nm: 17.988
+  estimated_db: 36.9
+  ground_speed_kts: 386.7
+  heading_deg: 263.17
+  icao24: a75238
+  latitude: 40.164505
+  lead_exposure_score: 0.0
+  longitude: -75.11322
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-10-03 10:23:55.500000
+  registration: N571AZ
+  registration_country: United States
+  source: adsbhub
+  squawk: '2730'
+  timestamp: *id001
+  typecode: B763
+  vertical_rate_fpm: 2368
+- aircraft_type: &id003
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 189
+    noise_profile: 2
+    notes: Boeing 737-800, Southwest/United
+    typical_cruise_ft: 37000
+  altitude_ft: 25000
+  baro_altitude_ft: 25000
+  callsign: UAL575
+  distance_nm: 17.733
+  estimated_db: 39.1
+  ground_speed_kts: 395.0
+  heading_deg: 230.55
+  icao24: a14b1a
+  latitude: 40.519455
+  lead_exposure_score: 0.0
+  longitude: -75.091431
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-10-03 10:23:55.500000
+  registration: N18243
+  registration_country: United States
+  source: adsbhub
+  squawk: '3010'
+  timestamp: *id002
+  typecode: B738
+  vertical_rate_fpm: 0
+- aircraft_type: *id003
+  altitude_ft: 22675
+  baro_altitude_ft: 22675
+  callsign: SWA167
+  distance_nm: 13.299
+  estimated_db: 41.5
+  ground_speed_kts: 357.3
+  heading_deg: 227.15
+  icao24: abf308
+  latitude: 40.343193
+  lead_exposure_score: 0.0
+  longitude: -75.080005
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-10-03 10:23:55.500000
+  registration: N8693A
+  registration_country: United States
+  source: adsbhub
+  squawk: '3574'
+  timestamp: *id004
+  typecode: B738
+  vertical_rate_fpm: -1024
+- aircraft_type: *id005
+  altitude_ft: 8275
+  baro_altitude_ft: 8275
+  callsign: UPS1084
+  distance_nm: 6.6
+  estimated_db: 45.8
+  ground_speed_kts: 284.3
+  heading_deg: 46.42
+  icao24: a46fad
+  latitude: 40.260843
+  lead_exposure_score: 0.0
+  longitude: -74.896733
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id006 2026-10-03 10:23:55.500000
+  registration: N385UP
+  registration_country: United States
+  source: adsbhub
+  squawk: '6761'
+  timestamp: *id006
+  typecode: B763
+  vertical_rate_fpm: -1024
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 200
+    noise_profile: 2
+    notes: Boeing 757-200, still common in US
+    typical_cruise_ft: 39000
+  altitude_ft: 26175
+  baro_altitude_ft: 26175
+  callsign: DAL2286
+  distance_nm: 7.085
+  estimated_db: 46.0
+  ground_speed_kts: 395.2
+  heading_deg: 259.06
+  icao24: a939e8
+  latitude: 40.237289
+  lead_exposure_score: 0.0
+  longitude: -74.877625
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id007 2026-10-03 10:23:55.500000
+  registration: N694DL
+  registration_country: United States
+  source: adsbhub
+  squawk: '1160'
+  timestamp: *id007
+  typecode: B752
+  vertical_rate_fpm: 1408
+- aircraft_type: &id009
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 19125
+  baro_altitude_ft: 19125
+  callsign: DAL550
+  distance_nm: 19.937
+  estimated_db: 28.2
+  ground_speed_kts: 371.3
+  heading_deg: 244.82
+  icao24: a466d2
+  latitude: 40.663605
+  lead_exposure_score: 0.0
+  longitude: -74.740112
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id008 2026-10-03 10:23:55.500000
+  registration: N383DZ
+  registration_country: United States
+  source: adsbhub
+  squawk: '1133'
+  timestamp: *id008
+  typecode: A321
+  vertical_rate_fpm: 1600
+- aircraft_type: *id009
+  altitude_ft: 1775
+  baro_altitude_ft: 1775
+  callsign: N6FN
+  distance_nm: 9.295
+  estimated_db: 34.9
+  ground_speed_kts: 127.6
+  heading_deg: 56.19
+  icao24: a7c317
+  latitude: 40.283112
+  lead_exposure_score: 0.0
+  longitude: -74.596863
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id010 2026-10-03 10:23:55.500000
+  registration: ''
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id010
+  typecode: ''
+  vertical_rate_fpm: 64
