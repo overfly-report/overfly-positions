@@ -1,0 +1,110 @@
+- aircraft_type: &id003
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 2150
+  baro_altitude_ft: 2150
+  callsign: N945FG
+  distance_nm: 5.896
+  estimated_db: 38.9
+  ground_speed_kts: 89.8
+  heading_deg: 45.45
+  icao24: ad203f
+  latitude: 40.246132
+  lead_exposure_score: 0.0
+  longitude: -74.846358
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-10-04 03:35:29
+  registration: ''
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id001
+  typecode: ''
+  vertical_rate_fpm: 0
+- aircraft_type:
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: N543TH
+  distance_nm: 3.298
+  estimated_db: null
+  ground_speed_kts: 1.4
+  heading_deg: null
+  icao24: a6e4c2
+  latitude: 40.282505
+  lead_exposure_score: 0.0
+  longitude: -74.81395
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id002 2026-10-04 03:35:29
+  registration: N543TH
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id002
+  typecode: C172
+  vertical_rate_fpm: null
+- aircraft_type: *id003
+  altitude_ft: 5175
+  baro_altitude_ft: 5175
+  callsign: N177TJ
+  distance_nm: 7.379
+  estimated_db: 36.9
+  ground_speed_kts: 105.5
+  heading_deg: 62.95
+  icao24: a134e0
+  latitude: 40.456595
+  lead_exposure_score: 0.0
+  longitude: -74.780752
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-10-04 03:35:29
+  registration: N177TJ
+  registration_country: United States
+  source: adsbhub
+  squawk: '3401'
+  timestamp: *id004
+  typecode: C177
+  vertical_rate_fpm: 64
+- aircraft_type:
+    category: commercial-widebody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 396
+    noise_profile: 1
+    notes: Boeing 777-300ER, high altitude transit over NJ
+    typical_cruise_ft: 43000
+  altitude_ft: 33000
+  baro_altitude_ft: 33000
+  callsign: THY8
+  distance_nm: 10.838
+  estimated_db: 40.7
+  ground_speed_kts: 519.0
+  heading_deg: 52.36
+  icao24: 4ba950
+  latitude: 40.163222
+  lead_exposure_score: 0.0
+  longitude: -74.712961
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id005 2026-10-04 03:35:29
+  registration: TC-JJP
+  registration_country: Unknown
+  source: adsbhub
+  squawk: '2141'
+  timestamp: *id005
+  typecode: B77W
+  vertical_rate_fpm: 0
