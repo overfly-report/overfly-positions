@@ -1,0 +1,183 @@
+- aircraft_type: &id005
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 29000
+  baro_altitude_ft: 29000
+  callsign: GJS4598
+  distance_nm: 19.255
+  estimated_db: 28.4
+  ground_speed_kts: 500.6
+  heading_deg: 56.41
+  icao24: a76cc0
+  latitude: 40.018066
+  lead_exposure_score: 0.0
+  longitude: -74.858582
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-10-06 02:40:52.001000
+  registration: N578GJ
+  registration_country: United States
+  source: adsbhub
+  squawk: '0515'
+  timestamp: *id001
+  typecode: CRJ7
+  vertical_rate_fpm: null
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 194
+    noise_profile: 1
+    notes: Airbus A320neo (new engine option), quieter than classic A320. Frontier/Allegiant
+      at KTTN.
+    typical_cruise_ft: 39000
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: FFT1689
+  distance_nm: 3.703
+  estimated_db: null
+  ground_speed_kts: 0.0
+  heading_deg: null
+  icao24: a455c7
+  latitude: 40.276382
+  lead_exposure_score: 0.0
+  longitude: -74.817688
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id002 2026-10-06 02:40:52.001000
+  registration: N379FR
+  registration_country: United States
+  source: adsbhub
+  squawk: '2114'
+  timestamp: *id002
+  typecode: A20N
+  vertical_rate_fpm: null
+- aircraft_type: &id008
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 189
+    noise_profile: 2
+    notes: Boeing 737-800, Southwest/United
+    typical_cruise_ft: 37000
+  altitude_ft: 25000
+  baro_altitude_ft: 25000
+  callsign: AAL2595
+  distance_nm: 19.655
+  estimated_db: 38.3
+  ground_speed_kts: 438.7
+  heading_deg: 35.54
+  icao24: a3cd7d
+  latitude: 40.007691
+  lead_exposure_score: 0.0
+  longitude: -74.761089
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-10-06 02:40:52.001000
+  registration: N344PP
+  registration_country: United States
+  source: adsbhub
+  squawk: '6031'
+  timestamp: *id003
+  typecode: B738
+  vertical_rate_fpm: 0
+- aircraft_type:
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: Piper Archer (Cherokee 180). Very common at 39N/KTTN flight schools.
+    typical_cruise_ft: 7000
+  altitude_ft: 2600
+  baro_altitude_ft: 2600
+  callsign: N2222T
+  distance_nm: 6.356
+  estimated_db: 40.2
+  ground_speed_kts: 123.7
+  heading_deg: 219.09
+  icao24: a1eb1f
+  latitude: 40.313772
+  lead_exposure_score: 0.01
+  longitude: -74.652412
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-10-06 02:40:52.001000
+  registration: N2222T
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id004
+  typecode: P28A
+  vertical_rate_fpm: null
+- aircraft_type: *id005
+  altitude_ft: 31000
+  baro_altitude_ft: 31000
+  callsign: RPA3459
+  distance_nm: 7.452
+  estimated_db: 35.2
+  ground_speed_kts: 454.6
+  heading_deg: 48.03
+  icao24: a9f87d
+  latitude: 40.276391
+  lead_exposure_score: 0.0
+  longitude: -74.643985
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id006 2026-10-06 02:40:52.001000
+  registration: N741YX
+  registration_country: United States
+  source: adsbhub
+  squawk: '0551'
+  timestamp: *id006
+  typecode: E75L
+  vertical_rate_fpm: 64
+- aircraft_type: *id005
+  altitude_ft: 1650
+  baro_altitude_ft: 1650
+  callsign: N6FN
+  distance_nm: 10.49
+  estimated_db: 33.9
+  ground_speed_kts: 155.1
+  heading_deg: 237.64
+  icao24: a7c317
+  latitude: 40.29744
+  lead_exposure_score: 0.0
+  longitude: -74.564453
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id007 2026-10-06 02:40:52.001000
+  registration: ''
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id007
+  typecode: ''
+  vertical_rate_fpm: -64
+- aircraft_type: *id008
+  altitude_ft: 8600
+  baro_altitude_ft: 8600
+  callsign: SWA4086
+  distance_nm: 19.1
+  estimated_db: 38.7
+  ground_speed_kts: 292.9
+  heading_deg: 63.43
+  icao24: abef54
+  latitude: 40.330124
+  lead_exposure_score: 0.0
+  longitude: -74.370789
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id009 2026-10-06 02:40:52.001000
+  registration: N8683D
+  registration_country: United States
+  source: adsbhub
+  squawk: '4032'
+  timestamp: *id009
+  typecode: B738
+  vertical_rate_fpm: -1088
