@@ -1,0 +1,80 @@
+- aircraft_type:
+    category: business-jet-light
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 7
+    noise_profile: 2
+    notes: Embraer Phenom 100
+    typical_cruise_ft: 41000
+  altitude_ft: 8375
+  baro_altitude_ft: 8375
+  callsign: LBQ799
+  distance_nm: 19.785
+  estimated_db: 21.4
+  ground_speed_kts: 265.8
+  heading_deg: 249.52
+  icao24: a2ec14
+  latitude: 40.661545
+  lead_exposure_score: 0.0
+  longitude: -74.831909
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-10-06 06:08:33.501000
+  registration: N288DX
+  registration_country: United States
+  source: adsbhub
+  squawk: '4207'
+  timestamp: *id001
+  typecode: E50P
+  vertical_rate_fpm: 192
+- aircraft_type: &id003
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 37000
+  baro_altitude_ft: 37000
+  callsign: KLM686
+  distance_nm: 14.046
+  estimated_db: 30.6
+  ground_speed_kts: 548.0
+  heading_deg: 66.1
+  icao24: '484416'
+  latitude: 40.130997
+  lead_exposure_score: 0.0
+  longitude: -74.636658
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-10-06 06:08:33.501000
+  registration: PH-BQM
+  registration_country: Greece
+  source: adsbhub
+  squawk: '4251'
+  timestamp: *id002
+  typecode: B772
+  vertical_rate_fpm: 0
+- aircraft_type: *id003
+  altitude_ft: 24000
+  baro_altitude_ft: 24000
+  callsign: N1624K
+  distance_nm: 18.569
+  estimated_db: 28.7
+  ground_speed_kts: 434.9
+  heading_deg: 21.02
+  icao24: a0fc0a
+  latitude: 40.331635
+  lead_exposure_score: 0.0
+  longitude: -74.382385
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-10-06 06:08:33.501000
+  registration: N1624K
+  registration_country: United States
+  source: adsbhub
+  squawk: '3026'
+  timestamp: *id004
+  typecode: GLF4
+  vertical_rate_fpm: null
