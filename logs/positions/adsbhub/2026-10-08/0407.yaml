@@ -1,0 +1,81 @@
+- aircraft_type: &id003
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 22125
+  baro_altitude_ft: 22125
+  callsign: FDX1291
+  distance_nm: 13.137
+  estimated_db: 31.6
+  ground_speed_kts: 395.7
+  heading_deg: 250.05
+  icao24: a92528
+  latitude: 40.47995
+  lead_exposure_score: 0.0
+  longitude: -75.004272
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-10-08 04:07:07.501000
+  registration: N689FE
+  registration_country: United States
+  source: adsbhub
+  squawk: '7106'
+  timestamp: *id001
+  typecode: A306
+  vertical_rate_fpm: 2560
+- aircraft_type:
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 4550
+  baro_altitude_ft: 4550
+  callsign: N2138W
+  distance_nm: 17.831
+  estimated_db: 31.3
+  ground_speed_kts: 76.9
+  heading_deg: 212.24
+  icao24: a1c82c
+  latitude: 40.628605
+  lead_exposure_score: 0.0
+  longitude: -74.832812
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-10-08 04:07:07.501000
+  registration: N2138W
+  registration_country: United States
+  source: adsbhub
+  squawk: '4363'
+  timestamp: *id002
+  typecode: C172
+  vertical_rate_fpm: 128
+- aircraft_type: *id003
+  altitude_ft: 7775
+  baro_altitude_ft: 7775
+  callsign: UAL1444
+  distance_nm: 1.673
+  estimated_db: 47.9
+  ground_speed_kts: 288.7
+  heading_deg: 42.75
+  icao24: a2b83b
+  latitude: 40.325224
+  lead_exposure_score: 0.0
+  longitude: -74.823761
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-10-08 04:07:07.501000
+  registration: N27439
+  registration_country: United States
+  source: adsbhub
+  squawk: '4045'
+  timestamp: *id004
+  typecode: B39M
+  vertical_rate_fpm: -1984
