@@ -1,0 +1,110 @@
+- aircraft_type: &id003
+    category: turboprop-single
+    engine_count: 1
+    engine_type: turboprop
+    max_seats: 14
+    noise_profile: 3
+    notes: Cessna Caravan, utility turboprop, FedEx/Amazon feeder
+    typical_cruise_ft: 12000
+  altitude_ft: 4075
+  baro_altitude_ft: 4075
+  callsign: MTN8305
+  distance_nm: 4.968
+  estimated_db: 38.3
+  ground_speed_kts: 149.3
+  heading_deg: 230.98
+  icao24: adc5b8
+  latitude: 40.297806
+  lead_exposure_score: 0.0
+  longitude: -74.88678
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-10-08 08:08:25
+  registration: N987FX
+  registration_country: United States
+  source: adsbhub
+  squawk: '1114'
+  timestamp: *id001
+  typecode: C208
+  vertical_rate_fpm: 0
+- aircraft_type:
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 3050
+  baro_altitude_ft: 3050
+  callsign: N869FG
+  distance_nm: 19.048
+  estimated_db: 30.7
+  ground_speed_kts: 107.2
+  heading_deg: 14.04
+  icao24: abf0ca
+  latitude: 40.021774
+  lead_exposure_score: 0.0
+  longitude: -74.860168
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-10-08 08:08:25
+  registration: N869FG
+  registration_country: United States
+  source: adsbhub
+  squawk: '2167'
+  timestamp: *id002
+  typecode: C172
+  vertical_rate_fpm: 0
+- aircraft_type: *id003
+  altitude_ft: 4075
+  baro_altitude_ft: 4075
+  callsign: MTN8302
+  distance_nm: 8.027
+  estimated_db: 34.2
+  ground_speed_kts: 140.1
+  heading_deg: 236.65
+  icao24: adc96f
+  latitude: 40.418198
+  lead_exposure_score: 0.0
+  longitude: -74.653137
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-10-08 08:08:25
+  registration: N988FX
+  registration_country: United States
+  source: adsbhub
+  squawk: '3031'
+  timestamp: *id004
+  typecode: C208
+  vertical_rate_fpm: 0
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 160
+    noise_profile: 2
+    notes: Airbus A319, Allegiant Air uses at KTTN (FLL/PIE routes)
+    typical_cruise_ft: 37000
+  altitude_ft: 22125
+  baro_altitude_ft: 22125
+  callsign: DAL8839
+  distance_nm: 17.116
+  estimated_db: 39.5
+  ground_speed_kts: 385.2
+  heading_deg: 241.97
+  icao24: a3fffc
+  latitude: 40.207077
+  lead_exposure_score: 0.0
+  longitude: -74.453796
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id005 2026-10-08 08:08:25
+  registration: N357NB
+  registration_country: United States
+  source: adsbhub
+  squawk: '7115'
+  timestamp: *id005
+  typecode: A319
+  vertical_rate_fpm: 2496
