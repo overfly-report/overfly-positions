@@ -1,0 +1,51 @@
+- aircraft_type: &id002
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 8925
+  baro_altitude_ft: 8925
+  callsign: FDX1588
+  distance_nm: 8.107
+  estimated_db: 36.0
+  ground_speed_kts: 310.5
+  heading_deg: 44.09
+  icao24: a7d2e6
+  latitude: 40.24324
+  lead_exposure_score: 0.0
+  longitude: -74.920227
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-10-08 09:41:05.007000
+  registration: N603FE
+  registration_country: United States
+  source: adsbhub
+  squawk: '1603'
+  timestamp: *id001
+  typecode: MD11
+  vertical_rate_fpm: -1152
+- aircraft_type: *id002
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: EJA571
+  distance_nm: 3.333
+  estimated_db: null
+  ground_speed_kts: 0.0
+  heading_deg: null
+  icao24: a7538f
+  latitude: 40.281326
+  lead_exposure_score: 0.0
+  longitude: -74.811798
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id003 2026-10-08 09:41:05.007000
+  registration: N571QS
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id003
+  typecode: C68A
+  vertical_rate_fpm: null
