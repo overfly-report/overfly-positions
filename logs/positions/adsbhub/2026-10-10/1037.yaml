@@ -1,0 +1,110 @@
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 220
+    noise_profile: 1
+    notes: Airbus A321neo
+    typical_cruise_ft: 39000
+  altitude_ft: 23600
+  baro_altitude_ft: 23600
+  callsign: DAL2286
+  distance_nm: 3.868
+  estimated_db: 49.6
+  ground_speed_kts: 389.5
+  heading_deg: 256.64
+  icao24: a759eb
+  latitude: 40.277206
+  lead_exposure_score: 0.0
+  longitude: -74.828796
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-10-10 10:37:41.501000
+  registration: N573DT
+  registration_country: United States
+  source: adsbhub
+  squawk: '1605'
+  timestamp: *id001
+  typecode: A21N
+  vertical_rate_fpm: 1408
+- aircraft_type: &id003
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 300
+  baro_altitude_ft: 300
+  callsign: N872SP
+  distance_nm: 4.397
+  estimated_db: 43.5
+  ground_speed_kts: 77.2
+  heading_deg: 227.63
+  icao24: abff62
+  latitude: 40.266586
+  lead_exposure_score: 0.03
+  longitude: -74.826355
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-10-10 10:37:41.501000
+  registration: N872SP
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id002
+  typecode: C172
+  vertical_rate_fpm: 704
+- aircraft_type: *id003
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: N669FG
+  distance_nm: 3.251
+  estimated_db: null
+  ground_speed_kts: 0.1
+  heading_deg: null
+  icao24: a8d62c
+  latitude: 40.281635
+  lead_exposure_score: 0.0
+  longitude: -74.806839
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id004 2026-10-10 10:37:41.501000
+  registration: N669FG
+  registration_country: United States
+  source: adsbhub
+  squawk: null
+  timestamp: *id004
+  typecode: C172
+  vertical_rate_fpm: null
+- aircraft_type:
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: Piper Archer (Cherokee 180). Very common at 39N/KTTN flight schools.
+    typical_cruise_ft: 7000
+  altitude_ft: 2050
+  baro_altitude_ft: 2050
+  callsign: CXK367
+  distance_nm: 14.514
+  estimated_db: 33.1
+  ground_speed_kts: 99.1
+  heading_deg: 182.31
+  icao24: a42c43
+  latitude: 40.573517
+  lead_exposure_score: 0.0
+  longitude: -74.748596
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id005 2026-10-10 10:37:41.501000
+  registration: N368Z
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id005
+  typecode: P28A
+  vertical_rate_fpm: 0
