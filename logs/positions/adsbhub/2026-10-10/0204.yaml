@@ -1,0 +1,235 @@
+- aircraft_type: &id004
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 200
+    noise_profile: 1
+    notes: Boeing 737 MAX 8, quieter CFM LEAP engines. Allegiant at KTTN.
+    typical_cruise_ft: 41000
+  altitude_ft: 24450
+  baro_altitude_ft: 24450
+  callsign: SWA4844
+  distance_nm: 19.243
+  estimated_db: 38.5
+  ground_speed_kts: 377.9
+  heading_deg: 243.77
+  icao24: ac08d4
+  latitude: 40.608681
+  lead_exposure_score: 0.0
+  longitude: -75.005909
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-10-10 02:04:54
+  registration: N8749Q
+  registration_country: United States
+  source: adsbhub
+  squawk: '2764'
+  timestamp: *id001
+  typecode: B38M
+  vertical_rate_fpm: 1728
+- aircraft_type: &id009
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 8000
+  baro_altitude_ft: 8000
+  callsign: AAL322
+  distance_nm: 7.352
+  estimated_db: 36.9
+  ground_speed_kts: 291.9
+  heading_deg: 51.68
+  icao24: ac90a7
+  latitude: 40.255722
+  lead_exposure_score: 0.0
+  longitude: -74.91265
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-10-10 02:04:54
+  registration: N909AM
+  registration_country: United States
+  source: adsbhub
+  squawk: '3642'
+  timestamp: *id002
+  typecode: A321
+  vertical_rate_fpm: -512
+- aircraft_type: &id007
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 850
+  baro_altitude_ft: 850
+  callsign: N528SV
+  distance_nm: 6.059
+  estimated_db: 40.7
+  ground_speed_kts: 87.1
+  heading_deg: 350.75
+  icao24: a6a84a
+  latitude: 40.233856
+  lead_exposure_score: 0.01
+  longitude: -74.773865
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-10-10 02:04:54
+  registration: N528SV
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id003
+  typecode: C172
+  vertical_rate_fpm: -320
+- aircraft_type: *id004
+  altitude_ft: 22750
+  baro_altitude_ft: 22750
+  callsign: SWA2536
+  distance_nm: 13.722
+  estimated_db: 41.3
+  ground_speed_kts: 386.6
+  heading_deg: 240.05
+  icao24: ac249e
+  latitude: 40.56189
+  lead_exposure_score: 0.0
+  longitude: -74.771301
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id005 2026-10-10 02:04:54
+  registration: N8815L
+  registration_country: United States
+  source: adsbhub
+  squawk: '7157'
+  timestamp: *id005
+  typecode: B38M
+  vertical_rate_fpm: 1792
+- aircraft_type:
+    category: helicopter-heavy
+    engine_count: 2
+    engine_type: turboshaft
+    max_seats: 16
+    noise_profile: 3
+    notes: AgustaWestland AW139. Spotted over Pennington 2026-03-27. Often used for
+      EMS, police, or VIP transport.
+    typical_cruise_ft: 10000
+  altitude_ft: 775
+  baro_altitude_ft: 775
+  callsign: N5NJ
+  distance_nm: 4.981
+  estimated_db: 48.4
+  ground_speed_kts: 119.8
+  heading_deg: 157.93
+  icao24: a63673
+  latitude: 40.253952
+  lead_exposure_score: 0.0
+  longitude: -74.760803
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id006 2026-10-10 02:04:54
+  registration: N5NJ
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id006
+  typecode: A139
+  vertical_rate_fpm: -448
+- aircraft_type: *id007
+  altitude_ft: 2375
+  baro_altitude_ft: 2375
+  callsign: N21019
+  distance_nm: 1.535
+  estimated_db: 52.3
+  ground_speed_kts: 108.9
+  heading_deg: 103.27
+  icao24: a1bc1f
+  latitude: 40.344406
+  lead_exposure_score: 0.14
+  longitude: -74.758301
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id008 2026-10-10 02:04:54
+  registration: N21019
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id008
+  typecode: C172
+  vertical_rate_fpm: -448
+- aircraft_type: *id009
+  altitude_ft: 5700
+  baro_altitude_ft: 5700
+  callsign: UAL1152
+  distance_nm: 12.79
+  estimated_db: 32.2
+  ground_speed_kts: 265.3
+  heading_deg: 11.52
+  icao24: a5d6f9
+  latitude: 40.516296
+  lead_exposure_score: 0.0
+  longitude: -74.644348
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id010 2026-10-10 02:04:54
+  registration: N47569
+  registration_country: United States
+  source: adsbhub
+  squawk: '2112'
+  timestamp: *id010
+  typecode: B39M
+  vertical_rate_fpm: 0
+- aircraft_type:
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: Piper Archer (Cherokee 180). Very common at 39N/KTTN flight schools.
+    typical_cruise_ft: 7000
+  altitude_ft: 1200
+  baro_altitude_ft: 1200
+  callsign: N2366W
+  distance_nm: 13.503
+  estimated_db: 33.7
+  ground_speed_kts: 85.1
+  heading_deg: 3.37
+  icao24: a22209
+  latitude: 40.158188
+  lead_exposure_score: 0.0
+  longitude: -74.605164
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id011 2026-10-10 02:04:54
+  registration: N2366W
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id011
+  typecode: P28A
+  vertical_rate_fpm: null
+- aircraft_type: *id009
+  altitude_ft: 34975
+  baro_altitude_ft: 34975
+  callsign: AAL2120
+  distance_nm: 15.798
+  estimated_db: 29.8
+  ground_speed_kts: 548.0
+  heading_deg: 42.04
+  icao24: a72c78
+  latitude: 40.220993
+  lead_exposure_score: 0.0
+  longitude: -74.476929
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id012 2026-10-10 02:04:54
+  registration: N561UW
+  registration_country: United States
+  source: adsbhub
+  squawk: '3125'
+  timestamp: *id012
+  typecode: A321
+  vertical_rate_fpm: 0
