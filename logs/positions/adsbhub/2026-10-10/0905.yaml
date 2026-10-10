@@ -1,0 +1,51 @@
+- aircraft_type: &id002
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 39000
+  baro_altitude_ft: 39000
+  callsign: AFR173
+  distance_nm: 7.456
+  estimated_db: 34.5
+  ground_speed_kts: 599.4
+  heading_deg: 80.98
+  icao24: 39cf0e
+  latitude: 40.433924
+  lead_exposure_score: 0.0
+  longitude: -74.885809
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-10-10 09:05:11.501000
+  registration: F-HTYO
+  registration_country: France
+  source: adsbhub
+  squawk: '4211'
+  timestamp: *id001
+  typecode: A359
+  vertical_rate_fpm: 0
+- aircraft_type: *id002
+  altitude_ft: 925
+  baro_altitude_ft: 925
+  callsign: N39VA
+  distance_nm: 4.539
+  estimated_db: 41.2
+  ground_speed_kts: 114.0
+  heading_deg: 228.2
+  icao24: a4824c
+  latitude: 40.296874
+  lead_exposure_score: 0.0
+  longitude: -74.702474
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-10-10 09:05:11.501000
+  registration: N39VA
+  registration_country: United States
+  source: adsbhub
+  squawk: '0261'
+  timestamp: *id003
+  typecode: EC45
+  vertical_rate_fpm: null
