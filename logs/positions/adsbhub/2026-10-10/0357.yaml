@@ -1,0 +1,81 @@
+- aircraft_type: &id002
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: -75
+  baro_altitude_ft: -75
+  callsign: N908FG
+  distance_nm: 3.166
+  estimated_db: 46.3
+  ground_speed_kts: 62.3
+  heading_deg: 227.6
+  icao24: ac8d68
+  latitude: 40.282562
+  lead_exposure_score: 0.06
+  longitude: -74.803955
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-10-10 03:57:07.001000
+  registration: N908FG
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id001
+  typecode: C172
+  vertical_rate_fpm: -512
+- aircraft_type: *id002
+  altitude_ft: 2125
+  baro_altitude_ft: 2125
+  callsign: N2129J
+  distance_nm: 6.69
+  estimated_db: 39.8
+  ground_speed_kts: 88.1
+  heading_deg: 230.53
+  icao24: a1c48c
+  latitude: 40.383545
+  lead_exposure_score: 0.01
+  longitude: -74.657776
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-10-10 03:57:07.001000
+  registration: N2129J
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id003
+  typecode: C172
+  vertical_rate_fpm: -512
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 200
+    noise_profile: 1
+    notes: Boeing 737 MAX 8, quieter CFM LEAP engines. Allegiant at KTTN.
+    typical_cruise_ft: 41000
+  altitude_ft: 23000
+  baro_altitude_ft: 23000
+  callsign: UAL444
+  distance_nm: 14.975
+  estimated_db: 40.6
+  ground_speed_kts: 484.0
+  heading_deg: 55.95
+  icao24: a2b45b
+  latitude: 40.110013
+  lead_exposure_score: 0.0
+  longitude: -74.64567
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-10-10 03:57:07.001000
+  registration: N27323
+  registration_country: United States
+  source: adsbhub
+  squawk: '5644'
+  timestamp: *id004
+  typecode: B38M
+  vertical_rate_fpm: 0
