@@ -1,0 +1,132 @@
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 186
+    noise_profile: 2
+    notes: Airbus A320 family, Spirit Airlines (NKS) overflies Pennington
+    typical_cruise_ft: 37000
+  altitude_ft: 8500
+  baro_altitude_ft: 8500
+  callsign: JBU706
+  distance_nm: 7.953
+  estimated_db: 46.2
+  ground_speed_kts: 292.2
+  heading_deg: 42.92
+  icao24: a6f2b7
+  latitude: 40.244875
+  lead_exposure_score: 0.0
+  longitude: -74.917644
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-10-10 04:07:01
+  registration: N547JB
+  registration_country: United States
+  source: adsbhub
+  squawk: '1414'
+  timestamp: *id001
+  typecode: A320
+  vertical_rate_fpm: -1088
+- aircraft_type: &id003
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: N2129J
+  distance_nm: 3.478
+  estimated_db: null
+  ground_speed_kts: 10.2
+  heading_deg: null
+  icao24: a1c48c
+  latitude: 40.28001
+  lead_exposure_score: 0.0
+  longitude: -74.816391
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id002 2026-10-10 04:07:01
+  registration: N2129J
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id002
+  typecode: C172
+  vertical_rate_fpm: null
+- aircraft_type: *id003
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: N908FG
+  distance_nm: 3.614
+  estimated_db: null
+  ground_speed_kts: 0.0
+  heading_deg: null
+  icao24: ac8d68
+  latitude: 40.276852
+  lead_exposure_score: 0.0
+  longitude: -74.813568
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id004 2026-10-10 04:07:01
+  registration: N908FG
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id004
+  typecode: C172
+  vertical_rate_fpm: null
+- aircraft_type:
+    category: commercial-widebody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 269
+    noise_profile: 2
+    notes: Boeing 767-300
+    typical_cruise_ft: 43000
+  altitude_ft: 27600
+  baro_altitude_ft: 27600
+  callsign: ABX152
+  distance_nm: 5.346
+  estimated_db: 45.4
+  ground_speed_kts: 383.3
+  heading_deg: 257.34
+  icao24: a437c0
+  latitude: 40.292219
+  lead_exposure_score: 0.0
+  longitude: -74.685683
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id005 2026-10-10 04:07:01
+  registration: N371CM
+  registration_country: United States
+  source: adsbhub
+  squawk: '1163'
+  timestamp: *id005
+  typecode: B763
+  vertical_rate_fpm: 2048
+- aircraft_type: *id003
+  altitude_ft: 1900
+  baro_altitude_ft: 1900
+  callsign: N239FG
+  distance_nm: 19.341
+  estimated_db: 30.6
+  ground_speed_kts: 85.7
+  heading_deg: 258.56
+  icao24: a22a73
+  latitude: 40.446945
+  lead_exposure_score: 0.0
+  longitude: -74.39209
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id006 2026-10-10 04:07:01
+  registration: N239FG
+  registration_country: United States
+  source: adsbhub
+  squawk: '3515'
+  timestamp: *id006
+  typecode: C172
+  vertical_rate_fpm: 192
