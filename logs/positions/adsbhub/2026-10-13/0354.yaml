@@ -1,0 +1,211 @@
+- aircraft_type:
+    category: helicopter-medium
+    engine_count: 2
+    engine_type: turboshaft
+    max_seats: 5
+    noise_profile: 3
+    notes: Airbus EC135, EMS/police helicopter
+    typical_cruise_ft: 10000
+  altitude_ft: 1100
+  baro_altitude_ft: 1100
+  callsign: N914TH
+  distance_nm: 14.356
+  estimated_db: 41.2
+  ground_speed_kts: 127.2
+  heading_deg: 36.69
+  icao24: aca738
+  latitude: 40.141891
+  lead_exposure_score: 0.0
+  longitude: -74.975525
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-10-13 03:54:48.001000
+  registration: N914TH
+  registration_country: United States
+  source: adsbhub
+  squawk: '6324'
+  timestamp: *id001
+  typecode: EC35
+  vertical_rate_fpm: null
+- aircraft_type:
+    category: turboprop-single
+    engine_count: 1
+    engine_type: turboprop
+    max_seats: 14
+    noise_profile: 3
+    notes: Cessna Caravan, utility turboprop, FedEx/Amazon feeder
+    typical_cruise_ft: 12000
+  altitude_ft: 5000
+  baro_altitude_ft: 5000
+  callsign: MTN7303
+  distance_nm: 9.907
+  estimated_db: 32.4
+  ground_speed_kts: 162.5
+  heading_deg: 60.91
+  icao24: adc5b8
+  latitude: 40.245341
+  lead_exposure_score: 0.0
+  longitude: -74.971764
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-10-13 03:54:48.001000
+  registration: N987FX
+  registration_country: United States
+  source: adsbhub
+  squawk: '2433'
+  timestamp: *id002
+  typecode: C208
+  vertical_rate_fpm: 0
+- aircraft_type:
+    category: turboprop-single
+    engine_count: 1
+    engine_type: turboprop
+    max_seats: 9
+    noise_profile: 3
+    notes: Pilatus PC-12, extremely versatile turboprop. Very common at KTTN.
+    typical_cruise_ft: 30000
+  altitude_ft: 5450
+  baro_altitude_ft: 5450
+  callsign: SKQ51
+  distance_nm: 8.96
+  estimated_db: 33.2
+  ground_speed_kts: 234.6
+  heading_deg: 52.45
+  icao24: a96823
+  latitude: 40.475418
+  lead_exposure_score: 0.0
+  longitude: -74.851135
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-10-13 03:54:48.001000
+  registration: N705LH
+  registration_country: United States
+  source: adsbhub
+  squawk: '3505'
+  timestamp: *id003
+  typecode: PC12
+  vertical_rate_fpm: -960
+- aircraft_type: &id005
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: N3KA
+  distance_nm: 3.898
+  estimated_db: null
+  ground_speed_kts: 0.0
+  heading_deg: null
+  icao24: a31b82
+  latitude: 40.271375
+  lead_exposure_score: 0.0
+  longitude: -74.811136
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id004 2026-10-13 03:54:48.001000
+  registration: N3KA
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id004
+  typecode: EC45
+  vertical_rate_fpm: null
+- aircraft_type: *id005
+  altitude_ft: 35000
+  baro_altitude_ft: 35000
+  callsign: JIA5283
+  distance_nm: 16.199
+  estimated_db: 29.6
+  ground_speed_kts: 439.3
+  heading_deg: 17.49
+  icao24: a6ce90
+  latitude: 40.594529
+  lead_exposure_score: 0.0
+  longitude: -74.698042
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id006 2026-10-13 03:54:48.001000
+  registration: N538EG
+  registration_country: United States
+  source: adsbhub
+  squawk: '2476'
+  timestamp: *id006
+  typecode: CRJ7
+  vertical_rate_fpm: null
+- aircraft_type: *id005
+  altitude_ft: 34450
+  baro_altitude_ft: 34450
+  callsign: UAL126
+  distance_nm: 17.82
+  estimated_db: 28.9
+  ground_speed_kts: 517.4
+  heading_deg: 59.32
+  icao24: aa92f8
+  latitude: 40.129751
+  lead_exposure_score: 0.0
+  longitude: -74.506593
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id007 2026-10-13 03:54:48.001000
+  registration: N78001
+  registration_country: United States
+  source: adsbhub
+  squawk: '7017'
+  timestamp: *id007
+  typecode: B772
+  vertical_rate_fpm: 896
+- aircraft_type: *id005
+  altitude_ft: 27000
+  baro_altitude_ft: 27000
+  callsign: UAL444
+  distance_nm: 19.083
+  estimated_db: 28.5
+  ground_speed_kts: 490.7
+  heading_deg: 54.2
+  icao24: a12f73
+  latitude: 40.188171
+  lead_exposure_score: 0.0
+  longitude: -74.418213
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id008 2026-10-13 03:54:48.001000
+  registration: N17597
+  registration_country: United States
+  source: adsbhub
+  squawk: '0521'
+  timestamp: *id008
+  typecode: B39M
+  vertical_rate_fpm: -64
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 149
+    noise_profile: 2
+    notes: Boeing 737-700
+    typical_cruise_ft: 35000
+  altitude_ft: 29000
+  baro_altitude_ft: 29000
+  callsign: SWA4588
+  distance_nm: 19.177
+  estimated_db: 38.4
+  ground_speed_kts: 470.1
+  heading_deg: 14.54
+  icao24: a5ce40
+  latitude: 40.477869
+  lead_exposure_score: 0.0
+  longitude: -74.413771
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id009 2026-10-13 03:54:48.001000
+  registration: N473WN
+  registration_country: United States
+  source: adsbhub
+  squawk: '2416'
+  timestamp: *id009
+  typecode: B737
+  vertical_rate_fpm: -64
