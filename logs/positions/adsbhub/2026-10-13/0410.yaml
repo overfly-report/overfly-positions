@@ -1,0 +1,80 @@
+- aircraft_type: &id003
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 30000
+  baro_altitude_ft: 30000
+  callsign: DAL817
+  distance_nm: 15.489
+  estimated_db: 30.1
+  ground_speed_kts: 457.1
+  heading_deg: 227.13
+  icao24: a3271e
+  latitude: 40.309937
+  lead_exposure_score: 0.0
+  longitude: -75.126648
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-10-13 04:10:37.500000
+  registration: N302DU
+  registration_country: United States
+  source: adsbhub
+  squawk: '3432'
+  timestamp: *id001
+  typecode: BCS3
+  vertical_rate_fpm: null
+- aircraft_type:
+    category: helicopter-medium
+    engine_count: 2
+    engine_type: turboshaft
+    max_seats: 5
+    noise_profile: 3
+    notes: Airbus EC135, EMS/police helicopter
+    typical_cruise_ft: 10000
+  altitude_ft: 900
+  baro_altitude_ft: 900
+  callsign: N914TH
+  distance_nm: 17.187
+  estimated_db: 39.6
+  ground_speed_kts: 114.9
+  heading_deg: 190.53
+  icao24: aca738
+  latitude: 40.093906
+  lead_exposure_score: 0.0
+  longitude: -74.993487
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-10-13 04:10:37.500000
+  registration: N914TH
+  registration_country: United States
+  source: adsbhub
+  squawk: '6324'
+  timestamp: *id002
+  typecode: EC35
+  vertical_rate_fpm: null
+- aircraft_type: *id003
+  altitude_ft: 20325
+  baro_altitude_ft: 20325
+  callsign: JBU923
+  distance_nm: 10.014
+  estimated_db: 33.9
+  ground_speed_kts: 388.2
+  heading_deg: 263.94
+  icao24: ad60b7
+  latitude: 40.188081
+  lead_exposure_score: 0.0
+  longitude: -74.683311
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-10-13 04:10:37.500000
+  registration: N961JT
+  registration_country: United States
+  source: adsbhub
+  squawk: '1744'
+  timestamp: *id004
+  typecode: A321
+  vertical_rate_fpm: 1408
