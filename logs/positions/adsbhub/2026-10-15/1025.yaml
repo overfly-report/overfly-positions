@@ -1,0 +1,205 @@
+- aircraft_type: &id002
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 4200
+  baro_altitude_ft: 4200
+  callsign: N112DB
+  distance_nm: 16.502
+  estimated_db: 30.0
+  ground_speed_kts: 145.1
+  heading_deg: 258.07
+  icao24: a033ee
+  latitude: 40.177561
+  lead_exposure_score: 0.0
+  longitude: -75.085623
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-10-15 10:25:48.001000
+  registration: N112DB
+  registration_country: United States
+  source: adsbhub
+  squawk: '1113'
+  timestamp: *id001
+  typecode: M20P
+  vertical_rate_fpm: 0
+- aircraft_type: *id002
+  altitude_ft: 20000
+  baro_altitude_ft: 20000
+  callsign: ASH6285
+  distance_nm: 17.389
+  estimated_db: 29.4
+  ground_speed_kts: 382.5
+  heading_deg: 246.59
+  icao24: abb5a3
+  latitude: 40.534607
+  lead_exposure_score: 0.0
+  longitude: -75.063782
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-10-15 10:25:48.001000
+  registration: N85356
+  registration_country: United States
+  source: adsbhub
+  squawk: '7121'
+  timestamp: *id003
+  typecode: E75L
+  vertical_rate_fpm: 64
+- aircraft_type: *id002
+  altitude_ft: 21350
+  baro_altitude_ft: 21350
+  callsign: JBU123
+  distance_nm: 13.896
+  estimated_db: 31.2
+  ground_speed_kts: 395.6
+  heading_deg: 262.3
+  icao24: ad9ac9
+  latitude: 40.203278
+  lead_exposure_score: 0.0
+  longitude: -75.039734
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-10-15 10:25:48.001000
+  registration: N976JT
+  registration_country: United States
+  source: adsbhub
+  squawk: '1713'
+  timestamp: *id004
+  typecode: A321
+  vertical_rate_fpm: 1856
+- aircraft_type:
+    category: turboprop-single
+    engine_count: 1
+    engine_type: turboprop
+    max_seats: 14
+    noise_profile: 3
+    notes: Cessna Caravan, utility turboprop, FedEx/Amazon feeder
+    typical_cruise_ft: 12000
+  altitude_ft: 4900
+  baro_altitude_ft: 4900
+  callsign: MTN8302
+  distance_nm: 4.731
+  estimated_db: 38.7
+  ground_speed_kts: 165.6
+  heading_deg: 47.45
+  icao24: a9c58e
+  latitude: 40.28235
+  lead_exposure_score: 0.0
+  longitude: -74.867144
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id005 2026-10-15 10:25:48.001000
+  registration: N729FX
+  registration_country: United States
+  source: adsbhub
+  squawk: '5660'
+  timestamp: *id005
+  typecode: C208
+  vertical_rate_fpm: 0
+- aircraft_type: *id002
+  altitude_ft: 19500
+  baro_altitude_ft: 19500
+  callsign: DAL550
+  distance_nm: 16.93
+  estimated_db: 29.6
+  ground_speed_kts: 382.6
+  heading_deg: 249.34
+  icao24: a46310
+  latitude: 40.612473
+  lead_exposure_score: 0.0
+  longitude: -74.844727
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id006 2026-10-15 10:25:48.001000
+  registration: N382DN
+  registration_country: United States
+  source: adsbhub
+  squawk: '2677'
+  timestamp: *id006
+  typecode: A321
+  vertical_rate_fpm: 1472
+- aircraft_type: &id008
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: N669FG
+  distance_nm: 3.257
+  estimated_db: null
+  ground_speed_kts: 3.2
+  heading_deg: null
+  icao24: a8d62c
+  latitude: 40.28373
+  lead_exposure_score: 0.0
+  longitude: -74.815598
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id007 2026-10-15 10:25:48.001000
+  registration: N669FG
+  registration_country: United States
+  source: adsbhub
+  squawk: null
+  timestamp: *id007
+  typecode: C172
+  vertical_rate_fpm: null
+- aircraft_type: *id008
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: ''
+  distance_nm: 3.363
+  estimated_db: null
+  ground_speed_kts: 9.2
+  heading_deg: null
+  icao24: a2c125
+  latitude: 40.281337
+  lead_exposure_score: 0.0
+  longitude: -74.813883
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id009 2026-10-15 10:25:48.001000
+  registration: N277GT
+  registration_country: United States
+  source: adsbhub
+  squawk: null
+  timestamp: *id009
+  typecode: C172
+  vertical_rate_fpm: null
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 200
+    noise_profile: 2
+    notes: Boeing 757-200, still common in US
+    typical_cruise_ft: 39000
+  altitude_ft: 23575
+  baro_altitude_ft: 23575
+  callsign: DAL2286
+  distance_nm: 8.859
+  estimated_db: 44.6
+  ground_speed_kts: 373.4
+  heading_deg: 263.54
+  icao24: a8de7d
+  latitude: 40.186844
+  lead_exposure_score: 0.0
+  longitude: -74.799744
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id010 2026-10-15 10:25:48.001000
+  registration: N6703D
+  registration_country: United States
+  source: adsbhub
+  squawk: '3014'
+  timestamp: *id010
+  typecode: B752
+  vertical_rate_fpm: 704
