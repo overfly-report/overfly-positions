@@ -1,0 +1,80 @@
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 186
+    noise_profile: 2
+    notes: Airbus A320 family, Spirit Airlines (NKS) overflies Pennington
+    typical_cruise_ft: 37000
+  altitude_ft: 34000
+  baro_altitude_ft: 34000
+  callsign: AAL1247
+  distance_nm: 14.546
+  estimated_db: 40.5
+  ground_speed_kts: 418.5
+  heading_deg: 228.0
+  icao24: a8b44e
+  latitude: 40.574512
+  lead_exposure_score: 0.0
+  longitude: -74.753723
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-10-15 10:07:46.001000
+  registration: N660AW
+  registration_country: United States
+  source: adsbhub
+  squawk: '3414'
+  timestamp: *id001
+  typecode: A320
+  vertical_rate_fpm: -64
+- aircraft_type: &id003
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 7075
+  baro_altitude_ft: 7075
+  callsign: FDX1514
+  distance_nm: 2.353
+  estimated_db: 46.0
+  ground_speed_kts: 286.2
+  heading_deg: 60.48
+  icao24: a816bf
+  latitude: 40.308792
+  lead_exposure_score: 0.0
+  longitude: -74.749573
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-10-15 10:07:46.001000
+  registration: N620FE
+  registration_country: United States
+  source: adsbhub
+  squawk: '1633'
+  timestamp: *id002
+  typecode: MD11
+  vertical_rate_fpm: -1472
+- aircraft_type: *id003
+  altitude_ft: 1775
+  baro_altitude_ft: 1775
+  callsign: N6FN
+  distance_nm: 7.511
+  estimated_db: 36.8
+  ground_speed_kts: 132.6
+  heading_deg: 56.07
+  icao24: a7c317
+  latitude: 40.226212
+  lead_exposure_score: 0.0
+  longitude: -74.705872
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-10-15 10:07:46.001000
+  registration: ''
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id004
+  typecode: ''
+  vertical_rate_fpm: 0
