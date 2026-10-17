@@ -1,0 +1,241 @@
+- aircraft_type: &id003
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 34000
+  baro_altitude_ft: 34000
+  callsign: RPA5807
+  distance_nm: 19.795
+  estimated_db: 28.0
+  ground_speed_kts: 345.8
+  heading_deg: 225.35
+  icao24: a20d0e
+  latitude: 40.352463
+  lead_exposure_score: 0.0
+  longitude: -75.221863
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-10-17 10:47:26.500000
+  registration: N231JQ
+  registration_country: United States
+  source: adsbhub
+  squawk: '3460'
+  timestamp: *id001
+  typecode: E75L
+  vertical_rate_fpm: -64
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 160
+    noise_profile: 2
+    notes: Airbus A319, Allegiant Air uses at KTTN (FLL/PIE routes)
+    typical_cruise_ft: 37000
+  altitude_ft: 38000
+  baro_altitude_ft: 38000
+  callsign: AAL1569
+  distance_nm: 10.318
+  estimated_db: 42.7
+  ground_speed_kts: 339.7
+  heading_deg: 227.15
+  icao24: aa2701
+  latitude: 40.402634
+  lead_exposure_score: 0.0
+  longitude: -74.996216
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-10-17 10:47:26.500000
+  registration: N753US
+  registration_country: United States
+  source: adsbhub
+  squawk: '3562'
+  timestamp: *id002
+  typecode: A319
+  vertical_rate_fpm: 0
+- aircraft_type: *id003
+  altitude_ft: 8200
+  baro_altitude_ft: 8200
+  callsign: GJS4561
+  distance_nm: 5.913
+  estimated_db: 38.7
+  ground_speed_kts: 283.0
+  heading_deg: 59.18
+  icao24: a72b40
+  latitude: 40.255722
+  lead_exposure_score: 0.0
+  longitude: -74.867394
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-10-17 10:47:26.500000
+  registration: N561GJ
+  registration_country: United States
+  source: adsbhub
+  squawk: '0510'
+  timestamp: *id004
+  typecode: CRJ7
+  vertical_rate_fpm: null
+- aircraft_type:
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 3000
+  baro_altitude_ft: 3000
+  callsign: N677AA
+  distance_nm: 2.686
+  estimated_db: 47.6
+  ground_speed_kts: 69.3
+  heading_deg: 342.35
+  icao24: a8f5ba
+  latitude: 40.337448
+  lead_exposure_score: 0.04
+  longitude: -74.847656
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id005 2026-10-17 10:47:26.500000
+  registration: N677AA
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id005
+  typecode: C172
+  vertical_rate_fpm: -192
+- aircraft_type:
+    category: business-jet-light
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 10
+    noise_profile: 2
+    notes: Cessna CJ4
+    typical_cruise_ft: 45000
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: SVL4
+  distance_nm: 3.321
+  estimated_db: null
+  ground_speed_kts: 0.1
+  heading_deg: null
+  icao24: a206fc
+  latitude: 40.281675
+  lead_exposure_score: 0.0
+  longitude: -74.812338
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id006 2026-10-17 10:47:26.500000
+  registration: N23JN
+  registration_country: United States
+  source: adsbhub
+  squawk: '2616'
+  timestamp: *id006
+  typecode: C25C
+  vertical_rate_fpm: null
+- aircraft_type:
+    category: business-jet-large
+    engine_count: 3
+    engine_type: turbofan
+    max_seats: 14
+    noise_profile: 2
+    notes: Dassault Falcon 900, trijet
+    typical_cruise_ft: 51000
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: N914SS
+  distance_nm: 3.862
+  estimated_db: null
+  ground_speed_kts: 0.0
+  heading_deg: null
+  icao24: aca728
+  latitude: 40.272125
+  lead_exposure_score: 0.0
+  longitude: -74.811798
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id007 2026-10-17 10:47:26.500000
+  registration: N914SS
+  registration_country: United States
+  source: adsbhub
+  squawk: '7110'
+  timestamp: *id007
+  typecode: F900
+  vertical_rate_fpm: null
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 189
+    noise_profile: 2
+    notes: Boeing 737-800, Southwest/United
+    typical_cruise_ft: 37000
+  altitude_ft: 36000
+  baro_altitude_ft: 36000
+  callsign: AAL418
+  distance_nm: 16.338
+  estimated_db: 39.5
+  ground_speed_kts: 338.0
+  heading_deg: 231.37
+  icao24: adcdcc
+  latitude: 40.599792
+  lead_exposure_score: 0.0
+  longitude: -74.713989
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id008 2026-10-17 10:47:26.500000
+  registration: N989NN
+  registration_country: United States
+  source: adsbhub
+  squawk: '3540'
+  timestamp: *id008
+  typecode: B738
+  vertical_rate_fpm: 0
+- aircraft_type: *id003
+  altitude_ft: 4775
+  baro_altitude_ft: 4775
+  callsign: GJS4478
+  distance_nm: 10.507
+  estimated_db: 33.9
+  ground_speed_kts: 235.2
+  heading_deg: 63.76
+  icao24: a694b2
+  latitude: 40.400711
+  lead_exposure_score: 0.0
+  longitude: -74.576233
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id009 2026-10-17 10:47:26.500000
+  registration: N523GJ
+  registration_country: United States
+  source: adsbhub
+  squawk: '7071'
+  timestamp: *id009
+  typecode: CRJ7
+  vertical_rate_fpm: null
+- aircraft_type: *id003
+  altitude_ft: 33000
+  baro_altitude_ft: 33000
+  callsign: JBU1484
+  distance_nm: 17.799
+  estimated_db: 28.9
+  ground_speed_kts: 568.5
+  heading_deg: 39.29
+  icao24: a3355e
+  latitude: 40.287918
+  lead_exposure_score: 0.0
+  longitude: -74.404114
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id010 2026-10-17 10:47:26.500000
+  registration: N3058J
+  registration_country: United States
+  source: adsbhub
+  squawk: '2456'
+  timestamp: *id010
+  typecode: BCS3
+  vertical_rate_fpm: null
