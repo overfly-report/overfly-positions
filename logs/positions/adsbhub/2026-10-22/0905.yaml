@@ -1,0 +1,139 @@
+- aircraft_type:
+    category: large-piston-twin
+    engine_count: 2
+    engine_type: piston
+    max_seats: 6
+    noise_profile: 5
+    notes: Beechcraft Baron, common at regional airports
+    typical_cruise_ft: 12000
+  altitude_ft: 4500
+  baro_altitude_ft: 4500
+  callsign: GTX510
+  distance_nm: 11.433
+  estimated_db: 38.1
+  ground_speed_kts: 202.2
+  heading_deg: 235.68
+  icao24: a8a986
+  latitude: 40.443653
+  lead_exposure_score: 0.0
+  longitude: -74.993737
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-10-22 09:05:41
+  registration: N6573K
+  registration_country: United States
+  source: adsbhub
+  squawk: '2714'
+  timestamp: *id001
+  typecode: BE58
+  vertical_rate_fpm: 2
+- aircraft_type: &id005
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 194
+    noise_profile: 1
+    notes: Airbus A320neo (new engine option), quieter than classic A320. Frontier/Allegiant
+      at KTTN.
+    typical_cruise_ft: 39000
+  altitude_ft: 37000
+  baro_altitude_ft: 37000
+  callsign: VOI1924
+  distance_nm: 9.354
+  estimated_db: 43.4
+  ground_speed_kts: 479.4
+  heading_deg: 63.22
+  icao24: 0d0d37
+  latitude: 40.463065
+  lead_exposure_score: 0.0
+  longitude: -74.903537
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-10-22 09:05:41
+  registration: XA-VRX
+  registration_country: Mexico
+  source: adsbhub
+  squawk: '4211'
+  timestamp: *id002
+  typecode: A20N
+  vertical_rate_fpm: -960
+- aircraft_type:
+    category: commercial-widebody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 269
+    noise_profile: 2
+    notes: Boeing 767-300
+    typical_cruise_ft: 43000
+  altitude_ft: 35025
+  baro_altitude_ft: 35025
+  callsign: UPS1014
+  distance_nm: 18.65
+  estimated_db: 36.5
+  ground_speed_kts: 525.0
+  heading_deg: 63.29
+  icao24: acab0e
+  latitude: 40.591919
+  lead_exposure_score: 0.0
+  longitude: -74.561523
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-10-22 09:05:41
+  registration: N915UP
+  registration_country: United States
+  source: adsbhub
+  squawk: '6717'
+  timestamp: *id003
+  typecode: B763
+  vertical_rate_fpm: 0
+- aircraft_type:
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 3925
+  baro_altitude_ft: 3925
+  callsign: UAL2482
+  distance_nm: 18.611
+  estimated_db: 28.9
+  ground_speed_kts: 196.9
+  heading_deg: 131.71
+  icao24: aadb37
+  latitude: 40.561295
+  lead_exposure_score: 0.0
+  longitude: -74.51178
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-10-22 09:05:41
+  registration: N799UA
+  registration_country: United States
+  source: adsbhub
+  squawk: '3704'
+  timestamp: *id004
+  typecode: B772
+  vertical_rate_fpm: 0
+- aircraft_type: *id005
+  altitude_ft: 4575
+  baro_altitude_ft: 4575
+  callsign: VOS4336
+  distance_nm: 16.979
+  estimated_db: 39.7
+  ground_speed_kts: 213.1
+  heading_deg: 66.2
+  icao24: a6e8ae
+  latitude: 40.456688
+  lead_exposure_score: 0.0
+  longitude: -74.453784
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id006 2026-10-22 09:05:41
+  registration: N544VL
+  registration_country: United States
+  source: adsbhub
+  squawk: '2421'
+  timestamp: *id006
+  typecode: A20N
+  vertical_rate_fpm: -1280
