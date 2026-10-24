@@ -1,0 +1,139 @@
+- aircraft_type: &id003
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 500
+  baro_altitude_ft: 500
+  callsign: N159G
+  distance_nm: 18.779
+  estimated_db: 28.9
+  ground_speed_kts: 86.4
+  heading_deg: 217.0
+  icao24: a0ec34
+  latitude: 40.081244
+  lead_exposure_score: 0.0
+  longitude: -75.030254
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-10-24 04:38:12.001000
+  registration: N159G
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id001
+  typecode: ALTO
+  vertical_rate_fpm: -256
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 200
+    noise_profile: 2
+    notes: Boeing 757-200, still common in US
+    typical_cruise_ft: 39000
+  altitude_ft: 34000
+  baro_altitude_ft: 34000
+  callsign: ATN520
+  distance_nm: 11.393
+  estimated_db: 42.2
+  ground_speed_kts: 460.4
+  heading_deg: 224.38
+  icao24: aa21bf
+  latitude: 40.408413
+  lead_exposure_score: 0.0
+  longitude: -75.018581
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-10-24 04:38:12.001000
+  registration: N752CX
+  registration_country: United States
+  source: adsbhub
+  squawk: '1130'
+  timestamp: *id002
+  typecode: B752
+  vertical_rate_fpm: 0
+- aircraft_type: *id003
+  altitude_ft: 5675
+  baro_altitude_ft: 5675
+  callsign: EJA512
+  distance_nm: 8.25
+  estimated_db: 35.9
+  ground_speed_kts: 264.2
+  heading_deg: 60.52
+  icao24: a66a4c
+  latitude: 40.451427
+  lead_exposure_score: 0.0
+  longitude: -74.882625
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-10-24 04:38:12.001000
+  registration: N512QS
+  registration_country: United States
+  source: adsbhub
+  squawk: '4065'
+  timestamp: *id004
+  typecode: C68A
+  vertical_rate_fpm: -512
+- aircraft_type:
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: -350
+  baro_altitude_ft: -350
+  callsign: N528SV
+  distance_nm: 3.626
+  estimated_db: 45.1
+  ground_speed_kts: 43.3
+  heading_deg: 326.31
+  icao24: a6a84a
+  latitude: 40.276065
+  lead_exposure_score: 0.05
+  longitude: -74.811089
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id005 2026-10-24 04:38:12.001000
+  registration: N528SV
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id005
+  typecode: C172
+  vertical_rate_fpm: 64
+- aircraft_type:
+    category: turboprop-single
+    engine_count: 1
+    engine_type: turboprop
+    max_seats: 9
+    noise_profile: 3
+    notes: Pilatus PC-12, extremely versatile turboprop. Very common at KTTN.
+    typical_cruise_ft: 30000
+  altitude_ft: 13500
+  baro_altitude_ft: 13500
+  callsign: SKQ51
+  distance_nm: 16.851
+  estimated_db: 27.7
+  ground_speed_kts: 224.2
+  heading_deg: 232.98
+  icao24: a96823
+  latitude: 40.598373
+  lead_exposure_score: 0.0
+  longitude: -74.665955
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id006 2026-10-24 04:38:12.001000
+  registration: N705LH
+  registration_country: United States
+  source: adsbhub
+  squawk: '7107'
+  timestamp: *id006
+  typecode: PC12
+  vertical_rate_fpm: 0
