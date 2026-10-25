@@ -1,0 +1,168 @@
+- aircraft_type:
+    category: business-jet-large
+    engine_count: 3
+    engine_type: turbofan
+    max_seats: 14
+    noise_profile: 2
+    notes: Dassault Falcon 900, trijet
+    typical_cruise_ft: 51000
+  altitude_ft: 8750
+  baro_altitude_ft: 8750
+  callsign: N5VJ
+  distance_nm: 15.095
+  estimated_db: 21.7
+  ground_speed_kts: 290.2
+  heading_deg: 36.59
+  icao24: a63722
+  latitude: 40.312934
+  lead_exposure_score: 0.0
+  longitude: -75.118332
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-10-25 03:20:24
+  registration: N5VJ
+  registration_country: United States
+  source: adsbhub
+  squawk: '1414'
+  timestamp: *id001
+  typecode: F900
+  vertical_rate_fpm: null
+- aircraft_type:
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: Piper Archer (Cherokee 180). Very common at 39N/KTTN flight schools.
+    typical_cruise_ft: 7000
+  altitude_ft: 4575
+  baro_altitude_ft: 4575
+  callsign: N31754
+  distance_nm: 16.778
+  estimated_db: 31.8
+  ground_speed_kts: 102.9
+  heading_deg: 64.68
+  icao24: a363f6
+  latitude: 40.123489
+  lead_exposure_score: 0.0
+  longitude: -75.029907
+  on_ground: false
+  position_source: ADS-R
+  query_timestamp: &id002 2026-10-25 03:20:24
+  registration: N31754
+  registration_country: United States
+  source: adsbhub
+  squawk: '4276'
+  timestamp: *id002
+  typecode: P28A
+  vertical_rate_fpm: 512
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 189
+    noise_profile: 2
+    notes: Boeing 737-800, Southwest/United
+    typical_cruise_ft: 37000
+  altitude_ft: 9425
+  baro_altitude_ft: 9425
+  callsign: SWA2320
+  distance_nm: 14.944
+  estimated_db: 40.8
+  ground_speed_kts: 337.0
+  heading_deg: 111.77
+  icao24: ab5bf0
+  latitude: 40.550723
+  lead_exposure_score: 0.0
+  longitude: -74.949604
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-10-25 03:20:24
+  registration: N8309C
+  registration_country: United States
+  source: adsbhub
+  squawk: '1463'
+  timestamp: *id003
+  typecode: B738
+  vertical_rate_fpm: 0
+- aircraft_type:
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: N569FG
+  distance_nm: 3.291
+  estimated_db: null
+  ground_speed_kts: 4.2
+  heading_deg: null
+  icao24: a748dd
+  latitude: 40.282688
+  lead_exposure_score: 0.0
+  longitude: -74.814133
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id004 2026-10-25 03:20:24
+  registration: N569FG
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id004
+  typecode: C172
+  vertical_rate_fpm: null
+- aircraft_type: &id006
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 7325
+  baro_altitude_ft: 7325
+  callsign: UAL8199
+  distance_nm: 1.051
+  estimated_db: 50.3
+  ground_speed_kts: 272.4
+  heading_deg: 47.23
+  icao24: a4491d
+  latitude: 40.324173
+  lead_exposure_score: 0.0
+  longitude: -74.808044
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id005 2026-10-25 03:20:24
+  registration: N37528
+  registration_country: United States
+  source: adsbhub
+  squawk: '5670'
+  timestamp: *id005
+  typecode: B39M
+  vertical_rate_fpm: -1088
+- aircraft_type: *id006
+  altitude_ft: 39000
+  baro_altitude_ft: 39000
+  callsign: BAW120
+  distance_nm: 6.319
+  estimated_db: 35.2
+  ground_speed_kts: 476.7
+  heading_deg: 54.48
+  icao24: 4007fb
+  latitude: 40.327412
+  lead_exposure_score: 0.0
+  longitude: -74.650914
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id007 2026-10-25 03:20:24
+  registration: G-YMMP
+  registration_country: United Kingdom
+  source: adsbhub
+  squawk: '4061'
+  timestamp: *id007
+  typecode: B772
+  vertical_rate_fpm: 0
