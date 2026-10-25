@@ -1,0 +1,110 @@
+- aircraft_type: &id004
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 2950
+  baro_altitude_ft: 2950
+  callsign: N1077G
+  distance_nm: 13.584
+  estimated_db: 31.6
+  ground_speed_kts: 140.1
+  heading_deg: 92.05
+  icao24: a02209
+  latitude: 40.226627
+  lead_exposure_score: 0.0
+  longitude: -75.050541
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-10-25 04:05:16.001000
+  registration: N1077G
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id001
+  typecode: M20P
+  vertical_rate_fpm: 0
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 200
+    noise_profile: 1
+    notes: Boeing 737 MAX 8, quieter CFM LEAP engines. Allegiant at KTTN.
+    typical_cruise_ft: 41000
+  altitude_ft: 9700
+  baro_altitude_ft: 9700
+  callsign: UAL1446
+  distance_nm: 13.239
+  estimated_db: 41.8
+  ground_speed_kts: 283.6
+  heading_deg: 43.71
+  icao24: a43eec
+  latitude: 40.180664
+  lead_exposure_score: 0.0
+  longitude: -74.996887
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-10-25 04:05:16.001000
+  registration: N37297
+  registration_country: United States
+  source: adsbhub
+  squawk: '0707'
+  timestamp: *id002
+  typecode: B38M
+  vertical_rate_fpm: -576
+- aircraft_type:
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: N528SV
+  distance_nm: 3.287
+  estimated_db: null
+  ground_speed_kts: 2.8
+  heading_deg: null
+  icao24: a6a84a
+  latitude: 40.282791
+  lead_exposure_score: 0.0
+  longitude: -74.814255
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id003 2026-10-25 04:05:16.001000
+  registration: N528SV
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id003
+  typecode: C172
+  vertical_rate_fpm: null
+- aircraft_type: *id004
+  altitude_ft: 31000
+  baro_altitude_ft: 31000
+  callsign: RPA3459
+  distance_nm: 4.732
+  estimated_db: 37.5
+  ground_speed_kts: 444.6
+  heading_deg: 53.41
+  icao24: aaa19e
+  latitude: 40.266243
+  lead_exposure_score: 0.0
+  longitude: -74.736245
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id005 2026-10-25 04:05:16.001000
+  registration: N784YX
+  registration_country: United States
+  source: adsbhub
+  squawk: '5652'
+  timestamp: *id005
+  typecode: E75L
+  vertical_rate_fpm: -64
