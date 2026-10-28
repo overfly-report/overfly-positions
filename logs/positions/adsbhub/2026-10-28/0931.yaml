@@ -1,0 +1,51 @@
+- aircraft_type: &id002
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: N28GL
+  distance_nm: 17.928
+  estimated_db: null
+  ground_speed_kts: 10.2
+  heading_deg: 47.81
+  icao24: a2cc43
+  latitude: 40.086113
+  lead_exposure_score: 0.0
+  longitude: -75.006943
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id001 2026-10-28 09:31:59
+  registration: ''
+  registration_country: United States
+  source: adsbhub
+  squawk: '1020'
+  timestamp: *id001
+  typecode: ''
+  vertical_rate_fpm: null
+- aircraft_type: *id002
+  altitude_ft: 2525
+  baro_altitude_ft: 2525
+  callsign: UPS1076
+  distance_nm: 19.537
+  estimated_db: 28.5
+  ground_speed_kts: 216.5
+  heading_deg: 125.6
+  icao24: a1025a
+  latitude: 40.495978
+  lead_exposure_score: 0.0
+  longitude: -74.417641
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-10-28 09:31:59
+  registration: N164UP
+  registration_country: United States
+  source: adsbhub
+  squawk: '6226'
+  timestamp: *id003
+  typecode: A306
+  vertical_rate_fpm: -64
