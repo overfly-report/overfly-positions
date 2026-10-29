@@ -1,0 +1,218 @@
+- aircraft_type:
+    category: helicopter-medium
+    engine_count: 2
+    engine_type: turboshaft
+    max_seats: 5
+    noise_profile: 3
+    notes: Airbus EC135, EMS/police helicopter
+    typical_cruise_ft: 10000
+  altitude_ft: 225
+  baro_altitude_ft: 225
+  callsign: N139TJ
+  distance_nm: 19.569
+  estimated_db: 38.5
+  ground_speed_kts: 42.5
+  heading_deg: 209.58
+  icao24: a09e52
+  latitude: 40.123793
+  lead_exposure_score: 0.0
+  longitude: -75.11571
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-10-29 03:15:37.501000
+  registration: N139TJ
+  registration_country: United States
+  source: adsbhub
+  squawk: '6326'
+  timestamp: *id001
+  typecode: EC35
+  vertical_rate_fpm: -256
+- aircraft_type: &id006
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 10575
+  baro_altitude_ft: 10575
+  callsign: UAL512
+  distance_nm: 16.605
+  estimated_db: 29.9
+  ground_speed_kts: 309.1
+  heading_deg: 43.3
+  icao24: a12a7b
+  latitude: 40.139648
+  lead_exposure_score: 0.0
+  longitude: -75.047058
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-10-29 03:15:37.501000
+  registration: N17401
+  registration_country: United States
+  source: adsbhub
+  squawk: '2640'
+  timestamp: *id002
+  typecode: B39M
+  vertical_rate_fpm: 64
+- aircraft_type:
+    category: helicopter-heavy
+    engine_count: 2
+    engine_type: turboshaft
+    max_seats: 13
+    noise_profile: 3
+    notes: Sikorsky S-76, corporate / EMS
+    typical_cruise_ft: 10000
+  altitude_ft: 2025
+  baro_altitude_ft: 2025
+  callsign: N96SP
+  distance_nm: 11.624
+  estimated_db: 41.0
+  ground_speed_kts: 167.1
+  heading_deg: 38.93
+  icao24: ad5b6b
+  latitude: 40.184311
+  lead_exposure_score: 0.0
+  longitude: -74.949979
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-10-29 03:15:37.501000
+  registration: N96SP
+  registration_country: United States
+  source: adsbhub
+  squawk: '2014'
+  timestamp: *id003
+  typecode: S76
+  vertical_rate_fpm: -74
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 160
+    noise_profile: 2
+    notes: Airbus A319, Allegiant Air uses at KTTN (FLL/PIE routes)
+    typical_cruise_ft: 37000
+  altitude_ft: 7550
+  baro_altitude_ft: 7550
+  callsign: UAL1997
+  distance_nm: 2.761
+  estimated_db: 54.7
+  ground_speed_kts: 297.9
+  heading_deg: 47.04
+  icao24: ac4107
+  latitude: 40.304718
+  lead_exposure_score: 0.0
+  longitude: -74.835571
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-10-29 03:15:37.501000
+  registration: N889UA
+  registration_country: United States
+  source: adsbhub
+  squawk: '2174'
+  timestamp: *id004
+  typecode: A319
+  vertical_rate_fpm: -192
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 149
+    noise_profile: 2
+    notes: Boeing 737-700
+    typical_cruise_ft: 35000
+  altitude_ft: 5850
+  baro_altitude_ft: 5850
+  callsign: UAL2841
+  distance_nm: 10.688
+  estimated_db: 43.7
+  ground_speed_kts: 280.2
+  heading_deg: 29.03
+  icao24: a0bf26
+  latitude: 40.498864
+  lead_exposure_score: 0.0
+  longitude: -74.701226
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id005 2026-10-29 03:15:37.501000
+  registration: N14704
+  registration_country: United States
+  source: adsbhub
+  squawk: '2407'
+  timestamp: *id005
+  typecode: B737
+  vertical_rate_fpm: -576
+- aircraft_type: *id006
+  altitude_ft: 35875
+  baro_altitude_ft: 35875
+  callsign: THY8
+  distance_nm: 17.168
+  estimated_db: 29.2
+  ground_speed_kts: 539.9
+  heading_deg: 58.64
+  icao24: 4bb18e
+  latitude: 40.0578
+  lead_exposure_score: 0.0
+  longitude: -74.69342
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id007 2026-10-29 03:15:37.501000
+  registration: TC-LLN
+  registration_country: Unknown
+  source: adsbhub
+  squawk: '3627'
+  timestamp: *id007
+  typecode: B789
+  vertical_rate_fpm: 980
+- aircraft_type:
+    category: turboprop-single
+    engine_count: 1
+    engine_type: turboprop
+    max_seats: 14
+    noise_profile: 3
+    notes: Cessna Caravan, utility turboprop, FedEx/Amazon feeder
+    typical_cruise_ft: 12000
+  altitude_ft: 3600
+  baro_altitude_ft: 3600
+  callsign: MTN7303
+  distance_nm: 15.604
+  estimated_db: 28.5
+  ground_speed_kts: 184.0
+  heading_deg: 29.0
+  icao24: adc201
+  latitude: 40.568874
+  lead_exposure_score: 0.0
+  longitude: -74.643191
+  on_ground: false
+  position_source: MLAT
+  query_timestamp: &id008 2026-10-29 03:15:37.501000
+  registration: N986FX
+  registration_country: United States
+  source: adsbhub
+  squawk: '2145'
+  timestamp: *id008
+  typecode: C208
+  vertical_rate_fpm: -225
+- aircraft_type: *id006
+  altitude_ft: 9450
+  baro_altitude_ft: 9450
+  callsign: SKW5975
+  distance_nm: 16.691
+  estimated_db: 29.8
+  ground_speed_kts: 310.6
+  heading_deg: 70.05
+  icao24: a7d085
+  latitude: 40.450058
+  lead_exposure_score: 0.0
+  longitude: -74.456665
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id009 2026-10-29 03:15:37.501000
+  registration: N602UX
+  registration_country: United States
+  source: adsbhub
+  squawk: '1362'
+  timestamp: *id009
+  typecode: E75L
+  vertical_rate_fpm: -1216
