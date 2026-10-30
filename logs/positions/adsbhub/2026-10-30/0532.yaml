@@ -1,0 +1,132 @@
+- aircraft_type: &id004
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: N278SP
+  distance_nm: 3.299
+  estimated_db: null
+  ground_speed_kts: 3.8
+  heading_deg: null
+  icao24: a2c5d2
+  latitude: 40.282528
+  lead_exposure_score: 0.0
+  longitude: -74.814056
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id001 2026-10-30 05:32:15.003000
+  registration: N278SP
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id001
+  typecode: C172
+  vertical_rate_fpm: null
+- aircraft_type:
+    category: large-piston-twin
+    engine_count: 2
+    engine_type: piston
+    max_seats: 6
+    noise_profile: 5
+    notes: Beechcraft Baron, common at regional airports
+    typical_cruise_ft: 12000
+  altitude_ft: 6800
+  baro_altitude_ft: 6800
+  callsign: GTX247
+  distance_nm: 6.333
+  estimated_db: 43.2
+  ground_speed_kts: 202.1
+  heading_deg: 62.93
+  icao24: a0a440
+  latitude: 40.230025
+  lead_exposure_score: 0.0
+  longitude: -74.811401
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-10-30 05:32:15.003000
+  registration: N140S
+  registration_country: United States
+  source: adsbhub
+  squawk: '5675'
+  timestamp: *id002
+  typecode: BE58
+  vertical_rate_fpm: 0
+- aircraft_type:
+    category: business-jet-heavy
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 17
+    noise_profile: 1
+    notes: Bombardier Global Express/6000. Spotted over Pennington 2026-03-27.
+    typical_cruise_ft: 51000
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: N112MY
+  distance_nm: 3.899
+  estimated_db: null
+  ground_speed_kts: 0.0
+  heading_deg: null
+  icao24: a034cb
+  latitude: 40.271313
+  lead_exposure_score: 0.0
+  longitude: -74.810944
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id003 2026-10-30 05:32:15.003000
+  registration: N112MY
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id003
+  typecode: GLEX
+  vertical_rate_fpm: null
+- aircraft_type: *id004
+  altitude_ft: 1350
+  baro_altitude_ft: 1350
+  callsign: N321CT
+  distance_nm: 2.043
+  estimated_db: 50.1
+  ground_speed_kts: 48.1
+  heading_deg: 225.0
+  icao24: a3724b
+  latitude: 40.324539
+  lead_exposure_score: 0.1
+  longitude: -74.746033
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id005 2026-10-30 05:32:15.003000
+  registration: N321CT
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id005
+  typecode: C172
+  vertical_rate_fpm: -128
+- aircraft_type: *id004
+  altitude_ft: 2300
+  baro_altitude_ft: 2300
+  callsign: N694SP
+  distance_nm: 7.332
+  estimated_db: 39.0
+  ground_speed_kts: 99.6
+  heading_deg: 6.34
+  icao24: a93b30
+  latitude: 40.368164
+  lead_exposure_score: 0.01
+  longitude: -74.634827
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id006 2026-10-30 05:32:15.003000
+  registration: N694SP
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id006
+  typecode: C172
+  vertical_rate_fpm: -128
