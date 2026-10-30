@@ -1,0 +1,220 @@
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 194
+    noise_profile: 1
+    notes: Airbus A320neo (new engine option), quieter than classic A320. Frontier/Allegiant
+      at KTTN.
+    typical_cruise_ft: 39000
+  altitude_ft: 29750
+  baro_altitude_ft: 29750
+  callsign: FFT3133
+  distance_nm: 16.917
+  estimated_db: 39.4
+  ground_speed_kts: 406.9
+  heading_deg: 227.09
+  icao24: a3a8ef
+  latitude: 40.289984
+  lead_exposure_score: 0.0
+  longitude: -75.154787
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-10-30 01:50:10.001000
+  registration: N335FR
+  registration_country: United States
+  source: adsbhub
+  squawk: '2673'
+  timestamp: *id001
+  typecode: A20N
+  vertical_rate_fpm: 1152
+- aircraft_type: &id003
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 2300
+  baro_altitude_ft: 2300
+  callsign: N669FG
+  distance_nm: 15.192
+  estimated_db: 32.7
+  ground_speed_kts: 120.7
+  heading_deg: 58.55
+  icao24: a8d62c
+  latitude: 40.274872
+  lead_exposure_score: 0.0
+  longitude: -75.112305
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-10-30 01:50:10.001000
+  registration: N669FG
+  registration_country: United States
+  source: adsbhub
+  squawk: '2011'
+  timestamp: *id002
+  typecode: C172
+  vertical_rate_fpm: -64
+- aircraft_type: *id003
+  altitude_ft: 1850
+  baro_altitude_ft: 1850
+  callsign: N869FG
+  distance_nm: 13.389
+  estimated_db: 33.8
+  ground_speed_kts: 77.9
+  heading_deg: 245.74
+  icao24: abf0ca
+  latitude: 40.214244
+  lead_exposure_score: 0.0
+  longitude: -75.035997
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-10-30 01:50:10.001000
+  registration: N869FG
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id004
+  typecode: C172
+  vertical_rate_fpm: 64
+- aircraft_type:
+    category: business-jet-light
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 8
+    noise_profile: 2
+    notes: Beechcraft Premier I
+    typical_cruise_ft: 41000
+  altitude_ft: 6850
+  baro_altitude_ft: 6850
+  callsign: OKC75
+  distance_nm: 10.163
+  estimated_db: 27.1
+  ground_speed_kts: 283.0
+  heading_deg: 46.72
+  icao24: aa1960
+  latitude: 40.407668
+  lead_exposure_score: 0.0
+  longitude: -74.98943
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id005 2026-10-30 01:50:10.001000
+  registration: N75TG
+  registration_country: United States
+  source: adsbhub
+  squawk: '6250'
+  timestamp: *id005
+  typecode: BE40
+  vertical_rate_fpm: -1112
+- aircraft_type: &id007
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 9850
+  baro_altitude_ft: 9850
+  callsign: AAL2570
+  distance_nm: 16.011
+  estimated_db: 30.2
+  ground_speed_kts: 307.1
+  heading_deg: 111.39
+  icao24: a6d9c3
+  latitude: 40.559429
+  lead_exposure_score: 0.0
+  longitude: -74.976071
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id006 2026-10-30 01:50:10.001000
+  registration: N540UW
+  registration_country: United States
+  source: adsbhub
+  squawk: '2375'
+  timestamp: *id006
+  typecode: A321
+  vertical_rate_fpm: 0
+- aircraft_type: *id007
+  altitude_ft: 5425
+  baro_altitude_ft: 5425
+  callsign: N365LV
+  distance_nm: 15.86
+  estimated_db: 30.3
+  ground_speed_kts: 274.5
+  heading_deg: 42.93
+  icao24: a41fed
+  latitude: 40.593658
+  lead_exposure_score: 0.0
+  longitude: -74.727173
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id008 2026-10-30 01:50:10.001000
+  registration: N365LV
+  registration_country: United States
+  source: adsbhub
+  squawk: '2510'
+  timestamp: *id008
+  typecode: GLF5
+  vertical_rate_fpm: -1472
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 200
+    noise_profile: 1
+    notes: Boeing 737 MAX 8, quieter CFM LEAP engines. Allegiant at KTTN.
+    typical_cruise_ft: 41000
+  altitude_ft: 39000
+  baro_altitude_ft: 39000
+  callsign: ROU1885
+  distance_nm: 17.781
+  estimated_db: 38.8
+  ground_speed_kts: 477.5
+  heading_deg: 43.39
+  icao24: c030ef
+  latitude: 40.042511
+  lead_exposure_score: 0.0
+  longitude: -74.722778
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id009 2026-10-30 01:50:10.001000
+  registration: C-FSNU
+  registration_country: Canada
+  source: adsbhub
+  squawk: '6155'
+  timestamp: *id009
+  typecode: B38M
+  vertical_rate_fpm: 0
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 215
+    noise_profile: 2
+    notes: Boeing 737-900, United/Alaska/Delta
+    typical_cruise_ft: 41000
+  altitude_ft: 35000
+  baro_altitude_ft: 35000
+  callsign: DAL1439
+  distance_nm: 19.934
+  estimated_db: 38.0
+  ground_speed_kts: 482.1
+  heading_deg: 47.77
+  icao24: ac9abc
+  latitude: 40.01365
+  lead_exposure_score: 0.0
+  longitude: -74.676382
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id010 2026-10-30 01:50:10.001000
+  registration: N911DQ
+  registration_country: United States
+  source: adsbhub
+  squawk: '6653'
+  timestamp: *id010
+  typecode: B739
+  vertical_rate_fpm: 0
