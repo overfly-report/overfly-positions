@@ -1,0 +1,109 @@
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 160
+    noise_profile: 2
+    notes: Airbus A319, Allegiant Air uses at KTTN (FLL/PIE routes)
+    typical_cruise_ft: 37000
+  altitude_ft: 24600
+  baro_altitude_ft: 24600
+  callsign: AAL3081
+  distance_nm: 15.035
+  estimated_db: 40.5
+  ground_speed_kts: 393.4
+  heading_deg: 227.06
+  icao24: a95dd3
+  latitude: 40.31575
+  lead_exposure_score: 0.0
+  longitude: -75.11731
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-10-31 10:04:42
+  registration: N702UW
+  registration_country: United States
+  source: adsbhub
+  squawk: '3540'
+  timestamp: *id001
+  typecode: A319
+  vertical_rate_fpm: -960
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 200
+    noise_profile: 1
+    notes: Boeing 737 MAX 8, quieter CFM LEAP engines. Allegiant at KTTN.
+    typical_cruise_ft: 41000
+  altitude_ft: 26000
+  baro_altitude_ft: 26000
+  callsign: SWA146
+  distance_nm: 10.995
+  estimated_db: 42.9
+  ground_speed_kts: 432.3
+  heading_deg: 226.78
+  icao24: ac4f6f
+  latitude: 40.512411
+  lead_exposure_score: 0.0
+  longitude: -74.842176
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-10-31 10:04:42
+  registration: N8922Q
+  registration_country: United States
+  source: adsbhub
+  squawk: '3501'
+  timestamp: *id002
+  typecode: B38M
+  vertical_rate_fpm: 0
+- aircraft_type: &id004
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 4650
+  baro_altitude_ft: 4650
+  callsign: UAL374
+  distance_nm: 18.528
+  estimated_db: 29.0
+  ground_speed_kts: 249.4
+  heading_deg: 129.31
+  icao24: a44940
+  latitude: 40.599197
+  lead_exposure_score: 0.0
+  longitude: -74.581787
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-10-31 10:04:42
+  registration: N37538
+  registration_country: United States
+  source: adsbhub
+  squawk: '7436'
+  timestamp: *id003
+  typecode: B39M
+  vertical_rate_fpm: -1024
+- aircraft_type: *id004
+  altitude_ft: 2375
+  baro_altitude_ft: 2375
+  callsign: SIA22
+  distance_nm: 19.924
+  estimated_db: 28.3
+  ground_speed_kts: 223.7
+  heading_deg: 141.9
+  icao24: 76cce1
+  latitude: 40.498535
+  lead_exposure_score: 0.0
+  longitude: -74.40979
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id005 2026-10-31 10:04:42
+  registration: 9V-SGA
+  registration_country: Unknown
+  source: adsbhub
+  squawk: '6202'
+  timestamp: *id005
+  typecode: A359
+  vertical_rate_fpm: 0
