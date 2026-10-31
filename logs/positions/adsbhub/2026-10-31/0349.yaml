@@ -1,0 +1,109 @@
+- aircraft_type:
+    category: turboprop-single
+    engine_count: 1
+    engine_type: turboprop
+    max_seats: 9
+    noise_profile: 3
+    notes: Pilatus PC-12, extremely versatile turboprop. Very common at KTTN.
+    typical_cruise_ft: 30000
+  altitude_ft: 11225
+  baro_altitude_ft: 11225
+  callsign: SKQ51
+  distance_nm: 19.934
+  estimated_db: 26.3
+  ground_speed_kts: 265.0
+  heading_deg: 35.79
+  icao24: a4cf12
+  latitude: 40.224811
+  lead_exposure_score: 0.0
+  longitude: -75.200854
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-10-31 03:49:38
+  registration: N409LH
+  registration_country: United States
+  source: adsbhub
+  squawk: '7136'
+  timestamp: *id001
+  typecode: PC12
+  vertical_rate_fpm: -1472
+- aircraft_type:
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 10325
+  baro_altitude_ft: 10325
+  callsign: JBU798
+  distance_nm: 16.734
+  estimated_db: 29.8
+  ground_speed_kts: 309.4
+  heading_deg: 47.75
+  icao24: a38082
+  latitude: 40.065491
+  lead_exposure_score: 0.0
+  longitude: -74.692383
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-10-31 03:49:38
+  registration: N3247J
+  registration_country: United States
+  source: adsbhub
+  squawk: '0714'
+  timestamp: *id002
+  typecode: BCS3
+  vertical_rate_fpm: -1357
+- aircraft_type: &id004
+    category: commercial-widebody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 269
+    noise_profile: 2
+    notes: Boeing 767-300
+    typical_cruise_ft: 43000
+  altitude_ft: 25075
+  baro_altitude_ft: 25075
+  callsign: ABX152
+  distance_nm: 10.935
+  estimated_db: 41.0
+  ground_speed_kts: 392.7
+  heading_deg: 264.59
+  icao24: a48307
+  latitude: 40.189957
+  lead_exposure_score: 0.0
+  longitude: -74.643738
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-10-31 03:49:38
+  registration: N390CM
+  registration_country: United States
+  source: adsbhub
+  squawk: '2613'
+  timestamp: *id003
+  typecode: B763
+  vertical_rate_fpm: 2304
+- aircraft_type: *id004
+  altitude_ft: 35000
+  baro_altitude_ft: 35000
+  callsign: UAL924
+  distance_nm: 18.604
+  estimated_db: 36.5
+  ground_speed_kts: 498.4
+  heading_deg: 56.79
+  icao24: a87223
+  latitude: 40.245483
+  lead_exposure_score: 0.0
+  longitude: -74.398865
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id005 2026-10-31 03:49:38
+  registration: N643UA
+  registration_country: United States
+  source: adsbhub
+  squawk: '5606'
+  timestamp: *id005
+  typecode: B763
+  vertical_rate_fpm: 0
