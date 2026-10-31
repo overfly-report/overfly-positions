@@ -1,0 +1,81 @@
+- aircraft_type:
+    category: turboprop-single
+    engine_count: 1
+    engine_type: turboprop
+    max_seats: 9
+    noise_profile: 3
+    notes: Pilatus PC-12, extremely versatile turboprop. Very common at KTTN.
+    typical_cruise_ft: 30000
+  altitude_ft: 6600
+  baro_altitude_ft: 6600
+  callsign: LBQ791
+  distance_nm: 9.797
+  estimated_db: 32.4
+  ground_speed_kts: 233.0
+  heading_deg: 55.49
+  icao24: a57e89
+  latitude: 40.393021
+  lead_exposure_score: 0.0
+  longitude: -74.989075
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-10-31 07:03:13.501000
+  registration: N453PC
+  registration_country: United States
+  source: adsbhub
+  squawk: '2160'
+  timestamp: *id001
+  typecode: PC12
+  vertical_rate_fpm: 0
+- aircraft_type: &id003
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: N269FG
+  distance_nm: 3.391
+  estimated_db: null
+  ground_speed_kts: 10.2
+  heading_deg: null
+  icao24: a2a0f0
+  latitude: 40.281498
+  lead_exposure_score: 0.0
+  longitude: -74.816147
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id002 2026-10-31 07:03:13.501000
+  registration: N269FG
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id002
+  typecode: C172
+  vertical_rate_fpm: null
+- aircraft_type: *id003
+  altitude_ft: 2225
+  baro_altitude_ft: 2225
+  callsign: N677AA
+  distance_nm: 12.609
+  estimated_db: 34.3
+  ground_speed_kts: 77.8
+  heading_deg: 287.97
+  icao24: a8f5ba
+  latitude: 40.38104
+  lead_exposure_score: 0.0
+  longitude: -74.519827
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-10-31 07:03:13.501000
+  registration: N677AA
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id004
+  typecode: C172
+  vertical_rate_fpm: -64
