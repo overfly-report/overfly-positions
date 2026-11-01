@@ -1,0 +1,80 @@
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 160
+    noise_profile: 2
+    notes: Airbus A319, Allegiant Air uses at KTTN (FLL/PIE routes)
+    typical_cruise_ft: 37000
+  altitude_ft: 28325
+  baro_altitude_ft: 28325
+  callsign: AAL2973
+  distance_nm: 14.799
+  estimated_db: 40.5
+  ground_speed_kts: 378.4
+  heading_deg: 224.04
+  icao24: a13541
+  latitude: 40.364468
+  lead_exposure_score: 0.0
+  longitude: -75.110654
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-11-01 11:03:57.001000
+  registration: N177XF
+  registration_country: United States
+  source: adsbhub
+  squawk: '3412'
+  timestamp: *id001
+  typecode: A319
+  vertical_rate_fpm: -1600
+- aircraft_type: &id003
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 7800
+  baro_altitude_ft: 7800
+  callsign: N465DL
+  distance_nm: 2.271
+  estimated_db: 46.0
+  ground_speed_kts: 129.5
+  heading_deg: 47.19
+  icao24: a5ac84
+  latitude: 40.297989
+  lead_exposure_score: 0.0
+  longitude: -74.804016
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-11-01 11:03:57.001000
+  registration: N465DL
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id002
+  typecode: C310
+  vertical_rate_fpm: 1867
+- aircraft_type: *id003
+  altitude_ft: 32000
+  baro_altitude_ft: 32000
+  callsign: JIA5064
+  distance_nm: 16.919
+  estimated_db: 29.4
+  ground_speed_kts: 394.0
+  heading_deg: 231.18
+  icao24: a86de2
+  latitude: 40.607712
+  lead_exposure_score: 0.0
+  longitude: -74.702393
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-11-01 11:03:57.001000
+  registration: N642NN
+  registration_country: United States
+  source: adsbhub
+  squawk: '3565'
+  timestamp: *id004
+  typecode: ''
+  vertical_rate_fpm: 0
