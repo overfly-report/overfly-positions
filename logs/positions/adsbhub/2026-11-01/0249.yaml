@@ -1,0 +1,198 @@
+- aircraft_type:
+    category: turboprop-single
+    engine_count: 1
+    engine_type: turboprop
+    max_seats: 9
+    noise_profile: 3
+    notes: Pilatus PC-12, extremely versatile turboprop. Very common at KTTN.
+    typical_cruise_ft: 30000
+  altitude_ft: 22000
+  baro_altitude_ft: 22000
+  callsign: N543DP
+  distance_nm: 11.462
+  estimated_db: 30.7
+  ground_speed_kts: 245.2
+  heading_deg: 228.64
+  icao24: a6e36a
+  latitude: 40.407901
+  lead_exposure_score: 0.0
+  longitude: -75.020516
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-11-01 02:49:49.500000
+  registration: N543DP
+  registration_country: United States
+  source: adsbhub
+  squawk: '1511'
+  timestamp: *id001
+  typecode: PC12
+  vertical_rate_fpm: 0
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 220
+    noise_profile: 1
+    notes: Airbus A321neo
+    typical_cruise_ft: 39000
+  altitude_ft: 9500
+  baro_altitude_ft: 9500
+  callsign: UAL2033
+  distance_nm: 14.828
+  estimated_db: 40.9
+  ground_speed_kts: 383.1
+  heading_deg: 110.0
+  icao24: a6ed7f
+  latitude: 40.54953
+  lead_exposure_score: 0.0
+  longitude: -74.947205
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-11-01 02:49:49.500000
+  registration: N54543
+  registration_country: United States
+  source: adsbhub
+  squawk: '3552'
+  timestamp: *id002
+  typecode: A21N
+  vertical_rate_fpm: -64
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 200
+    noise_profile: 1
+    notes: Boeing 737 MAX 8, quieter CFM LEAP engines. Allegiant at KTTN.
+    typical_cruise_ft: 41000
+  altitude_ft: 8375
+  baro_altitude_ft: 8375
+  callsign: DWI5382
+  distance_nm: 7.891
+  estimated_db: 46.3
+  ground_speed_kts: 268.9
+  heading_deg: 58.38
+  icao24: 0c4182
+  latitude: 40.22793
+  lead_exposure_score: 0.0
+  longitude: -74.89074
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-11-01 02:49:49.500000
+  registration: HI1026
+  registration_country: Unknown
+  source: adsbhub
+  squawk: '3670'
+  timestamp: *id003
+  typecode: B38M
+  vertical_rate_fpm: -832
+- aircraft_type: &id006
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: N277GT
+  distance_nm: 3.33
+  estimated_db: null
+  ground_speed_kts: 7.2
+  heading_deg: null
+  icao24: a2c125
+  latitude: 40.282139
+  lead_exposure_score: 0.0
+  longitude: -74.814651
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id004 2026-11-01 02:49:49.500000
+  registration: N277GT
+  registration_country: United States
+  source: adsbhub
+  squawk: null
+  timestamp: *id004
+  typecode: C172
+  vertical_rate_fpm: null
+- aircraft_type:
+    category: helicopter-heavy
+    engine_count: 2
+    engine_type: turboshaft
+    max_seats: 16
+    noise_profile: 3
+    notes: AgustaWestland AW139. Spotted over Pennington 2026-03-27. Often used for
+      EMS, police, or VIP transport.
+    typical_cruise_ft: 10000
+  altitude_ft: 425
+  baro_altitude_ft: 425
+  callsign: N3NJ
+  distance_nm: 4.282
+  estimated_db: 49.7
+  ground_speed_kts: 129.3
+  heading_deg: 121.72
+  icao24: a31bd5
+  latitude: 40.264101
+  lead_exposure_score: 0.0
+  longitude: -74.770952
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id005 2026-11-01 02:49:49.500000
+  registration: N3NJ
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id005
+  typecode: A139
+  vertical_rate_fpm: 320
+- aircraft_type: *id006
+  altitude_ft: 1275
+  baro_altitude_ft: 1275
+  callsign: N2129J
+  distance_nm: 10.745
+  estimated_db: 35.7
+  ground_speed_kts: 75.2
+  heading_deg: 326.94
+  icao24: a1c48c
+  latitude: 40.165364
+  lead_exposure_score: 0.0
+  longitude: -74.711775
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id007 2026-11-01 02:49:49.500000
+  registration: N2129J
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id007
+  typecode: C172
+  vertical_rate_fpm: 64
+- aircraft_type:
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 9500
+  baro_altitude_ft: 9500
+  callsign: ASH4026
+  distance_nm: 14.908
+  estimated_db: 30.8
+  ground_speed_kts: 283.9
+  heading_deg: 47.71
+  icao24: abdc76
+  latitude: 40.150141
+  lead_exposure_score: 0.0
+  longitude: -74.570202
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id008 2026-11-01 02:49:49.500000
+  registration: N86309
+  registration_country: United States
+  source: adsbhub
+  squawk: '2470'
+  timestamp: *id008
+  typecode: E75L
+  vertical_rate_fpm: 0
