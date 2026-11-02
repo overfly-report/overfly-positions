@@ -1,0 +1,139 @@
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 194
+    noise_profile: 1
+    notes: Airbus A320neo (new engine option), quieter than classic A320. Frontier/Allegiant
+      at KTTN.
+    typical_cruise_ft: 39000
+  altitude_ft: 27200
+  baro_altitude_ft: 27200
+  callsign: FFT3133
+  distance_nm: 19.949
+  estimated_db: 38.1
+  ground_speed_kts: 435.1
+  heading_deg: 229.94
+  icao24: a42e48
+  latitude: 40.224243
+  lead_exposure_score: 0.0
+  longitude: -75.200928
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-11-02 02:35:39.500000
+  registration: N369FR
+  registration_country: United States
+  source: adsbhub
+  squawk: '1545'
+  timestamp: *id001
+  typecode: A20N
+  vertical_rate_fpm: 1856
+- aircraft_type: &id005
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 186
+    noise_profile: 2
+    notes: Airbus A320 family, Spirit Airlines (NKS) overflies Pennington
+    typical_cruise_ft: 37000
+  altitude_ft: 36025
+  baro_altitude_ft: 36025
+  callsign: JBU591
+  distance_nm: 12.578
+  estimated_db: 41.5
+  ground_speed_kts: 423.8
+  heading_deg: 227.01
+  icao24: a732d9
+  latitude: 40.355347
+  lead_exposure_score: 0.0
+  longitude: -75.063049
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-11-02 02:35:39.500000
+  registration: N563JB
+  registration_country: United States
+  source: adsbhub
+  squawk: '3411'
+  timestamp: *id002
+  typecode: A320
+  vertical_rate_fpm: 0
+- aircraft_type:
+    category: business-jet-light
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 9
+    noise_profile: 2
+    notes: Cessna CJ3
+    typical_cruise_ft: 45000
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: N742AR
+  distance_nm: 18.255
+  estimated_db: null
+  ground_speed_kts: 7.2
+  heading_deg: 319.95
+  icao24: a9fa08
+  latitude: 40.083222
+  lead_exposure_score: 0.0
+  longitude: -75.014087
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id003 2026-11-02 02:35:39.500000
+  registration: N742AR
+  registration_country: United States
+  source: adsbhub
+  squawk: null
+  timestamp: *id003
+  typecode: C25B
+  vertical_rate_fpm: null
+- aircraft_type:
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 20000
+  baro_altitude_ft: 20000
+  callsign: RPA5827
+  distance_nm: 9.246
+  estimated_db: 34.5
+  ground_speed_kts: 391.2
+  heading_deg: 234.89
+  icao24: a21833
+  latitude: 40.47551
+  lead_exposure_score: 0.0
+  longitude: -74.868469
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-11-02 02:35:39.500000
+  registration: N234JQ
+  registration_country: United States
+  source: adsbhub
+  squawk: '1147'
+  timestamp: *id004
+  typecode: E75L
+  vertical_rate_fpm: -64
+- aircraft_type: *id005
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: FFT2742
+  distance_nm: 3.725
+  estimated_db: null
+  ground_speed_kts: 10.2
+  heading_deg: null
+  icao24: a226c5
+  latitude: 40.275821
+  lead_exposure_score: 0.0
+  longitude: -74.817066
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id006 2026-11-02 02:35:39.500000
+  registration: N238FR
+  registration_country: United States
+  source: adsbhub
+  squawk: '0760'
+  timestamp: *id006
+  typecode: A320
+  vertical_rate_fpm: null
