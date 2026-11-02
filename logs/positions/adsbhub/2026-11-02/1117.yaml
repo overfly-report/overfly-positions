@@ -1,0 +1,241 @@
+- aircraft_type: &id002
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 189
+    noise_profile: 2
+    notes: Boeing 737-800, Southwest/United
+    typical_cruise_ft: 37000
+  altitude_ft: 23175
+  baro_altitude_ft: 23175
+  callsign: SWA2909
+  distance_nm: 16.445
+  estimated_db: 39.8
+  ground_speed_kts: 402.6
+  heading_deg: 226.91
+  icao24: abb9b2
+  latitude: 40.296455
+  lead_exposure_score: 0.0
+  longitude: -75.14561
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-11-02 11:17:54.003000
+  registration: N8548P
+  registration_country: United States
+  source: adsbhub
+  squawk: '3574'
+  timestamp: *id001
+  typecode: B738
+  vertical_rate_fpm: -2560
+- aircraft_type: *id002
+  altitude_ft: 23975
+  baro_altitude_ft: 23975
+  callsign: UAL575
+  distance_nm: 17.401
+  estimated_db: 39.3
+  ground_speed_kts: 415.2
+  heading_deg: 233.32
+  icao24: a3ef1b
+  latitude: 40.544083
+  lead_exposure_score: 0.0
+  longitude: -75.051575
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-11-02 11:17:54.003000
+  registration: N35236
+  registration_country: United States
+  source: adsbhub
+  squawk: '7136'
+  timestamp: *id003
+  typecode: B738
+  vertical_rate_fpm: 1984
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 200
+    noise_profile: 2
+    notes: Boeing 757-200, still common in US
+    typical_cruise_ft: 39000
+  altitude_ft: 17650
+  baro_altitude_ft: 17650
+  callsign: UAL2434
+  distance_nm: 18.64
+  estimated_db: 38.8
+  ground_speed_kts: 365.5
+  heading_deg: 232.0
+  icao24: a2fbf1
+  latitude: 40.632236
+  lead_exposure_score: 0.0
+  longitude: -74.901102
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-11-02 11:17:54.003000
+  registration: N29129
+  registration_country: United States
+  source: adsbhub
+  squawk: '1722'
+  timestamp: *id004
+  typecode: B752
+  vertical_rate_fpm: 2816
+- aircraft_type: &id008
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 375
+  baro_altitude_ft: 375
+  callsign: N682MA
+  distance_nm: 4.176
+  estimated_db: 43.9
+  ground_speed_kts: 62.2
+  heading_deg: 226.3
+  icao24: a90bb9
+  latitude: 40.269222
+  lead_exposure_score: 0.03
+  longitude: -74.822013
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id005 2026-11-02 11:17:54.003000
+  registration: N682MA
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id005
+  typecode: C172
+  vertical_rate_fpm: 832
+- aircraft_type: *id002
+  altitude_ft: 25025
+  baro_altitude_ft: 25025
+  callsign: SWA792
+  distance_nm: 11.688
+  estimated_db: 42.5
+  ground_speed_kts: 435.2
+  heading_deg: 227.14
+  icao24: abdd91
+  latitude: 40.526935
+  lead_exposure_score: 0.0
+  longitude: -74.820952
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id006 2026-11-02 11:17:54.003000
+  registration: N8639B
+  registration_country: United States
+  source: adsbhub
+  squawk: '3411'
+  timestamp: *id006
+  typecode: B738
+  vertical_rate_fpm: -832
+- aircraft_type:
+    category: helicopter-heavy
+    engine_count: 2
+    engine_type: turboshaft
+    max_seats: 12
+    noise_profile: 2
+    notes: Airbus H160, modern quieter design with Blue Edge rotor blades
+    typical_cruise_ft: 10000
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: N844MK
+  distance_nm: 3.415
+  estimated_db: null
+  ground_speed_kts: 0.0
+  heading_deg: null
+  icao24: ab8fd2
+  latitude: 40.282082
+  lead_exposure_score: 0.0
+  longitude: -74.81936
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id007 2026-11-02 11:17:54.003000
+  registration: N844MK
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id007
+  typecode: H160
+  vertical_rate_fpm: null
+- aircraft_type: *id008
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: ''
+  distance_nm: 3.251
+  estimated_db: null
+  ground_speed_kts: 2.2
+  heading_deg: 233.44
+  icao24: aa2969
+  latitude: 40.283793
+  lead_exposure_score: 0.0
+  longitude: -74.815474
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id009 2026-11-02 11:17:54.003000
+  registration: N754FG
+  registration_country: United States
+  source: adsbhub
+  squawk: null
+  timestamp: *id009
+  typecode: C172
+  vertical_rate_fpm: null
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 160
+    noise_profile: 2
+    notes: Airbus A319, Allegiant Air uses at KTTN (FLL/PIE routes)
+    typical_cruise_ft: 37000
+  altitude_ft: 13525
+  baro_altitude_ft: 13525
+  callsign: UAL1012
+  distance_nm: 18.979
+  estimated_db: 38.7
+  ground_speed_kts: 333.3
+  heading_deg: 288.0
+  icao24: ac2706
+  latitude: 40.636322
+  lead_exposure_score: 0.0
+  longitude: -74.668823
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id010 2026-11-02 11:17:54.003000
+  registration: N882UA
+  registration_country: United States
+  source: adsbhub
+  squawk: '1116'
+  timestamp: *id010
+  typecode: A319
+  vertical_rate_fpm: 64
+- aircraft_type:
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 15525
+  baro_altitude_ft: 15525
+  callsign: RPA4469
+  distance_nm: 17.582
+  estimated_db: 29.3
+  ground_speed_kts: 352.0
+  heading_deg: 236.36
+  icao24: a4da13
+  latitude: 40.597733
+  lead_exposure_score: 0.0
+  longitude: -74.622131
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id011 2026-11-02 11:17:54.003000
+  registration: N411YX
+  registration_country: United States
+  source: adsbhub
+  squawk: '2627'
+  timestamp: *id011
+  typecode: E75L
+  vertical_rate_fpm: -64
