@@ -1,0 +1,468 @@
+- aircraft_type:
+    category: commercial-regional
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 76
+    noise_profile: 2
+    notes: Embraer 170
+    typical_cruise_ft: 37000
+  altitude_ft: 20000
+  baro_altitude_ft: 20000
+  callsign: RPA5724
+  distance_nm: 11.599
+  estimated_db: 37.7
+  ground_speed_kts: 387.8
+  heading_deg: 232.33
+  icao24: ac159a
+  latitude: 40.328842
+  lead_exposure_score: 0.0
+  longitude: -75.042908
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-11-03 00:47:34.500000
+  registration: N878RW
+  registration_country: United States
+  source: adsbhub
+  squawk: '3057'
+  timestamp: *id001
+  typecode: E170
+  vertical_rate_fpm: 0
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 215
+    noise_profile: 2
+    notes: Boeing 737-900, United/Alaska/Delta
+    typical_cruise_ft: 41000
+  altitude_ft: 20650
+  baro_altitude_ft: 20650
+  callsign: UAL1376
+  distance_nm: 17.218
+  estimated_db: 39.4
+  ground_speed_kts: 396.5
+  heading_deg: 239.88
+  icao24: a94b0b
+  latitude: 40.553004
+  lead_exposure_score: 0.0
+  longitude: -75.032751
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-11-03 00:47:34.500000
+  registration: N69819
+  registration_country: United States
+  source: adsbhub
+  squawk: '1776'
+  timestamp: *id002
+  typecode: B739
+  vertical_rate_fpm: 1728
+- aircraft_type:
+    category: small-piston-twin
+    engine_count: 2
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 5
+    notes: Piper Seminole, multi-engine trainer. Noticeably louder than singles.
+    typical_cruise_ft: 10000
+  altitude_ft: 600
+  baro_altitude_ft: 600
+  callsign: N260FL
+  distance_nm: 18.723
+  estimated_db: 35.9
+  ground_speed_kts: 82.5
+  heading_deg: 219.09
+  icao24: a27f85
+  latitude: 40.077209
+  lead_exposure_score: 0.0
+  longitude: -75.02063
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-11-03 00:47:34.500000
+  registration: N260FL
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id003
+  typecode: PA44
+  vertical_rate_fpm: 960
+- aircraft_type: &id006
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: -75
+  baro_altitude_ft: -75
+  callsign: N277GT
+  distance_nm: 17.208
+  estimated_db: 31.6
+  ground_speed_kts: 54.5
+  heading_deg: 227.23
+  icao24: a2c125
+  latitude: 40.094604
+  lead_exposure_score: 0.0
+  longitude: -74.9953
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-11-03 00:47:34.500000
+  registration: N277GT
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id004
+  typecode: C172
+  vertical_rate_fpm: -384
+- aircraft_type: &id009
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 9300
+  baro_altitude_ft: 9300
+  callsign: FDX980
+  distance_nm: 11.918
+  estimated_db: 32.7
+  ground_speed_kts: 293.6
+  heading_deg: 43.48
+  icao24: abe1eb
+  latitude: 40.196787
+  lead_exposure_score: 0.0
+  longitude: -74.977195
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id005 2026-11-03 00:47:34.500000
+  registration: N865FD
+  registration_country: United States
+  source: adsbhub
+  squawk: '1064'
+  timestamp: *id005
+  typecode: B77L
+  vertical_rate_fpm: -1088
+- aircraft_type: *id006
+  altitude_ft: 2150
+  baro_altitude_ft: 2150
+  callsign: N2129J
+  distance_nm: 11.389
+  estimated_db: 35.2
+  ground_speed_kts: 122.0
+  heading_deg: 75.28
+  icao24: a1c48c
+  latitude: 40.179749
+  lead_exposure_score: 0.0
+  longitude: -74.933687
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id007 2026-11-03 00:47:34.500000
+  registration: N2129J
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id007
+  typecode: C172
+  vertical_rate_fpm: -64
+- aircraft_type: *id006
+  altitude_ft: 975
+  baro_altitude_ft: 975
+  callsign: N772FG
+  distance_nm: 4.824
+  estimated_db: 42.7
+  ground_speed_kts: 69.2
+  heading_deg: 190.82
+  icao24: aa70f9
+  latitude: 40.260982
+  lead_exposure_score: 0.02
+  longitude: -74.832812
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id008 2026-11-03 00:47:34.500000
+  registration: N772FG
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id008
+  typecode: C172
+  vertical_rate_fpm: 640
+- aircraft_type: *id009
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: LXJ440
+  distance_nm: 3.462
+  estimated_db: null
+  ground_speed_kts: 10.8
+  heading_deg: null
+  icao24: a54b30
+  latitude: 40.280399
+  lead_exposure_score: 0.0
+  longitude: -74.816757
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id010 2026-11-03 00:47:34.500000
+  registration: N440FX
+  registration_country: United States
+  source: adsbhub
+  squawk: '1063'
+  timestamp: *id010
+  typecode: E545
+  vertical_rate_fpm: null
+- aircraft_type:
+    category: helicopter-medium
+    engine_count: 1
+    engine_type: turboshaft
+    max_seats: 5
+    noise_profile: 3
+    notes: Bell 206 JetRanger. NJ State Police uses this. The N4NJ spotted repeatedly
+      at KTTN/N51/N87 is the NJ State Police helicopter.
+    typical_cruise_ft: 8000
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: N6NJ
+  distance_nm: 3.842
+  estimated_db: null
+  ground_speed_kts: 0.0
+  heading_deg: null
+  icao24: a7c3c2
+  latitude: 40.272329
+  lead_exposure_score: 0.0
+  longitude: -74.811136
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id011 2026-11-03 00:47:34.500000
+  registration: N6NJ
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id011
+  typecode: B06
+  vertical_rate_fpm: null
+- aircraft_type: *id006
+  altitude_ft: 550
+  baro_altitude_ft: 550
+  callsign: N21019
+  distance_nm: 1.845
+  estimated_db: 51.0
+  ground_speed_kts: 58.7
+  heading_deg: 227.07
+  icao24: a1bc1f
+  latitude: 40.306412
+  lead_exposure_score: 0.16
+  longitude: -74.771301
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id012 2026-11-03 00:47:34.500000
+  registration: N21019
+  registration_country: United States
+  source: adsbhub
+  squawk: '1701'
+  timestamp: *id012
+  typecode: C172
+  vertical_rate_fpm: -256
+- aircraft_type: *id009
+  altitude_ft: 9625
+  baro_altitude_ft: 9625
+  callsign: EDV5049
+  distance_nm: 10.061
+  estimated_db: 34.2
+  ground_speed_kts: 296.7
+  heading_deg: 111.55
+  icao24: a33aa7
+  latitude: 40.458664
+  lead_exposure_score: 0.0
+  longitude: -74.641846
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id013 2026-11-03 00:47:34.500000
+  registration: N307PQ
+  registration_country: United States
+  source: adsbhub
+  squawk: '5746'
+  timestamp: *id013
+  typecode: CRJ9
+  vertical_rate_fpm: 0
+- aircraft_type:
+    category: small-piston-twin
+    engine_count: 2
+    engine_type: piston
+    max_seats: 6
+    noise_profile: 5
+    notes: Piper Seneca, light twin
+    typical_cruise_ft: 10000
+  altitude_ft: 1750
+  baro_altitude_ft: 1750
+  callsign: N424WT
+  distance_nm: 11.286
+  estimated_db: 40.3
+  ground_speed_kts: 96.9
+  heading_deg: 172.29
+  icao24: a50c81
+  latitude: 40.482664
+  lead_exposure_score: 0.0
+  longitude: -74.638179
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id014 2026-11-03 00:47:34.500000
+  registration: N424WT
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id014
+  typecode: PA34
+  vertical_rate_fpm: 768
+- aircraft_type: *id009
+  altitude_ft: 9650
+  baro_altitude_ft: 9650
+  callsign: LXJ340
+  distance_nm: 15.475
+  estimated_db: 30.5
+  ground_speed_kts: 333.4
+  heading_deg: 47.8
+  icao24: a3bde1
+  latitude: 40.103943
+  lead_exposure_score: 0.0
+  longitude: -74.637146
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id015 2026-11-03 00:47:34.500000
+  registration: N340FX
+  registration_country: United States
+  source: adsbhub
+  squawk: '7015'
+  timestamp: *id015
+  typecode: E545
+  vertical_rate_fpm: -771
+- aircraft_type: &id018
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: Piper Archer (Cherokee 180). Very common at 39N/KTTN flight schools.
+    typical_cruise_ft: 7000
+  altitude_ft: 1875
+  baro_altitude_ft: 1875
+  callsign: N4333A
+  distance_nm: 13.848
+  estimated_db: 33.5
+  ground_speed_kts: 103.6
+  heading_deg: 12.83
+  icao24: a53105
+  latitude: 40.138092
+  lead_exposure_score: 0.0
+  longitude: -74.629639
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id016 2026-11-03 00:47:34.500000
+  registration: N4333A
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id016
+  typecode: P28A
+  vertical_rate_fpm: -684
+- aircraft_type:
+    category: small-piston-twin
+    engine_count: 2
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 3
+    notes: Diamond DA42 Twin Star, diesel engines, relatively quiet
+    typical_cruise_ft: 18000
+  altitude_ft: 5300
+  baro_altitude_ft: 5300
+  callsign: N496TS
+  distance_nm: 14.917
+  estimated_db: 37.8
+  ground_speed_kts: 130.0
+  heading_deg: 67.38
+  icao24: a6281c
+  latitude: 40.118439
+  lead_exposure_score: 0.0
+  longitude: -74.62738
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id017 2026-11-03 00:47:34.500000
+  registration: N496TS
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id017
+  typecode: DA42
+  vertical_rate_fpm: 128
+- aircraft_type: *id018
+  altitude_ft: -100
+  baro_altitude_ft: -100
+  callsign: N43138
+  distance_nm: 10.748
+  estimated_db: 35.7
+  ground_speed_kts: 65.6
+  heading_deg: 97.88
+  icao24: a529b7
+  latitude: 40.214849
+  lead_exposure_score: 0.01
+  longitude: -74.613647
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id019 2026-11-03 00:47:34.500000
+  registration: N43138
+  registration_country: United States
+  source: adsbhub
+  squawk: null
+  timestamp: *id019
+  typecode: P28A
+  vertical_rate_fpm: null
+- aircraft_type:
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 2
+    noise_profile: 4
+    notes: Cessna 150/152 trainer, very common at flight schools
+    typical_cruise_ft: 5000
+  altitude_ft: 8000
+  baro_altitude_ft: 8000
+  callsign: N15TY
+  distance_nm: 18.583
+  estimated_db: 30.9
+  ground_speed_kts: 116.0
+  heading_deg: 195.0
+  icao24: a0c996
+  latitude: 40.399521
+  lead_exposure_score: 0.0
+  longitude: -74.391113
+  on_ground: false
+  position_source: ADS-R
+  query_timestamp: &id020 2026-11-03 00:47:34.500000
+  registration: N15TY
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id020
+  typecode: C150
+  vertical_rate_fpm: 0
+- aircraft_type: *id009
+  altitude_ft: 9625
+  baro_altitude_ft: 9625
+  callsign: RPA4368
+  distance_nm: 18.835
+  estimated_db: 28.8
+  ground_speed_kts: 358.5
+  heading_deg: 44.21
+  icao24: a53f5b
+  latitude: 40.293476
+  lead_exposure_score: 0.0
+  longitude: -74.380126
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id021 2026-11-03 00:47:34.500000
+  registration: N437YX
+  registration_country: United States
+  source: adsbhub
+  squawk: '3270'
+  timestamp: *id021
+  typecode: E75L
+  vertical_rate_fpm: 0
