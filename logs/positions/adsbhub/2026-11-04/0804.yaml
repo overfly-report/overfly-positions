@@ -1,0 +1,153 @@
+- aircraft_type:
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 350
+  baro_altitude_ft: 350
+  callsign: N972FG
+  distance_nm: 2.445
+  estimated_db: 46.6
+  ground_speed_kts: 58.0
+  heading_deg: 226.4
+  icao24: ad8b97
+  latitude: 40.29332
+  lead_exposure_score: 0.0
+  longitude: -74.789185
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-11-04 08:04:11.500000
+  registration: ''
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id001
+  typecode: ''
+  vertical_rate_fpm: -320
+- aircraft_type: &id003
+    category: business-jet-light
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 8
+    noise_profile: 3
+    notes: Learjet 35, older design, louder than modern jets
+    typical_cruise_ft: 45000
+  altitude_ft: 12300
+  baro_altitude_ft: 12300
+  callsign: GRB02
+  distance_nm: 3.8
+  estimated_db: 34.7
+  ground_speed_kts: 364.5
+  heading_deg: 22.41
+  icao24: a6faa1
+  latitude: 40.363495
+  lead_exposure_score: 0.0
+  longitude: -74.715393
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-11-04 08:04:11.500000
+  registration: N549PA
+  registration_country: United States
+  source: adsbhub
+  squawk: '1710'
+  timestamp: *id002
+  typecode: LJ35
+  vertical_rate_fpm: 192
+- aircraft_type: *id003
+  altitude_ft: 12250
+  baro_altitude_ft: 12250
+  callsign: GRB01
+  distance_nm: 3.965
+  estimated_db: 34.4
+  ground_speed_kts: 333.2
+  heading_deg: 20.56
+  icao24: aae0d0
+  latitude: 40.368576
+  lead_exposure_score: 0.0
+  longitude: -74.715027
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-11-04 08:04:11.500000
+  registration: N80PG
+  registration_country: United States
+  source: adsbhub
+  squawk: '2740'
+  timestamp: *id004
+  typecode: LJ35
+  vertical_rate_fpm: -64
+- aircraft_type:
+    category: turboprop-single
+    engine_count: 1
+    engine_type: turboprop
+    max_seats: 9
+    noise_profile: 3
+    notes: Pilatus PC-12, extremely versatile turboprop. Very common at KTTN.
+    typical_cruise_ft: 30000
+  altitude_ft: 4075
+  baro_altitude_ft: 4075
+  callsign: LBQ791
+  distance_nm: 19.096
+  estimated_db: 26.7
+  ground_speed_kts: 267.0
+  heading_deg: 63.05
+  icao24: a57e89
+  latitude: 40.595764
+  lead_exposure_score: 0.0
+  longitude: -74.551575
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id005 2026-11-04 08:04:11.500000
+  registration: N453PC
+  registration_country: United States
+  source: adsbhub
+  squawk: '5605'
+  timestamp: *id005
+  typecode: PC12
+  vertical_rate_fpm: -896
+- aircraft_type: *id003
+  altitude_ft: 12850
+  baro_altitude_ft: 12850
+  callsign: GRB03
+  distance_nm: 16.061
+  estimated_db: 23.1
+  ground_speed_kts: 309.5
+  heading_deg: 56.46
+  icao24: a6ebc5
+  latitude: 40.178399
+  lead_exposure_score: 0.0
+  longitude: -74.50341
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id006 2026-11-04 08:04:11.500000
+  registration: N545PA
+  registration_country: United States
+  source: adsbhub
+  squawk: '2674'
+  timestamp: *id006
+  typecode: LJ35
+  vertical_rate_fpm: 1472
+- aircraft_type: *id003
+  altitude_ft: 12425
+  baro_altitude_ft: 12425
+  callsign: GRB04
+  distance_nm: 18.267
+  estimated_db: 22.0
+  ground_speed_kts: 304.2
+  heading_deg: 65.12
+  icao24: a6f333
+  latitude: 40.138038
+  lead_exposure_score: 0.0
+  longitude: -74.483684
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id007 2026-11-04 08:04:11.500000
+  registration: N547PA
+  registration_country: United States
+  source: adsbhub
+  squawk: '3022'
+  timestamp: *id007
+  typecode: LJ35
+  vertical_rate_fpm: 768
