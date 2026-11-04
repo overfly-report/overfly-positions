@@ -1,0 +1,80 @@
+- aircraft_type: &id003
+    category: business-jet-light
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 8
+    noise_profile: 3
+    notes: Learjet 35, older design, louder than modern jets
+    typical_cruise_ft: 45000
+  altitude_ft: 4700
+  baro_altitude_ft: 4700
+  callsign: GRB03
+  distance_nm: 18.978
+  estimated_db: 21.8
+  ground_speed_kts: 259.3
+  heading_deg: 199.13
+  icao24: a6ebc5
+  latitude: 40.027267
+  lead_exposure_score: 0.0
+  longitude: -74.887329
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-11-04 09:03:58.503000
+  registration: N545PA
+  registration_country: United States
+  source: adsbhub
+  squawk: '2674'
+  timestamp: *id001
+  typecode: LJ35
+  vertical_rate_fpm: 0
+- aircraft_type:
+    category: turboprop-single
+    engine_count: 1
+    engine_type: turboprop
+    max_seats: 14
+    noise_profile: 3
+    notes: Cessna Caravan, utility turboprop, FedEx/Amazon feeder
+    typical_cruise_ft: 12000
+  altitude_ft: 3800
+  baro_altitude_ft: 3800
+  callsign: MTN8302
+  distance_nm: 3.968
+  estimated_db: 40.2
+  ground_speed_kts: 158.1
+  heading_deg: 236.61
+  icao24: a9cf55
+  latitude: 40.315774
+  lead_exposure_score: 0.0
+  longitude: -74.872513
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-11-04 09:03:58.503000
+  registration: N731FX
+  registration_country: United States
+  source: adsbhub
+  squawk: '1574'
+  timestamp: *id002
+  typecode: C208
+  vertical_rate_fpm: -448
+- aircraft_type: *id003
+  altitude_ft: 5000
+  baro_altitude_ft: 5000
+  callsign: GRB04
+  distance_nm: 18.674
+  estimated_db: 21.9
+  ground_speed_kts: 248.6
+  heading_deg: 254.85
+  icao24: a6f333
+  latitude: 40.054138
+  lead_exposure_score: 0.0
+  longitude: -74.611816
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-11-04 09:03:58.503000
+  registration: N547PA
+  registration_country: United States
+  source: adsbhub
+  squawk: '3022'
+  timestamp: *id004
+  typecode: LJ35
+  vertical_rate_fpm: -576
