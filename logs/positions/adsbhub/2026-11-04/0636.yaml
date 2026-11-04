@@ -1,0 +1,81 @@
+- aircraft_type: &id003
+    category: business-jet-light
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 8
+    noise_profile: 3
+    notes: Learjet 35, older design, louder than modern jets
+    typical_cruise_ft: 45000
+  altitude_ft: 17375
+  baro_altitude_ft: 17375
+  callsign: GRB03
+  distance_nm: 2.219
+  estimated_db: 36.2
+  ground_speed_kts: 319.9
+  heading_deg: 200.3
+  icao24: a6ebc5
+  latitude: 40.329367
+  lead_exposure_score: 0.0
+  longitude: -74.740802
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-11-04 06:36:07.004000
+  registration: N545PA
+  registration_country: United States
+  source: adsbhub
+  squawk: '2674'
+  timestamp: *id001
+  typecode: LJ35
+  vertical_rate_fpm: -1792
+- aircraft_type:
+    category: helicopter-medium
+    engine_count: 1
+    engine_type: turboshaft
+    max_seats: 5
+    noise_profile: 3
+    notes: Bell 206 JetRanger. NJ State Police uses this. The N4NJ spotted repeatedly
+      at KTTN/N51/N87 is the NJ State Police helicopter.
+    typical_cruise_ft: 8000
+  altitude_ft: 875
+  baro_altitude_ft: 875
+  callsign: N6NJ
+  distance_nm: 2.649
+  estimated_db: 55.8
+  ground_speed_kts: 78.6
+  heading_deg: 221.39
+  icao24: a7c3c2
+  latitude: 40.34436
+  lead_exposure_score: 0.0
+  longitude: -74.732605
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-11-04 06:36:07.004000
+  registration: N6NJ
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id002
+  typecode: B06
+  vertical_rate_fpm: 72
+- aircraft_type: *id003
+  altitude_ft: 17150
+  baro_altitude_ft: 17150
+  callsign: GRB01
+  distance_nm: 2.992
+  estimated_db: 35.1
+  ground_speed_kts: 297.5
+  heading_deg: 200.87
+  icao24: aae0d0
+  latitude: 40.354111
+  lead_exposure_score: 0.0
+  longitude: -74.729065
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-11-04 06:36:07.004000
+  registration: N80PG
+  registration_country: United States
+  source: adsbhub
+  squawk: '2740'
+  timestamp: *id004
+  typecode: LJ35
+  vertical_rate_fpm: -2048
