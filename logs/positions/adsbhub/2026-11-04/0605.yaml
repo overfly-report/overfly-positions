@@ -1,0 +1,183 @@
+- aircraft_type:
+    category: business-jet-large
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 10
+    noise_profile: 2
+    notes: Dassault Falcon 2000
+    typical_cruise_ft: 47000
+  altitude_ft: 5675
+  baro_altitude_ft: 5675
+  callsign: N408LS
+  distance_nm: 9.953
+  estimated_db: 25.3
+  ground_speed_kts: 287.2
+  heading_deg: 43.31
+  icao24: a4cb64
+  latitude: 40.451055
+  lead_exposure_score: 0.0
+  longitude: -74.9433
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-11-04 06:05:51.501000
+  registration: N408LS
+  registration_country: United States
+  source: adsbhub
+  squawk: '2610'
+  timestamp: *id001
+  typecode: F2TH
+  vertical_rate_fpm: -1216
+- aircraft_type: &id003
+    category: business-jet-light
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 8
+    noise_profile: 3
+    notes: Learjet 35, older design, louder than modern jets
+    typical_cruise_ft: 45000
+  altitude_ft: 11250
+  baro_altitude_ft: 11250
+  callsign: GRB03
+  distance_nm: 7.125
+  estimated_db: 30.0
+  ground_speed_kts: 286.4
+  heading_deg: 200.65
+  icao24: a6ebc5
+  latitude: 40.215501
+  lead_exposure_score: 0.0
+  longitude: -74.793236
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-11-04 06:05:51.501000
+  registration: N545PA
+  registration_country: United States
+  source: adsbhub
+  squawk: '2674'
+  timestamp: *id002
+  typecode: LJ35
+  vertical_rate_fpm: -2240
+- aircraft_type: *id003
+  altitude_ft: 13000
+  baro_altitude_ft: 13000
+  callsign: GRB01
+  distance_nm: 4.585
+  estimated_db: 33.3
+  ground_speed_kts: 308.2
+  heading_deg: 203.32
+  icao24: aae0d0
+  latitude: 40.383228
+  lead_exposure_score: 0.0
+  longitude: -74.712275
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-11-04 06:05:51.501000
+  registration: N80PG
+  registration_country: United States
+  source: adsbhub
+  squawk: '2740'
+  timestamp: *id004
+  typecode: LJ35
+  vertical_rate_fpm: -1536
+- aircraft_type:
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 3150
+  baro_altitude_ft: 3150
+  callsign: N528SV
+  distance_nm: 10.433
+  estimated_db: 35.9
+  ground_speed_kts: 100.6
+  heading_deg: 6.28
+  icao24: a6a84a
+  latitude: 40.190094
+  lead_exposure_score: 0.0
+  longitude: -74.661377
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id005 2026-11-04 06:05:51.501000
+  registration: N528SV
+  registration_country: United States
+  source: adsbhub
+  squawk: '5361'
+  timestamp: *id005
+  typecode: C172
+  vertical_rate_fpm: 0
+- aircraft_type: *id003
+  altitude_ft: 12025
+  baro_altitude_ft: 12025
+  callsign: GRB02
+  distance_nm: 16.235
+  estimated_db: 23.1
+  ground_speed_kts: 254.6
+  heading_deg: 241.62
+  icao24: a6faa1
+  latitude: 40.109455
+  lead_exposure_score: 0.0
+  longitude: -74.591737
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id006 2026-11-04 06:05:51.501000
+  registration: N549PA
+  registration_country: United States
+  source: adsbhub
+  squawk: '1710'
+  timestamp: *id006
+  typecode: LJ35
+  vertical_rate_fpm: -1472
+- aircraft_type: *id003
+  altitude_ft: 12700
+  baro_altitude_ft: 12700
+  callsign: GRB04
+  distance_nm: 18.323
+  estimated_db: 22.0
+  ground_speed_kts: 292.1
+  heading_deg: 242.47
+  icao24: a6f333
+  latitude: 40.172195
+  lead_exposure_score: 0.0
+  longitude: -74.449341
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id007 2026-11-04 06:05:51.501000
+  registration: N547PA
+  registration_country: United States
+  source: adsbhub
+  squawk: '3022'
+  timestamp: *id007
+  typecode: LJ35
+  vertical_rate_fpm: -1152
+- aircraft_type:
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 1725
+  baro_altitude_ft: 1725
+  callsign: N626RA
+  distance_nm: 19.239
+  estimated_db: 28.6
+  ground_speed_kts: 229.6
+  heading_deg: 48.88
+  icao24: a82dff
+  latitude: 40.28476
+  lead_exposure_score: 0.0
+  longitude: -74.372864
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id008 2026-11-04 06:05:51.501000
+  registration: N626RA
+  registration_country: United States
+  source: adsbhub
+  squawk: '6664'
+  timestamp: *id008
+  typecode: GLF5
+  vertical_rate_fpm: -64
