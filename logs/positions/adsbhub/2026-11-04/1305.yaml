@@ -1,0 +1,218 @@
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 200
+    noise_profile: 2
+    notes: Boeing 757-200, still common in US
+    typical_cruise_ft: 39000
+  altitude_ft: 28000
+  baro_altitude_ft: 28000
+  callsign: UAL3873
+  distance_nm: 19.48
+  estimated_db: 38.3
+  ground_speed_kts: 469.1
+  heading_deg: 232.27
+  icao24: a39bfa
+  latitude: 40.210101
+  lead_exposure_score: 0.0
+  longitude: -75.182814
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-11-04 13:05:14.500000
+  registration: N33103
+  registration_country: United States
+  source: adsbhub
+  squawk: '1166'
+  timestamp: *id001
+  typecode: B752
+  vertical_rate_fpm: 576
+- aircraft_type:
+    category: helicopter-heavy
+    engine_count: 2
+    engine_type: turboshaft
+    max_seats: 12
+    noise_profile: 2
+    notes: Airbus H160, modern quieter design with Blue Edge rotor blades
+    typical_cruise_ft: 10000
+  altitude_ft: 2050
+  baro_altitude_ft: 2050
+  callsign: N833MK
+  distance_nm: 13.465
+  estimated_db: 39.7
+  ground_speed_kts: 131.6
+  heading_deg: 264.33
+  icao24: ab649c
+  latitude: 40.252716
+  lead_exposure_score: 0.0
+  longitude: -75.063599
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-11-04 13:05:14.500000
+  registration: N833MK
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id002
+  typecode: H160
+  vertical_rate_fpm: 0
+- aircraft_type: &id005
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: Piper Archer (Cherokee 180). Very common at 39N/KTTN flight schools.
+    typical_cruise_ft: 7000
+  altitude_ft: 2800
+  baro_altitude_ft: 2800
+  callsign: N485P
+  distance_nm: 10.149
+  estimated_db: 36.2
+  ground_speed_kts: 86.4
+  heading_deg: 307.0
+  icao24: a5fc71
+  latitude: 40.202362
+  lead_exposure_score: 0.0
+  longitude: -74.92804
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-11-04 13:05:14.500000
+  registration: N485P
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id003
+  typecode: P28A
+  vertical_rate_fpm: 28
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 189
+    noise_profile: 2
+    notes: Boeing 737-800, Southwest/United
+    typical_cruise_ft: 37000
+  altitude_ft: 23200
+  baro_altitude_ft: 23200
+  callsign: UAL1782
+  distance_nm: 8.828
+  estimated_db: 44.7
+  ground_speed_kts: 427.3
+  heading_deg: 237.91
+  icao24: a085a4
+  latitude: 40.459991
+  lead_exposure_score: 0.0
+  longitude: -74.888428
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-11-04 13:05:14.500000
+  registration: N13248
+  registration_country: United States
+  source: adsbhub
+  squawk: '3066'
+  timestamp: *id004
+  typecode: B738
+  vertical_rate_fpm: 1728
+- aircraft_type: *id005
+  altitude_ft: 2300
+  baro_altitude_ft: 2300
+  callsign: N5934V
+  distance_nm: 13.564
+  estimated_db: 33.7
+  ground_speed_kts: 44.3
+  heading_deg: 251.57
+  icao24: a7ab84
+  latitude: 40.54129
+  lead_exposure_score: 0.0
+  longitude: -74.671448
+  on_ground: false
+  position_source: ADS-R
+  query_timestamp: &id006 2026-11-04 13:05:14.500000
+  registration: N5934V
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id006
+  typecode: P28A
+  vertical_rate_fpm: 64
+- aircraft_type:
+    category: business-jet-heavy
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 19
+    noise_profile: 2
+    notes: Bombardier Challenger 600/601/604/605
+    typical_cruise_ft: 41000
+  altitude_ft: 5750
+  baro_altitude_ft: 5750
+  callsign: VNT523
+  distance_nm: 17.03
+  estimated_db: 19.7
+  ground_speed_kts: 295.7
+  heading_deg: 18.74
+  icao24: a69423
+  latitude: 40.589447
+  lead_exposure_score: 0.0
+  longitude: -74.624878
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id007 2026-11-04 13:05:14.500000
+  registration: N523AR
+  registration_country: United States
+  source: adsbhub
+  squawk: '4203'
+  timestamp: *id007
+  typecode: CL60
+  vertical_rate_fpm: 0
+- aircraft_type: &id009
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 19450
+  baro_altitude_ft: 19450
+  callsign: EDV5052
+  distance_nm: 13.347
+  estimated_db: 31.6
+  ground_speed_kts: 381.3
+  heading_deg: 263.68
+  icao24: ab53e4
+  latitude: 40.197718
+  lead_exposure_score: 0.0
+  longitude: -74.558466
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id008 2026-11-04 13:05:14.500000
+  registration: N829SK
+  registration_country: United States
+  source: adsbhub
+  squawk: '2771'
+  timestamp: *id008
+  typecode: CRJ9
+  vertical_rate_fpm: 1960
+- aircraft_type: *id009
+  altitude_ft: 8750
+  baro_altitude_ft: 8750
+  callsign: RPA4799
+  distance_nm: 12.806
+  estimated_db: 32.1
+  ground_speed_kts: 299.4
+  heading_deg: 110.74
+  icao24: a53f5b
+  latitude: 40.429641
+  lead_exposure_score: 0.0
+  longitude: -74.538241
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id010 2026-11-04 13:05:14.500000
+  registration: N437YX
+  registration_country: United States
+  source: adsbhub
+  squawk: '4024'
+  timestamp: *id010
+  typecode: E75L
+  vertical_rate_fpm: 0
