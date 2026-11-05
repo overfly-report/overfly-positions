@@ -1,0 +1,51 @@
+- aircraft_type: &id002
+    category: business-jet-light
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 8
+    noise_profile: 3
+    notes: Learjet 35, older design, louder than modern jets
+    typical_cruise_ft: 45000
+  altitude_ft: 200
+  baro_altitude_ft: 200
+  callsign: GRB03
+  distance_nm: 17.322
+  estimated_db: 22.6
+  ground_speed_kts: 119.0
+  heading_deg: 228.41
+  icao24: a6ebc5
+  latitude: 40.093254
+  lead_exposure_score: 0.0
+  longitude: -74.997108
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-11-05 06:06:05.501000
+  registration: N545PA
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id001
+  typecode: LJ35
+  vertical_rate_fpm: -128
+- aircraft_type: *id002
+  altitude_ft: 3300
+  baro_altitude_ft: 3300
+  callsign: GRB04
+  distance_nm: 16.157
+  estimated_db: 23.1
+  ground_speed_kts: 238.8
+  heading_deg: 287.3
+  icao24: a6f333
+  latitude: 40.174896
+  lead_exposure_score: 0.0
+  longitude: -74.50415
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-11-05 06:06:05.501000
+  registration: N547PA
+  registration_country: United States
+  source: adsbhub
+  squawk: '2624'
+  timestamp: *id003
+  typecode: LJ35
+  vertical_rate_fpm: -2432
