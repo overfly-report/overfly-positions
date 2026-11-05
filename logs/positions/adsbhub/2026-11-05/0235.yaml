@@ -1,0 +1,241 @@
+- aircraft_type: &id008
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: Piper Archer (Cherokee 180). Very common at 39N/KTTN flight schools.
+    typical_cruise_ft: 7000
+  altitude_ft: 4025
+  baro_altitude_ft: 4025
+  callsign: N28JA
+  distance_nm: 10.926
+  estimated_db: 35.5
+  ground_speed_kts: 86.0
+  heading_deg: 287.59
+  icao24: a2cc6b
+  latitude: 40.313736
+  lead_exposure_score: 0.0
+  longitude: -75.026733
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-11-05 02:35:41.001000
+  registration: N28JA
+  registration_country: United States
+  source: adsbhub
+  squawk: '0427'
+  timestamp: *id001
+  typecode: P28A
+  vertical_rate_fpm: -751
+- aircraft_type: &id005
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: N677AA
+  distance_nm: 3.535
+  estimated_db: null
+  ground_speed_kts: 7.8
+  heading_deg: null
+  icao24: a8f5ba
+  latitude: 40.278649
+  lead_exposure_score: 0.0
+  longitude: -74.815178
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id002 2026-11-05 02:35:41.001000
+  registration: N677AA
+  registration_country: United States
+  source: adsbhub
+  squawk: null
+  timestamp: *id002
+  typecode: C172
+  vertical_rate_fpm: null
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 189
+    noise_profile: 2
+    notes: Boeing 737-800, Southwest/United
+    typical_cruise_ft: 37000
+  altitude_ft: 35025
+  baro_altitude_ft: 35025
+  callsign: SWA2217
+  distance_nm: 15.329
+  estimated_db: 40.1
+  ground_speed_kts: 489.3
+  heading_deg: 51.89
+  icao24: abaaa8
+  latitude: 40.080551
+  lead_exposure_score: 0.0
+  longitude: -74.751709
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-11-05 02:35:41.001000
+  registration: N8507C
+  registration_country: United States
+  source: adsbhub
+  squawk: '1320'
+  timestamp: *id003
+  typecode: B738
+  vertical_rate_fpm: 0
+- aircraft_type: &id010
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 2400
+  baro_altitude_ft: 2400
+  callsign: N972FG
+  distance_nm: 4.89
+  estimated_db: 40.5
+  ground_speed_kts: 80.7
+  heading_deg: 227.01
+  icao24: ad8b97
+  latitude: 40.365509
+  lead_exposure_score: 0.0
+  longitude: -74.690247
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-11-05 02:35:41.001000
+  registration: ''
+  registration_country: United States
+  source: adsbhub
+  squawk: '4367'
+  timestamp: *id004
+  typecode: ''
+  vertical_rate_fpm: 0
+- aircraft_type: *id005
+  altitude_ft: 3425
+  baro_altitude_ft: 3425
+  callsign: N21019
+  distance_nm: 5.472
+  estimated_db: 41.5
+  ground_speed_kts: 128.3
+  heading_deg: 13.06
+  icao24: a1bc1f
+  latitude: 40.324107
+  lead_exposure_score: 0.01
+  longitude: -74.66989
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id006 2026-11-05 02:35:41.001000
+  registration: N21019
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id006
+  typecode: C172
+  vertical_rate_fpm: 64
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 200
+    noise_profile: 1
+    notes: Boeing 737 MAX 8, quieter CFM LEAP engines. Allegiant at KTTN.
+    typical_cruise_ft: 41000
+  altitude_ft: 9900
+  baro_altitude_ft: 9900
+  callsign: SWA247
+  distance_nm: 10.559
+  estimated_db: 43.7
+  ground_speed_kts: 346.1
+  heading_deg: 111.52
+  icao24: ac481d
+  latitude: 40.450543
+  lead_exposure_score: 0.0
+  longitude: -74.615832
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id007 2026-11-05 02:35:41.001000
+  registration: N8903H
+  registration_country: United States
+  source: adsbhub
+  squawk: '1310'
+  timestamp: *id007
+  typecode: B38M
+  vertical_rate_fpm: 0
+- aircraft_type: *id008
+  altitude_ft: 1800
+  baro_altitude_ft: 1800
+  callsign: N82743
+  distance_nm: 15.101
+  estimated_db: 32.7
+  ground_speed_kts: 105.2
+  heading_deg: 93.27
+  icao24: ab4ddc
+  latitude: 40.335846
+  lead_exposure_score: 0.0
+  longitude: -74.458313
+  on_ground: false
+  position_source: ADS-R
+  query_timestamp: &id009 2026-11-05 02:35:41.001000
+  registration: N82743
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id009
+  typecode: P28A
+  vertical_rate_fpm: 64
+- aircraft_type: *id010
+  altitude_ft: 1700
+  baro_altitude_ft: 1700
+  callsign: ''
+  distance_nm: 15.128
+  estimated_db: 30.7
+  ground_speed_kts: 109.0
+  heading_deg: 91.58
+  icao24: ~2af692
+  latitude: 40.334814
+  lead_exposure_score: 0.0
+  longitude: -74.457717
+  on_ground: false
+  position_source: tisb_other
+  query_timestamp: &id011 2026-11-05 02:35:41.001000
+  registration: ''
+  registration_country: null
+  source: adsbhub
+  squawk: null
+  timestamp: *id011
+  typecode: ''
+  vertical_rate_fpm: null
+- aircraft_type:
+    category: large-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: Piper Arrow, retractable gear
+    typical_cruise_ft: 12000
+  altitude_ft: 2500
+  baro_altitude_ft: 2500
+  callsign: N55804
+  distance_nm: 18.797
+  estimated_db: 28.8
+  ground_speed_kts: 78.5
+  heading_deg: 281.02
+  icao24: a71f98
+  latitude: 40.200092
+  lead_exposure_score: 0.0
+  longitude: -74.417392
+  on_ground: false
+  position_source: ADS-R
+  query_timestamp: &id012 2026-11-05 02:35:41.001000
+  registration: N55804
+  registration_country: United States
+  source: adsbhub
+  squawk: '0323'
+  timestamp: *id012
+  typecode: P28R
+  vertical_rate_fpm: 256
