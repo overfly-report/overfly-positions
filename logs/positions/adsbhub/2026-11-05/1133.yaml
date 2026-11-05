@@ -1,0 +1,80 @@
+- aircraft_type:
+    category: business-jet-heavy
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 17
+    noise_profile: 1
+    notes: Bombardier Global Express/6000. Spotted over Pennington 2026-03-27.
+    typical_cruise_ft: 51000
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: N112MY
+  distance_nm: 3.861
+  estimated_db: null
+  ground_speed_kts: 0.0
+  heading_deg: null
+  icao24: a034cb
+  latitude: 40.272137
+  lead_exposure_score: 0.0
+  longitude: -74.811783
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id001 2026-11-05 11:33:27.501000
+  registration: N112MY
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id001
+  typecode: GLEX
+  vertical_rate_fpm: null
+- aircraft_type: &id003
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 20475
+  baro_altitude_ft: 20475
+  callsign: RPA5723
+  distance_nm: 19.043
+  estimated_db: 28.6
+  ground_speed_kts: 320.4
+  heading_deg: 237.75
+  icao24: a1e1d8
+  latitude: 40.608914
+  lead_exposure_score: 0.0
+  longitude: -74.581313
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-11-05 11:33:27.501000
+  registration: N220JQ
+  registration_country: United States
+  source: adsbhub
+  squawk: '2715'
+  timestamp: *id002
+  typecode: E75L
+  vertical_rate_fpm: 1408
+- aircraft_type: *id003
+  altitude_ft: 33000
+  baro_altitude_ft: 33000
+  callsign: RPA4455
+  distance_nm: 14.992
+  estimated_db: 30.3
+  ground_speed_kts: 485.4
+  heading_deg: 50.77
+  icao24: a00ce0
+  latitude: 40.196973
+  lead_exposure_score: 0.0
+  longitude: -74.514958
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-11-05 11:33:27.501000
+  registration: N102HQ
+  registration_country: United States
+  source: adsbhub
+  squawk: '2411'
+  timestamp: *id004
+  typecode: E75L
+  vertical_rate_fpm: 0
