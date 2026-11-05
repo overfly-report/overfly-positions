@@ -1,0 +1,183 @@
+- aircraft_type: &id006
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 9925
+  baro_altitude_ft: 9925
+  callsign: DAL1826
+  distance_nm: 14.004
+  estimated_db: 31.3
+  ground_speed_kts: 351.5
+  heading_deg: 111.53
+  icao24: a32367
+  latitude: 40.543121
+  lead_exposure_score: 0.0
+  longitude: -74.924377
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-11-05 04:04:11.003000
+  registration: N301DU
+  registration_country: United States
+  source: adsbhub
+  squawk: '1343'
+  timestamp: *id001
+  typecode: BCS3
+  vertical_rate_fpm: 73
+- aircraft_type: &id003
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 2950
+  baro_altitude_ft: 2950
+  callsign: N277GT
+  distance_nm: 5.273
+  estimated_db: 41.9
+  ground_speed_kts: 111.8
+  heading_deg: 79.7
+  icao24: a2c125
+  latitude: 40.41763
+  lead_exposure_score: 0.01
+  longitude: -74.823886
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-11-05 04:04:11.003000
+  registration: N277GT
+  registration_country: United States
+  source: adsbhub
+  squawk: '3567'
+  timestamp: *id002
+  typecode: C172
+  vertical_rate_fpm: 64
+- aircraft_type: *id003
+  altitude_ft: 2525
+  baro_altitude_ft: 2525
+  callsign: N267FG
+  distance_nm: 5.233
+  estimated_db: 41.9
+  ground_speed_kts: 87.7
+  heading_deg: 135.92
+  icao24: a29982
+  latitude: 40.403572
+  lead_exposure_score: 0.01
+  longitude: -74.720078
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-11-05 04:04:11.003000
+  registration: N267FG
+  registration_country: United States
+  source: adsbhub
+  squawk: '2024'
+  timestamp: *id004
+  typecode: C172
+  vertical_rate_fpm: 0
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 160
+    noise_profile: 2
+    notes: Airbus A319, Allegiant Air uses at KTTN (FLL/PIE routes)
+    typical_cruise_ft: 37000
+  altitude_ft: 29050
+  baro_altitude_ft: 29050
+  callsign: AAL2404
+  distance_nm: 17.379
+  estimated_db: 39.2
+  ground_speed_kts: 494.0
+  heading_deg: 47.3
+  icao24: aa4ac9
+  latitude: 40.05159
+  lead_exposure_score: 0.0
+  longitude: -74.707593
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id005 2026-11-05 04:04:11.003000
+  registration: N762US
+  registration_country: United States
+  source: adsbhub
+  squawk: '7020'
+  timestamp: *id005
+  typecode: A319
+  vertical_rate_fpm: 0
+- aircraft_type: *id006
+  altitude_ft: 9925
+  baro_altitude_ft: 9925
+  callsign: DAL2603
+  distance_nm: 10.51
+  estimated_db: 33.8
+  ground_speed_kts: 369.0
+  heading_deg: 111.63
+  icao24: a471ec
+  latitude: 40.451843
+  lead_exposure_score: 0.0
+  longitude: -74.618835
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id007 2026-11-05 04:04:11.003000
+  registration: N386DN
+  registration_country: United States
+  source: adsbhub
+  squawk: '4170'
+  timestamp: *id007
+  typecode: A321
+  vertical_rate_fpm: 0
+- aircraft_type: *id006
+  altitude_ft: 9925
+  baro_altitude_ft: 9925
+  callsign: DAL2310
+  distance_nm: 14.893
+  estimated_db: 30.8
+  ground_speed_kts: 366.1
+  heading_deg: 47.99
+  icao24: a3560b
+  latitude: 40.15489
+  lead_exposure_score: 0.0
+  longitude: -74.563959
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id008 2026-11-05 04:04:11.003000
+  registration: N314DU
+  registration_country: United States
+  source: adsbhub
+  squawk: '3614'
+  timestamp: *id008
+  typecode: BCS3
+  vertical_rate_fpm: 0
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 200
+    noise_profile: 1
+    notes: Boeing 737 MAX 8, quieter CFM LEAP engines. Allegiant at KTTN.
+    typical_cruise_ft: 41000
+  altitude_ft: 29000
+  baro_altitude_ft: 29000
+  callsign: UAL755
+  distance_nm: 18.529
+  estimated_db: 38.7
+  ground_speed_kts: 489.0
+  heading_deg: 50.81
+  icao24: a5cf3c
+  latitude: 40.271456
+  lead_exposure_score: 0.0
+  longitude: -74.391861
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id009 2026-11-05 04:04:11.003000
+  registration: N47340
+  registration_country: United States
+  source: adsbhub
+  squawk: '7040'
+  timestamp: *id009
+  typecode: B38M
+  vertical_rate_fpm: 0
