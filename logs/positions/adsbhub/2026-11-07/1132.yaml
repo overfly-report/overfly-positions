@@ -1,0 +1,161 @@
+- aircraft_type: &id007
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 800
+  baro_altitude_ft: 800
+  callsign: CXK326
+  distance_nm: 17.108
+  estimated_db: 29.7
+  ground_speed_kts: 66.6
+  heading_deg: 324.16
+  icao24: a3f231
+  latitude: 40.088196
+  lead_exposure_score: 0.0
+  longitude: -74.977539
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-11-07 11:32:55.001000
+  registration: N353Z
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id001
+  typecode: BE9L
+  vertical_rate_fpm: -384
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 149
+    noise_profile: 2
+    notes: Boeing 737-700
+    typical_cruise_ft: 35000
+  altitude_ft: 26000
+  baro_altitude_ft: 26000
+  callsign: SWA2909
+  distance_nm: 11.725
+  estimated_db: 42.4
+  ground_speed_kts: 405.2
+  heading_deg: 225.9
+  icao24: ace19a
+  latitude: 40.521256
+  lead_exposure_score: 0.0
+  longitude: -74.861027
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-11-07 11:32:55.001000
+  registration: N929WN
+  registration_country: United States
+  source: adsbhub
+  squawk: '3510'
+  timestamp: *id002
+  typecode: B737
+  vertical_rate_fpm: 0
+- aircraft_type: &id004
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 2125
+  baro_altitude_ft: 2125
+  callsign: N277GT
+  distance_nm: 6.017
+  estimated_db: 40.7
+  ground_speed_kts: 104.6
+  heading_deg: 123.69
+  icao24: a2c125
+  latitude: 40.235704
+  lead_exposure_score: 0.01
+  longitude: -74.813898
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-11-07 11:32:55.001000
+  registration: N277GT
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id003
+  typecode: C172
+  vertical_rate_fpm: 640
+- aircraft_type: *id004
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: ''
+  distance_nm: 3.246
+  estimated_db: null
+  ground_speed_kts: 5.8
+  heading_deg: null
+  icao24: a2254e
+  latitude: 40.281768
+  lead_exposure_score: 0.0
+  longitude: -74.807047
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id005 2026-11-07 11:32:55.001000
+  registration: N2373M
+  registration_country: United States
+  source: adsbhub
+  squawk: null
+  timestamp: *id005
+  typecode: C172
+  vertical_rate_fpm: null
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 200
+    noise_profile: 1
+    notes: Boeing 737 MAX 8, quieter CFM LEAP engines. Allegiant at KTTN.
+    typical_cruise_ft: 41000
+  altitude_ft: 8075
+  baro_altitude_ft: 8075
+  callsign: UAL1681
+  distance_nm: 1.004
+  estimated_db: 59.8
+  ground_speed_kts: 297.2
+  heading_deg: 47.18
+  icao24: a2b12e
+  latitude: 40.347709
+  lead_exposure_score: 0.0
+  longitude: -74.775072
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id006 2026-11-07 11:32:55.001000
+  registration: N27261
+  registration_country: United States
+  source: adsbhub
+  squawk: '2005'
+  timestamp: *id006
+  typecode: B38M
+  vertical_rate_fpm: -640
+- aircraft_type: *id007
+  altitude_ft: 36000
+  baro_altitude_ft: 36000
+  callsign: MXY1677
+  distance_nm: 17.345
+  estimated_db: 29.1
+  ground_speed_kts: 376.9
+  heading_deg: 228.44
+  icao24: a1db22
+  latitude: 40.613848
+  lead_exposure_score: 0.0
+  longitude: -74.69617
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id008 2026-11-07 11:32:55.001000
+  registration: N219BZ
+  registration_country: United States
+  source: adsbhub
+  squawk: '3552'
+  timestamp: *id008
+  typecode: BCS3
+  vertical_rate_fpm: 375
