@@ -1,0 +1,162 @@
+- aircraft_type:
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 5
+    noise_profile: 3
+    notes: Cirrus SR22, best-selling single-engine piston in the US. Higher cruise
+      altitude than trainers.
+    typical_cruise_ft: 17500
+  altitude_ft: 4000
+  baro_altitude_ft: 4000
+  callsign: N363SR
+  distance_nm: 12.623
+  estimated_db: 34.3
+  ground_speed_kts: 177.1
+  heading_deg: 77.61
+  icao24: a41911
+  latitude: 40.333832
+  lead_exposure_score: 0.0
+  longitude: -75.06543
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-11-08 03:25:07.500000
+  registration: N363SR
+  registration_country: United States
+  source: adsbhub
+  squawk: '4253'
+  timestamp: *id001
+  typecode: SR22
+  vertical_rate_fpm: -302
+- aircraft_type: &id003
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 8000
+  baro_altitude_ft: 8000
+  callsign: AAL2794
+  distance_nm: 3.811
+  estimated_db: 42.2
+  ground_speed_kts: 268.2
+  heading_deg: 46.96
+  icao24: a75b65
+  latitude: 40.292862
+  lead_exposure_score: 0.0
+  longitude: -74.852478
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-11-08 03:25:07.500000
+  registration: N573UW
+  registration_country: United States
+  source: adsbhub
+  squawk: '7161'
+  timestamp: *id002
+  typecode: A321
+  vertical_rate_fpm: -512
+- aircraft_type: *id003
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: MXY1613
+  distance_nm: 3.609
+  estimated_db: null
+  ground_speed_kts: 0.0
+  heading_deg: null
+  icao24: a25b66
+  latitude: 40.276955
+  lead_exposure_score: 0.0
+  longitude: -74.813675
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id004 2026-11-08 03:25:07.500000
+  registration: N251BZ
+  registration_country: United States
+  source: adsbhub
+  squawk: '1167'
+  timestamp: *id004
+  typecode: BCS3
+  vertical_rate_fpm: null
+- aircraft_type:
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 1025
+  baro_altitude_ft: 1025
+  callsign: N772FG
+  distance_nm: 1.837
+  estimated_db: 51.0
+  ground_speed_kts: 63.0
+  heading_deg: 228.22
+  icao24: aa70f9
+  latitude: 40.30679
+  lead_exposure_score: 0.14
+  longitude: -74.770702
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id005 2026-11-08 03:25:07.500000
+  registration: N772FG
+  registration_country: United States
+  source: adsbhub
+  squawk: '4201'
+  timestamp: *id005
+  typecode: C172
+  vertical_rate_fpm: -448
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 200
+    noise_profile: 1
+    notes: Boeing 737 MAX 8, quieter CFM LEAP engines. Allegiant at KTTN.
+    typical_cruise_ft: 41000
+  altitude_ft: 6050
+  baro_altitude_ft: 6050
+  callsign: UAL1109
+  distance_nm: 11.518
+  estimated_db: 43.1
+  ground_speed_kts: 254.2
+  heading_deg: 11.58
+  icao24: a441ac
+  latitude: 40.494209
+  lead_exposure_score: 0.0
+  longitude: -74.650477
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id006 2026-11-08 03:25:07.500000
+  registration: N37325
+  registration_country: United States
+  source: adsbhub
+  squawk: '1102'
+  timestamp: *id006
+  typecode: B38M
+  vertical_rate_fpm: 0
+- aircraft_type: *id003
+  altitude_ft: 4075
+  baro_altitude_ft: 4075
+  callsign: LXJ650
+  distance_nm: 15.351
+  estimated_db: 30.6
+  ground_speed_kts: 226.3
+  heading_deg: 351.87
+  icao24: a88d4d
+  latitude: 40.536942
+  lead_exposure_score: 0.0
+  longitude: -74.584595
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id007 2026-11-08 03:25:07.500000
+  registration: N650FX
+  registration_country: United States
+  source: adsbhub
+  squawk: '7011'
+  timestamp: *id007
+  typecode: GLF6
+  vertical_rate_fpm: -64
