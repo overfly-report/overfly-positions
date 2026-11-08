@@ -1,0 +1,584 @@
+- aircraft_type:
+    category: business-jet-large
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 12
+    noise_profile: 2
+    notes: Cessna Citation X, one of fastest biz jets
+    typical_cruise_ft: 51000
+  altitude_ft: 20000
+  baro_altitude_ft: 20000
+  callsign: N96RX
+  distance_nm: 13.885
+  estimated_db: 22.2
+  ground_speed_kts: 437.2
+  heading_deg: 226.85
+  icao24: ad5b5a
+  latitude: 40.427353
+  lead_exposure_score: 0.0
+  longitude: -75.067322
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-11-08 18:33:10.500000
+  registration: N96RX
+  registration_country: United States
+  source: adsbhub
+  squawk: '2761'
+  timestamp: *id001
+  typecode: C750
+  vertical_rate_fpm: -64
+- aircraft_type:
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 6
+    noise_profile: 5
+    notes: Cessna Stationair, workhorse utility aircraft
+    typical_cruise_ft: 10000
+  altitude_ft: 1100
+  baro_altitude_ft: 1100
+  callsign: N442SS
+  distance_nm: 19.573
+  estimated_db: 30.5
+  ground_speed_kts: 85.4
+  heading_deg: 231.65
+  icao24: a553ac
+  latitude: 40.065882
+  lead_exposure_score: 0.0
+  longitude: -75.031752
+  on_ground: false
+  position_source: ADS-R
+  query_timestamp: &id002 2026-11-08 18:33:10.500000
+  registration: N442SS
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id002
+  typecode: C206
+  vertical_rate_fpm: 2368
+- aircraft_type:
+    category: business-jet-heavy
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 19
+    noise_profile: 2
+    notes: Bombardier Challenger 600/601/604/605
+    typical_cruise_ft: 41000
+  altitude_ft: 6525
+  baro_altitude_ft: 6525
+  callsign: HPJ613
+  distance_nm: 9.789
+  estimated_db: 24.5
+  ground_speed_kts: 286.4
+  heading_deg: 45.71
+  icao24: a7fabb
+  latitude: 40.422729
+  lead_exposure_score: 0.0
+  longitude: -74.968872
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-11-08 18:33:10.500000
+  registration: N613JR
+  registration_country: United States
+  source: adsbhub
+  squawk: '2244'
+  timestamp: *id003
+  typecode: CL60
+  vertical_rate_fpm: -1505
+- aircraft_type: &id020
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: Piper Archer (Cherokee 180). Very common at 39N/KTTN flight schools.
+    typical_cruise_ft: 7000
+  altitude_ft: 2450
+  baro_altitude_ft: 2450
+  callsign: N708LA
+  distance_nm: 19.351
+  estimated_db: 30.6
+  ground_speed_kts: 100.7
+  heading_deg: 154.71
+  icao24: a97341
+  latitude: 40.026077
+  lead_exposure_score: 0.0
+  longitude: -74.913269
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-11-08 18:33:10.500000
+  registration: N708LA
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id004
+  typecode: P28A
+  vertical_rate_fpm: -192
+- aircraft_type: &id007
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 8450
+  baro_altitude_ft: 8450
+  callsign: GJS4498
+  distance_nm: 5.699
+  estimated_db: 39.0
+  ground_speed_kts: 300.0
+  heading_deg: 47.16
+  icao24: a6898d
+  latitude: 40.271084
+  lead_exposure_score: 0.0
+  longitude: -74.882313
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id005 2026-11-08 18:33:10.500000
+  registration: N520GJ
+  registration_country: United States
+  source: adsbhub
+  squawk: '5720'
+  timestamp: *id005
+  typecode: CRJ7
+  vertical_rate_fpm: -977
+- aircraft_type:
+    category: turboprop-single
+    engine_count: 1
+    engine_type: turboprop
+    max_seats: 6
+    noise_profile: 3
+    notes: Piper M600 SLS, modern turboprop
+    typical_cruise_ft: 30000
+  altitude_ft: 1775
+  baro_altitude_ft: 1775
+  callsign: N616L
+  distance_nm: 4.332
+  estimated_db: 39.6
+  ground_speed_kts: 122.0
+  heading_deg: 40.35
+  icao24: a80602
+  latitude: 40.278346
+  lead_exposure_score: 0.0
+  longitude: -74.848667
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id006 2026-11-08 18:33:10.500000
+  registration: N616L
+  registration_country: United States
+  source: adsbhub
+  squawk: '6065'
+  timestamp: *id006
+  typecode: M600
+  vertical_rate_fpm: 256
+- aircraft_type: *id007
+  altitude_ft: 20550
+  baro_altitude_ft: 20550
+  callsign: JBU281
+  distance_nm: 5.804
+  estimated_db: 37.8
+  ground_speed_kts: 361.3
+  heading_deg: 259.31
+  icao24: a39338
+  latitude: 40.240677
+  lead_exposure_score: 0.0
+  longitude: -74.821594
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id008 2026-11-08 18:33:10.500000
+  registration: N3298J
+  registration_country: United States
+  source: adsbhub
+  squawk: '1567'
+  timestamp: *id008
+  typecode: ''
+  vertical_rate_fpm: 1353
+- aircraft_type:
+    category: turboprop-single
+    engine_count: 1
+    engine_type: turboprop
+    max_seats: 9
+    noise_profile: 3
+    notes: Pilatus PC-12, extremely versatile turboprop. Very common at KTTN.
+    typical_cruise_ft: 30000
+  altitude_ft: 23000
+  baro_altitude_ft: 23000
+  callsign: N434JA
+  distance_nm: 18.94
+  estimated_db: 26.6
+  ground_speed_kts: 285.7
+  heading_deg: 55.7
+  icao24: a532c3
+  latitude: 40.019469
+  lead_exposure_score: 0.0
+  longitude: -74.813898
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id009 2026-11-08 18:33:10.500000
+  registration: N434JA
+  registration_country: United States
+  source: adsbhub
+  squawk: '6550'
+  timestamp: *id009
+  typecode: PC12
+  vertical_rate_fpm: 0
+- aircraft_type: *id007
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: EJA694
+  distance_nm: 3.336
+  estimated_db: null
+  ground_speed_kts: 0.0
+  heading_deg: null
+  icao24: a93b01
+  latitude: 40.281418
+  lead_exposure_score: 0.0
+  longitude: -74.812393
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id010 2026-11-08 18:33:10.500000
+  registration: N694QS
+  registration_country: United States
+  source: adsbhub
+  squawk: '1160'
+  timestamp: *id010
+  typecode: C68A
+  vertical_rate_fpm: null
+- aircraft_type: *id007
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: KFB236
+  distance_nm: 3.354
+  estimated_db: null
+  ground_speed_kts: 0.0
+  heading_deg: null
+  icao24: a21fbb
+  latitude: 40.280988
+  lead_exposure_score: 0.0
+  longitude: -74.811948
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id011 2026-11-08 18:33:10.500000
+  registration: N236KR
+  registration_country: United States
+  source: adsbhub
+  squawk: '4163'
+  timestamp: *id011
+  typecode: GLF4
+  vertical_rate_fpm: null
+- aircraft_type:
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: Beechcraft Bonanza V-tail
+    typical_cruise_ft: 10000
+  altitude_ft: 4400
+  baro_altitude_ft: 4400
+  callsign: N35ST
+  distance_nm: 14.847
+  estimated_db: 32.9
+  ground_speed_kts: 161.8
+  heading_deg: 98.53
+  icao24: a3e416
+  latitude: 40.580566
+  lead_exposure_score: 0.0
+  longitude: -74.80835
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id012 2026-11-08 18:33:10.500000
+  registration: N35ST
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id012
+  typecode: BE35
+  vertical_rate_fpm: 301
+- aircraft_type: *id007
+  altitude_ft: 4100
+  baro_altitude_ft: 4100
+  callsign: EJA799
+  distance_nm: 15.279
+  estimated_db: 30.6
+  ground_speed_kts: 249.1
+  heading_deg: 350.99
+  icao24: aadae3
+  latitude: 40.570633
+  lead_exposure_score: 0.0
+  longitude: -74.666565
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id013 2026-11-08 18:33:10.500000
+  registration: N799QS
+  registration_country: United States
+  source: adsbhub
+  squawk: '1717'
+  timestamp: *id013
+  typecode: CL35
+  vertical_rate_fpm: 256
+- aircraft_type: *id007
+  altitude_ft: 1575
+  baro_altitude_ft: 1575
+  callsign: N7718J
+  distance_nm: 9.237
+  estimated_db: 35.0
+  ground_speed_kts: 141.4
+  heading_deg: 72.72
+  icao24: aa7037
+  latitude: 40.407944
+  lead_exposure_score: 0.0
+  longitude: -74.611572
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id014 2026-11-08 18:33:10.500000
+  registration: N7718J
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id014
+  typecode: PA32
+  vertical_rate_fpm: -64
+- aircraft_type: &id024
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 215
+    noise_profile: 2
+    notes: Boeing 737-900, United/Alaska/Delta
+    typical_cruise_ft: 41000
+  altitude_ft: 10100
+  baro_altitude_ft: 10100
+  callsign: DAL2531
+  distance_nm: 15.027
+  estimated_db: 40.7
+  ground_speed_kts: 288.9
+  heading_deg: 48.09
+  icao24: ac3f9c
+  latitude: 40.128479
+  lead_exposure_score: 0.0
+  longitude: -74.601929
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id015 2026-11-08 18:33:10.500000
+  registration: N889DN
+  registration_country: United States
+  source: adsbhub
+  squawk: '3701'
+  timestamp: *id015
+  typecode: B739
+  vertical_rate_fpm: 64
+- aircraft_type: *id007
+  altitude_ft: 6275
+  baro_altitude_ft: 6275
+  callsign: GJS4514
+  distance_nm: 9.753
+  estimated_db: 34.5
+  ground_speed_kts: 307.0
+  heading_deg: 90.93
+  icao24: a6dc42
+  latitude: 40.405573
+  lead_exposure_score: 0.0
+  longitude: -74.59723
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id016 2026-11-08 18:33:10.500000
+  registration: N541GJ
+  registration_country: United States
+  source: adsbhub
+  squawk: '3645'
+  timestamp: *id016
+  typecode: CRJ7
+  vertical_rate_fpm: -984
+- aircraft_type: *id007
+  altitude_ft: 10125
+  baro_altitude_ft: 10125
+  callsign: DAL1669
+  distance_nm: 11.522
+  estimated_db: 33.0
+  ground_speed_kts: 280.6
+  heading_deg: 111.54
+  icao24: a49d22
+  latitude: 40.439231
+  lead_exposure_score: 0.0
+  longitude: -74.577942
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id017 2026-11-08 18:33:10.500000
+  registration: N397DN
+  registration_country: United States
+  source: adsbhub
+  squawk: '7421'
+  timestamp: *id017
+  typecode: A321
+  vertical_rate_fpm: 0
+- aircraft_type: *id007
+  altitude_ft: 43000
+  baro_altitude_ft: 43000
+  callsign: TLK555
+  distance_nm: 15.228
+  estimated_db: 29.8
+  ground_speed_kts: 441.2
+  heading_deg: 199.46
+  icao24: c02337
+  latitude: 40.516434
+  lead_exposure_score: 0.0
+  longitude: -74.557312
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id018 2026-11-08 18:33:10.500000
+  registration: C-FNIS
+  registration_country: Canada
+  source: adsbhub
+  squawk: '6510'
+  timestamp: *id018
+  typecode: EXEC
+  vertical_rate_fpm: 0
+- aircraft_type: *id007
+  altitude_ft: 200
+  baro_altitude_ft: 200
+  callsign: N96KB
+  distance_nm: 12.768
+  estimated_db: 32.2
+  ground_speed_kts: 2.3
+  heading_deg: 63.43
+  icao24: ad5ab0
+  latitude: 40.231142
+  lead_exposure_score: 0.0
+  longitude: -74.544546
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id019 2026-11-08 18:33:10.500000
+  registration: N96KB
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id019
+  typecode: H500
+  vertical_rate_fpm: null
+- aircraft_type: *id020
+  altitude_ft: 6525
+  baro_altitude_ft: 6525
+  callsign: CXK558
+  distance_nm: 14.946
+  estimated_db: 32.8
+  ground_speed_kts: 87.2
+  heading_deg: 333.43
+  icao24: a1a6d5
+  latitude: 40.211032
+  lead_exposure_score: 0.0
+  longitude: -74.504783
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id021 2026-11-08 18:33:10.500000
+  registration: N205Z
+  registration_country: United States
+  source: adsbhub
+  squawk: '2125'
+  timestamp: *id021
+  typecode: P28A
+  vertical_rate_fpm: 0
+- aircraft_type:
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 5
+    noise_profile: 3
+    notes: Cirrus SR22, best-selling single-engine piston in the US. Higher cruise
+      altitude than trainers.
+    typical_cruise_ft: 17500
+  altitude_ft: 1800
+  baro_altitude_ft: 1800
+  callsign: N51LA
+  distance_nm: 14.165
+  estimated_db: 33.3
+  ground_speed_kts: 118.0
+  heading_deg: 268.54
+  icao24: a66011
+  latitude: 40.400592
+  lead_exposure_score: 0.0
+  longitude: -74.4913
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id022 2026-11-08 18:33:10.500000
+  registration: N51LA
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id022
+  typecode: SR22
+  vertical_rate_fpm: -384
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 189
+    noise_profile: 2
+    notes: Boeing 737-800, Southwest/United
+    typical_cruise_ft: 37000
+  altitude_ft: 38225
+  baro_altitude_ft: 38225
+  callsign: SWA952
+  distance_nm: 17.273
+  estimated_db: 39.0
+  ground_speed_kts: 483.1
+  heading_deg: 40.38
+  icao24: abaeb2
+  latitude: 40.307348
+  lead_exposure_score: 0.0
+  longitude: -74.41246
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id023 2026-11-08 18:33:10.500000
+  registration: N8519R
+  registration_country: United States
+  source: adsbhub
+  squawk: '2001'
+  timestamp: *id023
+  typecode: B738
+  vertical_rate_fpm: -960
+- aircraft_type: *id024
+  altitude_ft: 17100
+  baro_altitude_ft: 17100
+  callsign: DAL2342
+  distance_nm: 18.813
+  estimated_db: 38.7
+  ground_speed_kts: 363.7
+  heading_deg: 237.58
+  icao24: ab1890
+  latitude: 40.252853
+  lead_exposure_score: 0.0
+  longitude: -74.391357
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id025 2026-11-08 18:33:10.500000
+  registration: N814DN
+  registration_country: United States
+  source: adsbhub
+  squawk: '1562'
+  timestamp: *id025
+  typecode: B739
+  vertical_rate_fpm: 0
+- aircraft_type: *id007
+  altitude_ft: 8100
+  baro_altitude_ft: 8100
+  callsign: RPA4565
+  distance_nm: 19.709
+  estimated_db: 28.4
+  ground_speed_kts: 273.6
+  heading_deg: 100.53
+  icao24: a01097
+  latitude: 40.378189
+  lead_exposure_score: 0.0
+  longitude: -74.361206
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id026 2026-11-08 18:33:10.500000
+  registration: N103HQ
+  registration_country: United States
+  source: adsbhub
+  squawk: '6727'
+  timestamp: *id026
+  typecode: E75L
+  vertical_rate_fpm: -64
