@@ -1,0 +1,132 @@
+- aircraft_type: &id003
+    category: turboprop-single
+    engine_count: 1
+    engine_type: turboprop
+    max_seats: 14
+    noise_profile: 3
+    notes: Cessna Caravan, utility turboprop, FedEx/Amazon feeder
+    typical_cruise_ft: 12000
+  altitude_ft: 3900
+  baro_altitude_ft: 3900
+  callsign: MTN8310
+  distance_nm: 13.005
+  estimated_db: 30.0
+  ground_speed_kts: 160.3
+  heading_deg: 235.42
+  icao24: adc96f
+  latitude: 40.267502
+  lead_exposure_score: 0.0
+  longitude: -75.059875
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-11-10 09:32:11.001000
+  registration: N988FX
+  registration_country: United States
+  source: adsbhub
+  squawk: '3047'
+  timestamp: *id001
+  typecode: C208
+  vertical_rate_fpm: 0
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 194
+    noise_profile: 1
+    notes: Airbus A320neo (new engine option), quieter than classic A320. Frontier/Allegiant
+      at KTTN.
+    typical_cruise_ft: 39000
+  altitude_ft: 8425
+  baro_altitude_ft: 8425
+  callsign: VOI1902
+  distance_nm: 6.677
+  estimated_db: 47.6
+  ground_speed_kts: 287.2
+  heading_deg: 46.69
+  icao24: 0d0d6d
+  latitude: 40.260144
+  lead_exposure_score: 0.0
+  longitude: -74.898168
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-11-10 09:32:11.001000
+  registration: XA-VSA
+  registration_country: Mexico
+  source: adsbhub
+  squawk: '2645'
+  timestamp: *id002
+  typecode: A20N
+  vertical_rate_fpm: -1024
+- aircraft_type: *id003
+  altitude_ft: 3900
+  baro_altitude_ft: 3900
+  callsign: MTN8305
+  distance_nm: 5.408
+  estimated_db: 37.6
+  ground_speed_kts: 162.7
+  heading_deg: 230.74
+  icao24: add336
+  latitude: 40.402268
+  lead_exposure_score: 0.0
+  longitude: -74.711838
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-11-10 09:32:11.001000
+  registration: N990FX
+  registration_country: United States
+  source: adsbhub
+  squawk: '1101'
+  timestamp: *id004
+  typecode: C208
+  vertical_rate_fpm: 0
+- aircraft_type: &id006
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 4375
+  baro_altitude_ft: 4375
+  callsign: UAL1581
+  distance_nm: 18.919
+  estimated_db: 28.8
+  ground_speed_kts: 296.6
+  heading_deg: 128.84
+  icao24: aac8a4
+  latitude: 40.625198
+  lead_exposure_score: 0.0
+  longitude: -74.631409
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id005 2026-11-10 09:32:11.001000
+  registration: N794UA
+  registration_country: United States
+  source: adsbhub
+  squawk: '2064'
+  timestamp: *id005
+  typecode: B772
+  vertical_rate_fpm: -1280
+- aircraft_type: *id006
+  altitude_ft: 2900
+  baro_altitude_ft: 2900
+  callsign: UPS1096
+  distance_nm: 19.081
+  estimated_db: 28.7
+  ground_speed_kts: 281.6
+  heading_deg: 130.54
+  icao24: a05cf0
+  latitude: 40.512737
+  lead_exposure_score: 0.0
+  longitude: -74.443235
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id007 2026-11-10 09:32:11.001000
+  registration: N122UP
+  registration_country: United States
+  source: adsbhub
+  squawk: '6704'
+  timestamp: *id007
+  typecode: A306
+  vertical_rate_fpm: -256
