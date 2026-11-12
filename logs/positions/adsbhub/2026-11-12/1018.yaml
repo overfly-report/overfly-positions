@@ -1,0 +1,80 @@
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 200
+    noise_profile: 1
+    notes: Boeing 737 MAX 8, quieter CFM LEAP engines. Allegiant at KTTN.
+    typical_cruise_ft: 41000
+  altitude_ft: 24700
+  baro_altitude_ft: 24700
+  callsign: AAL1575
+  distance_nm: 8.596
+  estimated_db: 44.8
+  ground_speed_kts: 365.0
+  heading_deg: 228.89
+  icao24: a35ef1
+  latitude: 40.46759
+  lead_exposure_score: 0.0
+  longitude: -74.856262
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-11-12 10:18:19.001000
+  registration: N316UV
+  registration_country: United States
+  source: adsbhub
+  squawk: '1651'
+  timestamp: *id001
+  typecode: B38M
+  vertical_rate_fpm: 2240
+- aircraft_type: &id003
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 2000
+  baro_altitude_ft: 2000
+  callsign: N602MM
+  distance_nm: 2.54
+  estimated_db: 46.1
+  ground_speed_kts: 125.2
+  heading_deg: 226.62
+  icao24: a7cfcc
+  latitude: 40.333743
+  lead_exposure_score: 0.0
+  longitude: -74.733373
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-11-12 10:18:19.001000
+  registration: N602MM
+  registration_country: United States
+  source: adsbhub
+  squawk: '0266'
+  timestamp: *id002
+  typecode: EC45
+  vertical_rate_fpm: -639
+- aircraft_type: *id003
+  altitude_ft: 6250
+  baro_altitude_ft: 6250
+  callsign: UAL2222
+  distance_nm: 18.996
+  estimated_db: 28.7
+  ground_speed_kts: 276.7
+  heading_deg: 18.11
+  icao24: a2a3b6
+  latitude: 40.25235
+  lead_exposure_score: 0.0
+  longitude: -74.38739
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-11-12 10:18:19.001000
+  registration: N26967
+  registration_country: United States
+  source: adsbhub
+  squawk: '6012'
+  timestamp: *id004
+  typecode: B789
+  vertical_rate_fpm: 0
