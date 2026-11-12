@@ -1,0 +1,241 @@
+- aircraft_type:
+    category: business-jet-light
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 10
+    noise_profile: 2
+    notes: Pilatus PC-24, business jet
+    typical_cruise_ft: 45000
+  altitude_ft: 10575
+  baro_altitude_ft: 10575
+  callsign: CNS81
+  distance_nm: 17.231
+  estimated_db: 22.5
+  ground_speed_kts: 309.7
+  heading_deg: 35.54
+  icao24: a70328
+  latitude: 40.271576
+  lead_exposure_score: 0.0
+  longitude: -75.157104
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-11-12 11:33:24.500000
+  registration: N551AF
+  registration_country: United States
+  source: adsbhub
+  squawk: '3106'
+  timestamp: *id001
+  typecode: PC24
+  vertical_rate_fpm: -2624
+- aircraft_type: &id004
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 1700
+  baro_altitude_ft: 1700
+  callsign: N561PH
+  distance_nm: 15.83
+  estimated_db: 30.3
+  ground_speed_kts: 99.0
+  heading_deg: 268.84
+  icao24: a72bee
+  latitude: 40.363953
+  lead_exposure_score: 0.0
+  longitude: -75.133484
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-11-12 11:33:24.500000
+  registration: N561PH
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id002
+  typecode: SONX
+  vertical_rate_fpm: 192
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 215
+    noise_profile: 2
+    notes: Boeing 737-900, United/Alaska/Delta
+    typical_cruise_ft: 41000
+  altitude_ft: 36000
+  baro_altitude_ft: 36000
+  callsign: DAL2933
+  distance_nm: 17.565
+  estimated_db: 39.0
+  ground_speed_kts: 356.0
+  heading_deg: 230.59
+  icao24: abb2d5
+  latitude: 40.531036
+  lead_exposure_score: 0.0
+  longitude: -75.073486
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-11-12 11:33:24.500000
+  registration: N853DN
+  registration_country: United States
+  source: adsbhub
+  squawk: '3464'
+  timestamp: *id003
+  typecode: B739
+  vertical_rate_fpm: 0
+- aircraft_type: *id004
+  altitude_ft: 1300
+  baro_altitude_ft: 1300
+  callsign: CXK326
+  distance_nm: 19.128
+  estimated_db: 28.7
+  ground_speed_kts: 78.4
+  heading_deg: 232.25
+  icao24: a3f231
+  latitude: 40.065079
+  lead_exposure_score: 0.0
+  longitude: -75.012512
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id005 2026-11-12 11:33:24.500000
+  registration: N353Z
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id005
+  typecode: BE9L
+  vertical_rate_fpm: -256
+- aircraft_type:
+    category: commercial-regional
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 76
+    noise_profile: 2
+    notes: Embraer 170
+    typical_cruise_ft: 37000
+  altitude_ft: 20000
+  baro_altitude_ft: 20000
+  callsign: RPA5770
+  distance_nm: 9.031
+  estimated_db: 39.7
+  ground_speed_kts: 342.7
+  heading_deg: 240.07
+  icao24: ac159a
+  latitude: 40.437229
+  lead_exposure_score: 0.0
+  longitude: -74.932813
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id006 2026-11-12 11:33:24.500000
+  registration: N878RW
+  registration_country: United States
+  source: adsbhub
+  squawk: '3346'
+  timestamp: *id006
+  typecode: E170
+  vertical_rate_fpm: 64
+- aircraft_type: &id008
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: N872SP
+  distance_nm: 3.584
+  estimated_db: null
+  ground_speed_kts: 12.8
+  heading_deg: null
+  icao24: abff62
+  latitude: 40.278172
+  lead_exposure_score: 0.0
+  longitude: -74.816551
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id007 2026-11-12 11:33:24.500000
+  registration: N872SP
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id007
+  typecode: C172
+  vertical_rate_fpm: null
+- aircraft_type: *id008
+  altitude_ft: 3300
+  baro_altitude_ft: 3300
+  callsign: N2466T
+  distance_nm: 5.343
+  estimated_db: 41.7
+  ground_speed_kts: 83.9
+  heading_deg: 171.77
+  icao24: a24985
+  latitude: 40.246132
+  lead_exposure_score: 0.01
+  longitude: -74.771264
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id009 2026-11-12 11:33:24.500000
+  registration: N2466T
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id009
+  typecode: C172
+  vertical_rate_fpm: 128
+- aircraft_type: *id008
+  altitude_ft: 3250
+  baro_altitude_ft: 3250
+  callsign: N499KW
+  distance_nm: 12.983
+  estimated_db: 34.1
+  ground_speed_kts: 79.5
+  heading_deg: 140.1
+  icao24: a6327d
+  latitude: 40.128799
+  lead_exposure_score: 0.0
+  longitude: -74.700378
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id010 2026-11-12 11:33:24.500000
+  registration: N499KW
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id010
+  typecode: C172
+  vertical_rate_fpm: 0
+- aircraft_type:
+    category: turboprop-single
+    engine_count: 1
+    engine_type: turboprop
+    max_seats: 14
+    noise_profile: 3
+    notes: Cessna Caravan, utility turboprop, FedEx/Amazon feeder
+    typical_cruise_ft: 12000
+  altitude_ft: 5225
+  baro_altitude_ft: 5225
+  callsign: MTN8302
+  distance_nm: 5.51
+  estimated_db: 37.4
+  ground_speed_kts: 178.4
+  heading_deg: 63.0
+  icao24: ac3858
+  latitude: 40.36171
+  lead_exposure_score: 0.0
+  longitude: -74.67395
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id011 2026-11-12 11:33:24.500000
+  registration: N887FE
+  registration_country: United States
+  source: adsbhub
+  squawk: '0536'
+  timestamp: *id011
+  typecode: C208
+  vertical_rate_fpm: -64
