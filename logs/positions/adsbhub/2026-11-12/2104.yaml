@@ -1,0 +1,51 @@
+- aircraft_type: &id002
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: EJA713
+  distance_nm: 18.436
+  estimated_db: null
+  ground_speed_kts: 9.8
+  heading_deg: 239.06
+  icao24: a988a1
+  latitude: 40.076612
+  lead_exposure_score: 0.0
+  longitude: -75.008157
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id001 2026-11-12 21:04:44.001000
+  registration: N713QS
+  registration_country: United States
+  source: adsbhub
+  squawk: '7457'
+  timestamp: *id001
+  typecode: ''
+  vertical_rate_fpm: null
+- aircraft_type: *id002
+  altitude_ft: 700
+  baro_altitude_ft: 700
+  callsign: N663SS
+  distance_nm: 18.115
+  estimated_db: 29.2
+  ground_speed_kts: 33.0
+  heading_deg: 54.87
+  icao24: a8c0ff
+  latitude: 40.082361
+  lead_exposure_score: 0.0
+  longitude: -75.006908
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-11-12 21:04:44.001000
+  registration: N663SS
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id003
+  typecode: A119
+  vertical_rate_fpm: -320
