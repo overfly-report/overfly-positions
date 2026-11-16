@@ -1,0 +1,205 @@
+- aircraft_type:
+    category: helicopter-medium
+    engine_count: 2
+    engine_type: turboshaft
+    max_seats: 5
+    noise_profile: 3
+    notes: Airbus EC135, EMS/police helicopter
+    typical_cruise_ft: 10000
+  altitude_ft: 5450
+  baro_altitude_ft: 5450
+  callsign: N535LN
+  distance_nm: 16.753
+  estimated_db: 39.8
+  ground_speed_kts: 81.5
+  heading_deg: 336.89
+  icao24: a6c407
+  latitude: 40.337514
+  lead_exposure_score: 0.0
+  longitude: -75.155848
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-11-16 11:36:28.001000
+  registration: N535LN
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id001
+  typecode: EC35
+  vertical_rate_fpm: 1024
+- aircraft_type: &id005
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 26275
+  baro_altitude_ft: 26275
+  callsign: RPA5751
+  distance_nm: 14.892
+  estimated_db: 30.5
+  ground_speed_kts: 427.3
+  heading_deg: 230.98
+  icao24: a1ba59
+  latitude: 40.272387
+  lead_exposure_score: 0.0
+  longitude: -75.104724
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-11-16 11:36:28.001000
+  registration: N210JQ
+  registration_country: United States
+  source: adsbhub
+  squawk: '2727'
+  timestamp: *id002
+  typecode: E75L
+  vertical_rate_fpm: 1216
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 160
+    noise_profile: 2
+    notes: Airbus A319, Allegiant Air uses at KTTN (FLL/PIE routes)
+    typical_cruise_ft: 37000
+  altitude_ft: 21875
+  baro_altitude_ft: 21875
+  callsign: UAL1012
+  distance_nm: 16.535
+  estimated_db: 39.8
+  ground_speed_kts: 392.6
+  heading_deg: 250.04
+  icao24: ab9b9d
+  latitude: 40.587081
+  lead_exposure_score: 0.0
+  longitude: -74.93119
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-11-16 11:36:28.001000
+  registration: N847UA
+  registration_country: United States
+  source: adsbhub
+  squawk: '7121'
+  timestamp: *id003
+  typecode: A319
+  vertical_rate_fpm: 1920
+- aircraft_type:
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 2650
+  baro_altitude_ft: 2650
+  callsign: N681MA
+  distance_nm: 5.484
+  estimated_db: 41.5
+  ground_speed_kts: 79.4
+  heading_deg: 306.29
+  icao24: a90802
+  latitude: 40.28775
+  lead_exposure_score: 0.01
+  longitude: -74.892488
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-11-16 11:36:28.001000
+  registration: N681MA
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id004
+  typecode: C172
+  vertical_rate_fpm: 0
+- aircraft_type: *id005
+  altitude_ft: 34000
+  baro_altitude_ft: 34000
+  callsign: MXY2755
+  distance_nm: 13.301
+  estimated_db: 31.2
+  ground_speed_kts: 467.6
+  heading_deg: 226.65
+  icao24: a262d4
+  latitude: 40.555206
+  lead_exposure_score: 0.0
+  longitude: -74.780945
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id006 2026-11-16 11:36:28.001000
+  registration: N253BZ
+  registration_country: United States
+  source: adsbhub
+  squawk: '3407'
+  timestamp: *id006
+  typecode: BCS3
+  vertical_rate_fpm: 301
+- aircraft_type: *id005
+  altitude_ft: 10100
+  baro_altitude_ft: 10100
+  callsign: N252BA
+  distance_nm: 14.651
+  estimated_db: 31.0
+  ground_speed_kts: 142.0
+  heading_deg: 309.86
+  icao24: a25f06
+  latitude: 40.573883
+  lead_exposure_score: 0.0
+  longitude: -74.731995
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id007 2026-11-16 11:36:28.001000
+  registration: N252BA
+  registration_country: United States
+  source: adsbhub
+  squawk: '0420'
+  timestamp: *id007
+  typecode: M20P
+  vertical_rate_fpm: 0
+- aircraft_type: *id005
+  altitude_ft: 10025
+  baro_altitude_ft: 10025
+  callsign: RPA5821
+  distance_nm: 16.467
+  estimated_db: 30.0
+  ground_speed_kts: 305.9
+  heading_deg: 47.92
+  icao24: a2147c
+  latitude: 40.072306
+  lead_exposure_score: 0.0
+  longitude: -74.682499
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id008 2026-11-16 11:36:28.001000
+  registration: N233JQ
+  registration_country: United States
+  source: adsbhub
+  squawk: '3610'
+  timestamp: *id008
+  typecode: E75L
+  vertical_rate_fpm: -1664
+- aircraft_type: *id005
+  altitude_ft: 31000
+  baro_altitude_ft: 31000
+  callsign: RPA5710
+  distance_nm: 13.082
+  estimated_db: 31.4
+  ground_speed_kts: 425.1
+  heading_deg: 51.78
+  icao24: a22ac6
+  latitude: 40.160568
+  lead_exposure_score: 0.0
+  longitude: -74.61615
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id009 2026-11-16 11:36:28.001000
+  registration: N239JQ
+  registration_country: United States
+  source: adsbhub
+  squawk: '3635'
+  timestamp: *id009
+  typecode: E75L
+  vertical_rate_fpm: 0
