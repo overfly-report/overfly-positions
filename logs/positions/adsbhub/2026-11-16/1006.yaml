@@ -1,0 +1,80 @@
+- aircraft_type: &id003
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 200
+    noise_profile: 1
+    notes: Boeing 737 MAX 8, quieter CFM LEAP engines. Allegiant at KTTN.
+    typical_cruise_ft: 41000
+  altitude_ft: 9775
+  baro_altitude_ft: 9775
+  callsign: UAL1649
+  distance_nm: 11.849
+  estimated_db: 42.8
+  ground_speed_kts: 286.5
+  heading_deg: 43.44
+  icao24: a1277a
+  latitude: 40.197556
+  lead_exposure_score: 0.0
+  longitude: -74.976074
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-11-16 10:06:20
+  registration: N17358
+  registration_country: United States
+  source: adsbhub
+  squawk: '0713'
+  timestamp: *id001
+  typecode: B38M
+  vertical_rate_fpm: -640
+- aircraft_type:
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 6300
+  baro_altitude_ft: 6300
+  callsign: UAL339
+  distance_nm: 2.205
+  estimated_db: 46.6
+  ground_speed_kts: 249.6
+  heading_deg: 62.82
+  icao24: a5d643
+  latitude: 40.334747
+  lead_exposure_score: 0.0
+  longitude: -74.740723
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-11-16 10:06:20
+  registration: N47512
+  registration_country: United States
+  source: adsbhub
+  squawk: '0737'
+  timestamp: *id002
+  typecode: B39M
+  vertical_rate_fpm: -896
+- aircraft_type: *id003
+  altitude_ft: 3500
+  baro_altitude_ft: 3500
+  callsign: UAL258
+  distance_nm: 14.1
+  estimated_db: 41.3
+  ground_speed_kts: 246.4
+  heading_deg: 63.75
+  icao24: a126eb
+  latitude: 40.429827
+  lead_exposure_score: 0.0
+  longitude: -74.506968
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-11-16 10:06:20
+  registration: N17315
+  registration_country: United States
+  source: adsbhub
+  squawk: '4766'
+  timestamp: *id004
+  typecode: B38M
+  vertical_rate_fpm: -960
