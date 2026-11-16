@@ -1,0 +1,80 @@
+- aircraft_type: &id002
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 29000
+  baro_altitude_ft: 29000
+  callsign: SWA4005
+  distance_nm: 11.433
+  estimated_db: 32.5
+  ground_speed_kts: 388.3
+  heading_deg: 20.82
+  icao24: ac7ce1
+  latitude: 40.410229
+  lead_exposure_score: 0.0
+  longitude: -75.018519
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-11-16 06:07:31.001000
+  registration: N9031W
+  registration_country: United States
+  source: adsbhub
+  squawk: '2113'
+  timestamp: *id001
+  typecode: ''
+  vertical_rate_fpm: -64
+- aircraft_type: *id002
+  altitude_ft: 1175
+  baro_altitude_ft: 1175
+  callsign: EJA783
+  distance_nm: 7.836
+  estimated_db: 36.4
+  ground_speed_kts: 121.7
+  heading_deg: 46.33
+  icao24: aa9d1a
+  latitude: 40.224976
+  lead_exposure_score: 0.0
+  longitude: -74.882996
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-11-16 06:07:31.001000
+  registration: N783QS
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id003
+  typecode: CL35
+  vertical_rate_fpm: -745
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 149
+    noise_profile: 2
+    notes: Boeing 737-700
+    typical_cruise_ft: 35000
+  altitude_ft: 4675
+  baro_altitude_ft: 4675
+  callsign: UAL1439
+  distance_nm: 10.376
+  estimated_db: 44.0
+  ground_speed_kts: 250.8
+  heading_deg: 60.37
+  icao24: a13608
+  latitude: 40.386766
+  lead_exposure_score: 0.0
+  longitude: -74.572574
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-11-16 06:07:31.001000
+  registration: N17730
+  registration_country: United States
+  source: adsbhub
+  squawk: '6275'
+  timestamp: *id004
+  typecode: B737
+  vertical_rate_fpm: -896
