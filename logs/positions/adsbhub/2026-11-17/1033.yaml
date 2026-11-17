@@ -1,0 +1,80 @@
+- aircraft_type: &id002
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 28000
+  baro_altitude_ft: 28000
+  callsign: JIA5101
+  distance_nm: 19.115
+  estimated_db: 28.4
+  ground_speed_kts: 444.2
+  heading_deg: 216.3
+  icao24: a6bb97
+  latitude: 40.421355
+  lead_exposure_score: 0.0
+  longitude: -75.191741
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-11-17 10:33:22.501000
+  registration: N533AE
+  registration_country: United States
+  source: adsbhub
+  squawk: '3510'
+  timestamp: *id001
+  typecode: CRJ7
+  vertical_rate_fpm: 0
+- aircraft_type: *id002
+  altitude_ft: 23700
+  baro_altitude_ft: 23700
+  callsign: EJA697
+  distance_nm: 15.769
+  estimated_db: 30.1
+  ground_speed_kts: 382.0
+  heading_deg: 237.18
+  icao24: a94626
+  latitude: 40.594762
+  lead_exposure_score: 0.0
+  longitude: -74.827007
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-11-17 10:33:22.501000
+  registration: N697QS
+  registration_country: United States
+  source: adsbhub
+  squawk: '1177'
+  timestamp: *id003
+  typecode: C68A
+  vertical_rate_fpm: 2560
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 200
+    noise_profile: 2
+    notes: Boeing 757-200, still common in US
+    typical_cruise_ft: 39000
+  altitude_ft: 3500
+  baro_altitude_ft: 3500
+  callsign: UAL2482
+  distance_nm: 19.771
+  estimated_db: 38.4
+  ground_speed_kts: 224.6
+  heading_deg: 110.05
+  icao24: a3c3e0
+  latitude: 40.596451
+  lead_exposure_score: 0.0
+  longitude: -74.527527
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-11-17 10:33:22.501000
+  registration: N34131
+  registration_country: United States
+  source: adsbhub
+  squawk: '1760'
+  timestamp: *id004
+  typecode: B752
+  vertical_rate_fpm: 0
