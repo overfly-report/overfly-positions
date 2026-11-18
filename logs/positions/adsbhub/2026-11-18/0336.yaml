@@ -1,0 +1,189 @@
+- aircraft_type:
+    category: helicopter-medium
+    engine_count: 2
+    engine_type: turboshaft
+    max_seats: 5
+    noise_profile: 3
+    notes: Airbus EC135, EMS/police helicopter
+    typical_cruise_ft: 10000
+  altitude_ft: 900
+  baro_altitude_ft: 900
+  callsign: N136KY
+  distance_nm: 19.352
+  estimated_db: 38.6
+  ground_speed_kts: 101.8
+  heading_deg: 314.2
+  icao24: a09273
+  latitude: 40.173843
+  lead_exposure_score: 0.0
+  longitude: -75.156189
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-11-18 03:36:39
+  registration: N136KY
+  registration_country: United States
+  source: adsbhub
+  squawk: '6326'
+  timestamp: *id001
+  typecode: EC35
+  vertical_rate_fpm: 0
+- aircraft_type:
+    category: turboprop-single
+    engine_count: 1
+    engine_type: turboprop
+    max_seats: 14
+    noise_profile: 3
+    notes: Cessna Caravan, utility turboprop, FedEx/Amazon feeder
+    typical_cruise_ft: 12000
+  altitude_ft: 9725
+  baro_altitude_ft: 9725
+  callsign: N133RF
+  distance_nm: 19.104
+  estimated_db: 26.7
+  ground_speed_kts: 129.0
+  heading_deg: 359.56
+  icao24: a087d3
+  latitude: 40.162766
+  lead_exposure_score: 0.0
+  longitude: -75.140991
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-11-18 03:36:39
+  registration: N138RF
+  registration_country: United States
+  source: adsbhub
+  squawk: '2043'
+  timestamp: *id002
+  typecode: C208
+  vertical_rate_fpm: 0
+- aircraft_type: &id008
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 189
+    noise_profile: 2
+    notes: Boeing 737-800, Southwest/United
+    typical_cruise_ft: 37000
+  altitude_ft: 9525
+  baro_altitude_ft: 9525
+  callsign: AAL2746
+  distance_nm: 13.756
+  estimated_db: 41.5
+  ground_speed_kts: 375.3
+  heading_deg: 111.57
+  icao24: ac8cf1
+  latitude: 40.541227
+  lead_exposure_score: 0.0
+  longitude: -74.91702
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-11-18 03:36:39
+  registration: N908AN
+  registration_country: United States
+  source: adsbhub
+  squawk: '7216'
+  timestamp: *id003
+  typecode: B738
+  vertical_rate_fpm: -64
+- aircraft_type: &id006
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 9525
+  baro_altitude_ft: 9525
+  callsign: RPA4791
+  distance_nm: 9.506
+  estimated_db: 34.7
+  ground_speed_kts: 364.9
+  heading_deg: 111.71
+  icao24: a53ba4
+  latitude: 40.472626
+  lead_exposure_score: 0.0
+  longitude: -74.688721
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-11-18 03:36:39
+  registration: N436YX
+  registration_country: United States
+  source: adsbhub
+  squawk: '6623'
+  timestamp: *id004
+  typecode: E75L
+  vertical_rate_fpm: -64
+- aircraft_type:
+    category: business-jet-large
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 12
+    noise_profile: 2
+    notes: Cessna Citation X, one of fastest biz jets
+    typical_cruise_ft: 51000
+  altitude_ft: 16075
+  baro_altitude_ft: 16075
+  callsign: KOW301
+  distance_nm: 19.693
+  estimated_db: 19.4
+  ground_speed_kts: 314.0
+  heading_deg: 277.87
+  icao24: a323c8
+  latitude: 40.638242
+  lead_exposure_score: 0.0
+  longitude: -74.628629
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id005 2026-11-18 03:36:39
+  registration: N301HR
+  registration_country: United States
+  source: adsbhub
+  squawk: '1704'
+  timestamp: *id005
+  typecode: C750
+  vertical_rate_fpm: 1593
+- aircraft_type: *id006
+  altitude_ft: 17450
+  baro_altitude_ft: 17450
+  callsign: JBU1411
+  distance_nm: 11.529
+  estimated_db: 32.8
+  ground_speed_kts: 399.1
+  heading_deg: 268.99
+  icao24: ad9e73
+  latitude: 40.197372
+  lead_exposure_score: 0.0
+  longitude: -74.612
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id007 2026-11-18 03:36:39
+  registration: N977JE
+  registration_country: United States
+  source: adsbhub
+  squawk: '3317'
+  timestamp: *id007
+  typecode: A321
+  vertical_rate_fpm: 1664
+- aircraft_type: *id008
+  altitude_ft: 9525
+  baro_altitude_ft: 9525
+  callsign: SWA2114
+  distance_nm: 15.002
+  estimated_db: 40.8
+  ground_speed_kts: 349.0
+  heading_deg: 47.67
+  icao24: ab5b66
+  latitude: 40.170135
+  lead_exposure_score: 0.0
+  longitude: -74.541504
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id009 2026-11-18 03:36:39
+  registration: N8305E
+  registration_country: United States
+  source: adsbhub
+  squawk: '3361'
+  timestamp: *id009
+  typecode: B738
+  vertical_rate_fpm: 0
