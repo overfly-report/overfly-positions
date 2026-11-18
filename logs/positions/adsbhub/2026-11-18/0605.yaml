@@ -1,0 +1,110 @@
+- aircraft_type: &id002
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: 4225
+  baro_altitude_ft: 4225
+  callsign: N543TH
+  distance_nm: 7.977
+  estimated_db: 38.3
+  ground_speed_kts: 121.7
+  heading_deg: 137.0
+  icao24: a6e4c2
+  latitude: 40.425777
+  lead_exposure_score: 0.0
+  longitude: -74.915272
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-11-18 06:05:46.500000
+  registration: N543TH
+  registration_country: United States
+  source: adsbhub
+  squawk: '3416'
+  timestamp: *id001
+  typecode: C172
+  vertical_rate_fpm: -640
+- aircraft_type: *id002
+  altitude_ft: 675
+  baro_altitude_ft: 675
+  callsign: N669FG
+  distance_nm: 2.029
+  estimated_db: 50.2
+  ground_speed_kts: 83.5
+  heading_deg: 225.97
+  icao24: a8d62c
+  latitude: 40.301203
+  lead_exposure_score: 0.12
+  longitude: -74.778505
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-11-18 06:05:46.500000
+  registration: N669FG
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id003
+  typecode: C172
+  vertical_rate_fpm: 64
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 189
+    noise_profile: 2
+    notes: Boeing 737-800, Southwest/United
+    typical_cruise_ft: 37000
+  altitude_ft: 9525
+  baro_altitude_ft: 9525
+  callsign: DAL716
+  distance_nm: 10.961
+  estimated_db: 43.4
+  ground_speed_kts: 360.4
+  heading_deg: 111.65
+  icao24: a4463e
+  latitude: 40.445376
+  lead_exposure_score: 0.0
+  longitude: -74.598791
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-11-18 06:05:46.500000
+  registration: N3749D
+  registration_country: United States
+  source: adsbhub
+  squawk: '3206'
+  timestamp: *id004
+  typecode: B738
+  vertical_rate_fpm: 64
+- aircraft_type:
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 28950
+  baro_altitude_ft: 28950
+  callsign: N325JF
+  distance_nm: 19.728
+  estimated_db: 28.2
+  ground_speed_kts: 333.1
+  heading_deg: 55.64
+  icao24: a381b1
+  latitude: 40.228582
+  lead_exposure_score: 0.0
+  longitude: -74.380188
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id005 2026-11-18 06:05:46.500000
+  registration: N325JF
+  registration_country: United States
+  source: adsbhub
+  squawk: '4062'
+  timestamp: *id005
+  typecode: C650
+  vertical_rate_fpm: 320
