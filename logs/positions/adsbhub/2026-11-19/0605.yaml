@@ -1,0 +1,110 @@
+- aircraft_type:
+    category: turboprop-single
+    engine_count: 1
+    engine_type: turboprop
+    max_seats: 14
+    noise_profile: 3
+    notes: Cessna Caravan, utility turboprop, FedEx/Amazon feeder
+    typical_cruise_ft: 12000
+  altitude_ft: 9625
+  baro_altitude_ft: 9625
+  callsign: N133RF
+  distance_nm: 9.784
+  estimated_db: 32.4
+  ground_speed_kts: 129.5
+  heading_deg: 159.18
+  icao24: a087d3
+  latitude: 40.368164
+  lead_exposure_score: 0.0
+  longitude: -74.998535
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-11-19 06:05:32.008000
+  registration: N138RF
+  registration_country: United States
+  source: adsbhub
+  squawk: '2072'
+  timestamp: *id001
+  typecode: C208
+  vertical_rate_fpm: 150
+- aircraft_type:
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 1300
+  baro_altitude_ft: 1300
+  callsign: N61UP
+  distance_nm: 13.611
+  estimated_db: 31.7
+  ground_speed_kts: 119.0
+  heading_deg: 37.83
+  icao24: a7ee35
+  latitude: 40.558358
+  lead_exposure_score: 0.0
+  longitude: -74.829504
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-11-19 06:05:32.008000
+  registration: N61UP
+  registration_country: United States
+  source: adsbhub
+  squawk: '0261'
+  timestamp: *id002
+  typecode: EC45
+  vertical_rate_fpm: null
+- aircraft_type: &id004
+    category: small-piston-single
+    engine_count: 1
+    engine_type: piston
+    max_seats: 4
+    noise_profile: 4
+    notes: "Cessna Skyhawk \u2014 most common aircraft in US. The primary source of\
+      \ pattern noise at 39N and KTTN. Audible for 3-5 min per pass at 1500ft AGL."
+    typical_cruise_ft: 8000
+  altitude_ft: -175
+  baro_altitude_ft: -175
+  callsign: N872SP
+  distance_nm: 2.938
+  estimated_db: 47.0
+  ground_speed_kts: 61.6
+  heading_deg: 226.97
+  icao24: abff62
+  latitude: 40.285795
+  lead_exposure_score: 0.07
+  longitude: -74.799666
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-11-19 06:05:32.008000
+  registration: N872SP
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id003
+  typecode: C172
+  vertical_rate_fpm: -320
+- aircraft_type: *id004
+  altitude_ft: 1400
+  baro_altitude_ft: 1400
+  callsign: N790SP
+  distance_nm: 5.606
+  estimated_db: 41.3
+  ground_speed_kts: 76.4
+  heading_deg: 226.06
+  icao24: aab9a3
+  latitude: 40.37308
+  lead_exposure_score: 0.01
+  longitude: -74.677505
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id005 2026-11-19 06:05:32.008000
+  registration: N790SP
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id005
+  typecode: C172
+  vertical_rate_fpm: 0
