@@ -1,0 +1,80 @@
+- aircraft_type: &id003
+    category: turboprop-single
+    engine_count: 1
+    engine_type: turboprop
+    max_seats: 14
+    noise_profile: 3
+    notes: Cessna Caravan, utility turboprop, FedEx/Amazon feeder
+    typical_cruise_ft: 12000
+  altitude_ft: 3625
+  baro_altitude_ft: 3625
+  callsign: MTN8305
+  distance_nm: 4.835
+  estimated_db: 38.6
+  ground_speed_kts: 155.2
+  heading_deg: 231.8
+  icao24: adbe4a
+  latitude: 40.285888
+  lead_exposure_score: 0.0
+  longitude: -74.873824
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-11-20 09:03:42.004000
+  registration: N985FX
+  registration_country: United States
+  source: adsbhub
+  squawk: '1560'
+  timestamp: *id001
+  typecode: C208
+  vertical_rate_fpm: 0
+- aircraft_type:
+    category: helicopter-medium
+    engine_count: 2
+    engine_type: turboshaft
+    max_seats: 5
+    noise_profile: 3
+    notes: Airbus EC135, EMS/police helicopter
+    typical_cruise_ft: 10000
+  altitude_ft: 1875
+  baro_altitude_ft: 1875
+  callsign: N456MT
+  distance_nm: 4.502
+  estimated_db: 51.2
+  ground_speed_kts: 120.2
+  heading_deg: 224.33
+  icao24: a5898b
+  latitude: 40.261963
+  lead_exposure_score: 0.0
+  longitude: -74.762024
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-11-20 09:03:42.004000
+  registration: N456MT
+  registration_country: United States
+  source: adsbhub
+  squawk: '1200'
+  timestamp: *id002
+  typecode: EC35
+  vertical_rate_fpm: -45
+- aircraft_type: *id003
+  altitude_ft: 3650
+  baro_altitude_ft: 3650
+  callsign: MTN8302
+  distance_nm: 11.543
+  estimated_db: 31.1
+  ground_speed_kts: 149.3
+  heading_deg: 234.82
+  icao24: adc96f
+  latitude: 40.508966
+  lead_exposure_score: 0.0
+  longitude: -74.684684
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-11-20 09:03:42.004000
+  registration: N988FX
+  registration_country: United States
+  source: adsbhub
+  squawk: '3047'
+  timestamp: *id004
+  typecode: C208
+  vertical_rate_fpm: 0
