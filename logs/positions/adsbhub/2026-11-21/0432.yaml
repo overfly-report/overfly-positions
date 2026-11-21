@@ -1,0 +1,189 @@
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 215
+    noise_profile: 2
+    notes: Boeing 737-900, United/Alaska/Delta
+    typical_cruise_ft: 41000
+  altitude_ft: 10725
+  baro_altitude_ft: 10725
+  callsign: UAL2841
+  distance_nm: 17.944
+  estimated_db: 39.2
+  ground_speed_kts: 356.5
+  heading_deg: 43.41
+  icao24: a44560
+  latitude: 40.123398
+  lead_exposure_score: 0.0
+  longitude: -75.067078
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-11-21 04:32:18.501000
+  registration: N37422
+  registration_country: United States
+  source: adsbhub
+  squawk: '7325'
+  timestamp: *id001
+  typecode: B739
+  vertical_rate_fpm: -2240
+- aircraft_type:
+    category: turboprop-single
+    engine_count: 1
+    engine_type: turboprop
+    max_seats: 9
+    noise_profile: 3
+    notes: Pilatus PC-12, extremely versatile turboprop. Very common at KTTN.
+    typical_cruise_ft: 30000
+  altitude_ft: 6625
+  baro_altitude_ft: 6625
+  callsign: SKQ51
+  distance_nm: 10.118
+  estimated_db: 32.2
+  ground_speed_kts: 239.8
+  heading_deg: 46.86
+  icao24: a5d4af
+  latitude: 40.409903
+  lead_exposure_score: 0.0
+  longitude: -74.986871
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-11-21 04:32:18.501000
+  registration: N475LH
+  registration_country: United States
+  source: adsbhub
+  squawk: '2575'
+  timestamp: *id002
+  typecode: PC12
+  vertical_rate_fpm: -64
+- aircraft_type: &id005
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 29600
+  baro_altitude_ft: 29600
+  callsign: JIA5286
+  distance_nm: 14.81
+  estimated_db: 30.5
+  ground_speed_kts: 481.8
+  heading_deg: 56.34
+  icao24: a677be
+  latitude: 40.096141
+  lead_exposure_score: 0.0
+  longitude: -74.705845
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id003 2026-11-21 04:32:18.501000
+  registration: N516AE
+  registration_country: United States
+  source: adsbhub
+  squawk: '3651'
+  timestamp: *id003
+  typecode: CRJ7
+  vertical_rate_fpm: 549
+- aircraft_type:
+    category: commercial-widebody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 396
+    noise_profile: 1
+    notes: Boeing 777-300ER, high altitude transit over NJ
+    typical_cruise_ft: 43000
+  altitude_ft: 33000
+  baro_altitude_ft: 33000
+  callsign: THY32G
+  distance_nm: 16.834
+  estimated_db: 37.4
+  ground_speed_kts: 507.9
+  heading_deg: 46.44
+  icao24: 4ba950
+  latitude: 40.063321
+  lead_exposure_score: 0.0
+  longitude: -74.694547
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-11-21 04:32:18.501000
+  registration: TC-JJP
+  registration_country: Unknown
+  source: adsbhub
+  squawk: '2562'
+  timestamp: *id004
+  typecode: B77W
+  vertical_rate_fpm: 0
+- aircraft_type: *id005
+  altitude_ft: 35975
+  baro_altitude_ft: 35975
+  callsign: UAL72
+  distance_nm: 14.835
+  estimated_db: 30.3
+  ground_speed_kts: 558.6
+  heading_deg: 65.91
+  icao24: a2ca5f
+  latitude: 40.105179
+  lead_exposure_score: 0.0
+  longitude: -74.66748
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id006 2026-11-21 04:32:18.501000
+  registration: N27903
+  registration_country: United States
+  source: adsbhub
+  squawk: '2440'
+  timestamp: *id006
+  typecode: B788
+  vertical_rate_fpm: 975
+- aircraft_type: &id008
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 186
+    noise_profile: 2
+    notes: Airbus A320 family, Spirit Airlines (NKS) overflies Pennington
+    typical_cruise_ft: 37000
+  altitude_ft: 16025
+  baro_altitude_ft: 16025
+  callsign: JBU759
+  distance_nm: 13.357
+  estimated_db: 41.6
+  ground_speed_kts: 399.8
+  heading_deg: 260.21
+  icao24: aafca8
+  latitude: 40.258301
+  lead_exposure_score: 0.0
+  longitude: -74.51416
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id007 2026-11-21 04:32:18.501000
+  registration: N807JB
+  registration_country: United States
+  source: adsbhub
+  squawk: '1756'
+  timestamp: *id007
+  typecode: A320
+  vertical_rate_fpm: 1408
+- aircraft_type: *id008
+  altitude_ft: 9650
+  baro_altitude_ft: 9650
+  callsign: AAL1070
+  distance_nm: 16.149
+  estimated_db: 40.1
+  ground_speed_kts: 363.5
+  heading_deg: 41.32
+  icao24: a011ac
+  latitude: 40.247063
+  lead_exposure_score: 0.0
+  longitude: -74.454595
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id009 2026-11-21 04:32:18.501000
+  registration: N103US
+  registration_country: United States
+  source: adsbhub
+  squawk: '2517'
+  timestamp: *id009
+  typecode: A320
+  vertical_rate_fpm: -64
