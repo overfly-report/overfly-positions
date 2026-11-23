@@ -1,0 +1,80 @@
+- aircraft_type: &id003
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 23375
+  baro_altitude_ft: 23375
+  callsign: DAL2109
+  distance_nm: 12.927
+  estimated_db: 31.7
+  ground_speed_kts: 385.5
+  heading_deg: 242.5
+  icao24: a3a8c0
+  latitude: 40.514506
+  lead_exposure_score: 0.0
+  longitude: -74.943112
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-11-23 05:03:56.512000
+  registration: N335DU
+  registration_country: United States
+  source: adsbhub
+  squawk: '3341'
+  timestamp: *id001
+  typecode: BCS3
+  vertical_rate_fpm: 1353
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 189
+    noise_profile: 2
+    notes: Boeing 737-800, Southwest/United
+    typical_cruise_ft: 37000
+  altitude_ft: 22075
+  baro_altitude_ft: 22075
+  callsign: UAL1821
+  distance_nm: 15.746
+  estimated_db: 40.2
+  ground_speed_kts: 435.7
+  heading_deg: 242.08
+  icao24: a3a084
+  latitude: 40.595306
+  lead_exposure_score: 0.0
+  longitude: -74.764587
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-11-23 05:03:56.512000
+  registration: N33264
+  registration_country: United States
+  source: adsbhub
+  squawk: '1155'
+  timestamp: *id002
+  typecode: B738
+  vertical_rate_fpm: 1920
+- aircraft_type: *id003
+  altitude_ft: 37000
+  baro_altitude_ft: 37000
+  callsign: AMX070
+  distance_nm: 15.695
+  estimated_db: 29.8
+  ground_speed_kts: 538.5
+  heading_deg: 68.77
+  icao24: aa104e
+  latitude: 40.082873
+  lead_exposure_score: 0.0
+  longitude: -74.695546
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id004 2026-11-23 05:03:56.512000
+  registration: N748AM
+  registration_country: United States
+  source: adsbhub
+  squawk: '1604'
+  timestamp: *id004
+  typecode: B789
+  vertical_rate_fpm: 73
