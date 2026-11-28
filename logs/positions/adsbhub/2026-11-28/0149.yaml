@@ -1,0 +1,205 @@
+- aircraft_type:
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 160
+    noise_profile: 2
+    notes: Airbus A319, Allegiant Air uses at KTTN (FLL/PIE routes)
+    typical_cruise_ft: 37000
+  altitude_ft: 25250
+  baro_altitude_ft: 25250
+  callsign: AAL2716
+  distance_nm: 10.739
+  estimated_db: 43.1
+  ground_speed_kts: 350.3
+  heading_deg: 227.2
+  icao24: ab2372
+  latitude: 40.391418
+  lead_exposure_score: 0.0
+  longitude: -75.01178
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id001 2026-11-28 01:49:31.004000
+  registration: N817AW
+  registration_country: United States
+  source: adsbhub
+  squawk: '3522'
+  timestamp: *id001
+  typecode: A319
+  vertical_rate_fpm: -1024
+- aircraft_type: &id006
+    category: unknown
+    engine_count: 0
+    engine_type: unknown
+    max_seats: 0
+    noise_profile: 0
+    notes: Type code not in database
+    typical_cruise_ft: 0
+  altitude_ft: 9775
+  baro_altitude_ft: 9775
+  callsign: UAL700
+  distance_nm: 8.325
+  estimated_db: 35.8
+  ground_speed_kts: 314.2
+  heading_deg: 42.68
+  icao24: a44918
+  latitude: 40.240499
+  lead_exposure_score: 0.0
+  longitude: -74.923387
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id002 2026-11-28 01:49:31.004000
+  registration: N37523
+  registration_country: United States
+  source: adsbhub
+  squawk: '2777'
+  timestamp: *id002
+  typecode: B39M
+  vertical_rate_fpm: -1600
+- aircraft_type: &id004
+    category: commercial-narrowbody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 194
+    noise_profile: 1
+    notes: Airbus A320neo (new engine option), quieter than classic A320. Frontier/Allegiant
+      at KTTN.
+    typical_cruise_ft: 39000
+  altitude_ft: 0
+  baro_altitude_ft: 0
+  callsign: FFT1689
+  distance_nm: 3.703
+  estimated_db: null
+  ground_speed_kts: 0.0
+  heading_deg: null
+  icao24: a45f8e
+  latitude: 40.276382
+  lead_exposure_score: 0.0
+  longitude: -74.817703
+  on_ground: true
+  position_source: ADS-B
+  query_timestamp: &id003 2026-11-28 01:49:31.004000
+  registration: N381FR
+  registration_country: United States
+  source: adsbhub
+  squawk: '3635'
+  timestamp: *id003
+  typecode: A20N
+  vertical_rate_fpm: null
+- aircraft_type: *id004
+  altitude_ft: 23225
+  baro_altitude_ft: 23225
+  callsign: FFT3133
+  distance_nm: 14.68
+  estimated_db: 40.7
+  ground_speed_kts: 365.3
+  heading_deg: 247.3
+  icao24: a5451a
+  latitude: 40.57493
+  lead_exposure_score: 0.0
+  longitude: -74.736245
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id005 2026-11-28 01:49:31.004000
+  registration: N439FR
+  registration_country: United States
+  source: adsbhub
+  squawk: '1773'
+  timestamp: *id005
+  typecode: A20N
+  vertical_rate_fpm: 1664
+- aircraft_type: *id006
+  altitude_ft: 32000
+  baro_altitude_ft: 32000
+  callsign: MXY273
+  distance_nm: 18.337
+  estimated_db: 28.7
+  ground_speed_kts: 387.6
+  heading_deg: 231.18
+  icao24: a1bd6a
+  latitude: 40.625859
+  lead_exposure_score: 0.0
+  longitude: -74.671887
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id007 2026-11-28 01:49:31.004000
+  registration: N211BZ
+  registration_country: United States
+  source: adsbhub
+  squawk: '3501'
+  timestamp: *id007
+  typecode: BCS3
+  vertical_rate_fpm: 0
+- aircraft_type:
+    category: commercial-widebody
+    engine_count: 2
+    engine_type: turbofan
+    max_seats: 269
+    noise_profile: 2
+    notes: Boeing 767-300
+    typical_cruise_ft: 43000
+  altitude_ft: 29025
+  baro_altitude_ft: 29025
+  callsign: OAE520
+  distance_nm: 14.132
+  estimated_db: 38.9
+  ground_speed_kts: 540.0
+  heading_deg: 56.63
+  icao24: a3e89a
+  latitude: 40.127747
+  lead_exposure_score: 0.0
+  longitude: -74.640686
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id008 2026-11-28 01:49:31.004000
+  registration: N351AX
+  registration_country: United States
+  source: adsbhub
+  squawk: '2107'
+  timestamp: *id008
+  typecode: B763
+  vertical_rate_fpm: 0
+- aircraft_type: *id006
+  altitude_ft: 17400
+  baro_altitude_ft: 17400
+  callsign: UAL274
+  distance_nm: 19.451
+  estimated_db: 28.5
+  ground_speed_kts: 310.6
+  heading_deg: 176.31
+  icao24: a12a9e
+  latitude: 40.61673
+  lead_exposure_score: 0.0
+  longitude: -74.58136
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id009 2026-11-28 01:49:31.004000
+  registration: N17411
+  registration_country: United States
+  source: adsbhub
+  squawk: '2644'
+  timestamp: *id009
+  typecode: B39M
+  vertical_rate_fpm: 256
+- aircraft_type: *id006
+  altitude_ft: 10400
+  baro_altitude_ft: 10400
+  callsign: AAL1530
+  distance_nm: 15.958
+  estimated_db: 30.2
+  ground_speed_kts: 374.4
+  heading_deg: 40.67
+  icao24: acab11
+  latitude: 40.26736
+  lead_exposure_score: 0.0
+  longitude: -74.450912
+  on_ground: false
+  position_source: ADS-B
+  query_timestamp: &id010 2026-11-28 01:49:31.004000
+  registration: N915US
+  registration_country: United States
+  source: adsbhub
+  squawk: '6653'
+  timestamp: *id010
+  typecode: A321
+  vertical_rate_fpm: 0
